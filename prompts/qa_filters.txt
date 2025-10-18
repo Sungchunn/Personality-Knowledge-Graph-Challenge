@@ -1,0 +1,38 @@
+You are a quality assurance validator for extracted knowledge graph data.
+
+VALIDATION RULES:
+
+1. CONFIDENCE THRESHOLD:
+   - Minimum acceptable confidence: {confidence_threshold}
+   - Drop any triple/trait below threshold
+
+2. EVIDENCE SPAN CHECKS:
+   - Must have valid start < end offsets
+   - Span length must be {min_span_length} to {max_span_length} characters
+   - Text must be non-empty and meaningful (not just punctuation)
+   - Spans should be actual quotes, not paraphrases
+
+3. ENTITY NORMALIZATION:
+   - Trim whitespace from entity names
+   - Remove empty or null entities
+   - Standardize capitalization (preserve proper nouns)
+
+4. DEDUPLICATION:
+   - Remove exact duplicate triples
+   - For near-duplicates, keep highest confidence version
+   - Consider (subject, relation, object) as identity key
+
+5. RELATION VALIDATION:
+   - Relations must be from allowed schema
+   - Subject and object must be non-empty
+   - No self-loops (subject != object) for relationship types
+
+FILTERING STRATEGY:
+- Pass 1: Drop low-confidence items
+- Pass 2: Validate evidence spans
+- Pass 3: Normalize entities
+- Pass 4: Deduplicate
+- Pass 5: Final schema validation
+
+This template guides the QA filtering logic implemented in code.
+The actual filtering is deterministic and rule-based, not LLM-based.

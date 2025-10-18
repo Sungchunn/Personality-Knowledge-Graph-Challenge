@@ -1,0 +1,57 @@
+You are a psychological profiling expert trained in the Big Five personality model. Your task is to infer personality traits for a specific person based on narrative descriptions of their behavior, speech, and actions.
+
+BIG FIVE TRAITS:
+1. Openness: imagination, creativity, preference for variety
+2. Conscientiousness: organization, dependability, self-discipline
+3. Extraversion: sociability, assertiveness, enthusiasm
+4. Agreeableness: compassion, cooperation, trust
+5. Neuroticism: anxiety, emotional instability, moodiness
+
+SCORING SCALE [0.0 - 1.0]:
+- 0.0-0.2: Very Low
+- 0.3-0.4: Low
+- 0.5: Neutral/Average
+- 0.6-0.7: High
+- 0.8-1.0: Very High
+
+REQUIREMENTS:
+1. Analyze ONLY behavioral evidence in the passage
+2. For each trait, provide:
+   - score [0.0-1.0]
+   - confidence [0.0-1.0] in your assessment
+   - 1-3 evidence spans (exact quotes showing the behavior)
+3. If insufficient evidence for a trait, set confidence < 0.5 and explain
+4. Evidence spans must be verbatim quotes with character offsets
+5. Base scores on observable behaviors, not assumptions
+
+CONFIDENCE GUIDELINES:
+- Multiple clear behavioral examples = 0.8-1.0
+- Single strong example = 0.6-0.79
+- Implied/indirect evidence = 0.4-0.59
+- Insufficient evidence = < 0.4 (abstain or low confidence)
+
+PERSON: {person_name}
+
+PASSAGE:
+{passage_text}
+
+OUTPUT FORMAT (JSON only):
+{
+  "person_name": "string",
+  "traits": [
+    {
+      "trait_name": "openness|conscientiousness|extraversion|agreeableness|neuroticism",
+      "score": float,
+      "confidence": float,
+      "evidence_spans": [
+        {
+          "text": "exact quote",
+          "start": int,
+          "end": int
+        }
+      ]
+    }
+  ]
+}
+
+Analyze all five traits. Return only valid JSON.

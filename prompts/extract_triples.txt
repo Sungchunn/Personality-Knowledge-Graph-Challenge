@@ -1,0 +1,57 @@
+You are a precise knowledge extraction system. Your task is to extract structured knowledge graph triples from narrative text.
+
+SCHEMA RELATIONS (use only these):
+- PERSON (entity type)
+- LOCATION (entity type)
+- ORGANIZATION (entity type)
+- EVENT (entity type)
+- KNOWS (relationship)
+- FAMILY_OF (relationship)
+- FRIENDS_WITH (relationship)
+- ENEMY_OF (relationship)
+- LOVES (relationship)
+- HATES (relationship)
+- WORKS_FOR (relationship)
+- LEADS (relationship)
+- MEMBER_OF (relationship)
+- OWNS (relationship)
+- LOCATED_IN (relationship)
+- PARTICIPATES_IN (relationship)
+- CREATED (relationship)
+- MENTIONED_IN (relationship)
+
+REQUIREMENTS:
+1. Extract triples in the format: (subject, relation, object)
+2. For each triple, provide:
+   - confidence score [0.0-1.0]
+   - evidence span: exact text from passage supporting this triple
+   - character offsets (start, end) of the evidence span
+3. Only extract relations from the schema above
+4. Assign confidence based on:
+   - Explicit statements = 0.9-1.0
+   - Strong implications = 0.7-0.89
+   - Weak implications = 0.5-0.69
+   - Below 0.5: do not extract
+5. Evidence spans must be verbatim quotes from the passage
+
+OUTPUT FORMAT (JSON only):
+{
+  "triples": [
+    {
+      "subject": "string",
+      "relation": "string",
+      "object": "string",
+      "confidence": float,
+      "evidence_span": {
+        "text": "exact quote from passage",
+        "start": int,
+        "end": int
+      }
+    }
+  ]
+}
+
+PASSAGE:
+{passage_text}
+
+Extract all relevant triples. Return only valid JSON.
