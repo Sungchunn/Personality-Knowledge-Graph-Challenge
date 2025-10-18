@@ -3,7 +3,7 @@ Extract knowledge graph triples from text passages.
 """
 
 import json
-import anthropic
+from openai import OpenAI
 from pathlib import Path
 from typing import List, Dict, Any
 from tqdm import tqdm
@@ -17,7 +17,7 @@ from .schemas import Triple, TextSpan
 def extract_triples_from_passage(
     passage: Dict[str, Any],
     config: PipelineConfig,
-    client: anthropic.Anthropic,
+    client: OpenAI,
 ) -> List[Dict[str, Any]]:
     """
     Extract triples from a single passage using LLM.
@@ -25,7 +25,7 @@ def extract_triples_from_passage(
     Args:
         passage: JSONL passage record
         config: Pipeline configuration
-        client: Anthropic API client
+        client: OpenAI API client
 
     Returns:
         List of triple dictionaries
@@ -34,14 +34,15 @@ def extract_triples_from_passage(
     prompt = prompt_template.format(passage_text=passage["text"])
 
     try:
-        message = client.messages.create(
+        response = client.chat.completions.create(
             model=config.model_name,
             max_tokens=config.max_tokens,
             temperature=config.temperature,
             messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
         )
 
-        response_text = message.content[0].text
+        response_text = response.choices[0].message.content
 
         # Parse JSON response
         result = json.loads(response_text)
@@ -81,8 +82,8 @@ def run_extract(config: PipelineConfig, logger: PipelineLogger) -> Path:
             file_count=len(jsonl_files),
         )
 
-        # Initialize Anthropic client
-        client = anthropic.Anthropic()
+        # Initialize OpenAI client
+        client = OpenAI()
 
         all_triples = []
         passage_count = 0

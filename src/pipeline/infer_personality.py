@@ -3,7 +3,7 @@ Infer Big Five personality traits for people mentioned in text.
 """
 
 import json
-import anthropic
+from openai import OpenAI
 from pathlib import Path
 from typing import List, Dict, Any, Set
 from collections import defaultdict
@@ -68,7 +68,7 @@ def infer_personality_for_person(
     person_name: str,
     passages: List[Dict[str, Any]],
     config: PipelineConfig,
-    client: anthropic.Anthropic,
+    client: OpenAI,
 ) -> Dict[str, Any]:
     """
     Infer Big Five personality traits for a person.
@@ -77,7 +77,7 @@ def infer_personality_for_person(
         person_name: Name of person
         passages: Relevant text passages
         config: Pipeline configuration
-        client: Anthropic API client
+        client: OpenAI API client
 
     Returns:
         Personality profile dictionary
@@ -100,14 +100,15 @@ def infer_personality_for_person(
     )
 
     try:
-        message = client.messages.create(
+        response = client.chat.completions.create(
             model=config.model_name,
             max_tokens=config.max_tokens,
             temperature=config.temperature,
             messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
         )
 
-        response_text = message.content[0].text
+        response_text = response.choices[0].message.content
         result = json.loads(response_text)
 
         # Add source metadata
@@ -149,7 +150,7 @@ def run_personality(config: PipelineConfig, logger: PipelineLogger) -> Path:
             logger.info("infer_personality", f"Limited to {len(people)} people for testing")
 
         # Initialize client
-        client = anthropic.Anthropic()
+        client = OpenAI()
 
         all_profiles = []
 

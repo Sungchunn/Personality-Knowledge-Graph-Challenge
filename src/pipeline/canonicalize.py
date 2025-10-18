@@ -3,7 +3,7 @@ Canonicalize entities by merging aliases and variants.
 """
 
 import json
-import anthropic
+from openai import OpenAI
 from pathlib import Path
 from typing import List, Dict, Any, Set
 from collections import defaultdict
@@ -34,7 +34,7 @@ def extract_unique_entities(triples: List[Dict[str, Any]]) -> Set[str]:
 def get_canonical_mappings(
     entities: List[str],
     config: PipelineConfig,
-    client: anthropic.Anthropic,
+    client: OpenAI,
 ) -> Dict[str, str]:
     """
     Get canonical entity mappings from LLM.
@@ -42,7 +42,7 @@ def get_canonical_mappings(
     Args:
         entities: List of entity names
         config: Pipeline configuration
-        client: Anthropic API client
+        client: OpenAI API client
 
     Returns:
         Dictionary mapping alias -> canonical name
@@ -59,14 +59,15 @@ def get_canonical_mappings(
         prompt = prompt_template.format(entity_list=entity_list)
 
         try:
-            message = client.messages.create(
+            response = client.chat.completions.create(
                 model=config.model_name,
                 max_tokens=config.max_tokens,
                 temperature=config.temperature,
                 messages=[{"role": "user", "content": prompt}],
+                response_format={"type": "json_object"},
             )
 
-            response_text = message.content[0].text
+            response_text = response.choices[0].message.content
             result = json.loads(response_text)
 
             # Build mapping dictionary
@@ -135,7 +136,7 @@ def run_canonicalize(config: PipelineConfig, logger: PipelineLogger) -> Path:
         logger.info("canonicalize", f"Found {len(entities)} unique entities")
 
         # Get canonical mappings
-        client = anthropic.Anthropic()
+        client = OpenAI()
         logger.info("canonicalize", "Generating canonical mappings")
 
         mappings = get_canonical_mappings(list(entities), config, client)

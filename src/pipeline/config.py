@@ -15,8 +15,8 @@ class PipelineConfig:
     input_jsonl_root: Path
     output_root: Path
 
-    # LLM settings
-    model_name: str = "claude-3-5-sonnet-20241022"
+    # LLM settings (OpenAI GPT-4o)
+    model_name: str = "gpt-4o-2024-08-06"
     temperature: float = 0.0
     max_tokens: int = 4096
 
