@@ -111,9 +111,19 @@ def main():
         parser.print_help()
         return 1
 
-    # Import pipeline modules (will be implemented in next steps)
+    # Import pipeline modules
     try:
+        import time
         from .config import PipelineConfig
+        from .logging_utils import PipelineLogger, create_run_summary
+        from .extract_triples import run_extract
+        from .canonicalize import run_canonicalize
+        from .infer_personality import run_personality
+        from .qa_filters import apply_filters
+        from .build_graph import run_build_graph
+        from .viz import run_viz
+        from .evaluate import run_evaluate
+        from .io_utils import load_jsonl, save_jsonl
 
         config = PipelineConfig(
             input_jsonl_root=args.input_jsonl_root,
@@ -123,28 +133,110 @@ def main():
             max_passages_per_book=args.max_passages,
         )
 
-        # Execute command (implementations will be added in step 4)
+        logger = PipelineLogger(config.output_root)
+        start_time = time.time()
+        stages_completed = []
+        artifacts = {}
+
+        # Execute command
         if args.command == "extract":
-            print("Extract command not yet implemented")
-            return 1
+            print("\n=== EXTRACT TRIPLES ===\n")
+            output_path = run_extract(config, logger)
+            artifacts["triples_raw"] = str(output_path)
+            stages_completed.append("extract")
+
         elif args.command == "canonicalize":
-            print("Canonicalize command not yet implemented")
-            return 1
+            print("\n=== CANONICALIZE ENTITIES ===\n")
+            output_path = run_canonicalize(config, logger)
+            artifacts["triples_canonical"] = str(output_path)
+            stages_completed.append("canonicalize")
+
         elif args.command == "traits":
-            print("Traits command not yet implemented")
-            return 1
+            print("\n=== INFER PERSONALITY TRAITS ===\n")
+            output_path = run_personality(config, logger)
+            artifacts["traits_final"] = str(output_path)
+            stages_completed.append("traits")
+
         elif args.command == "graph":
-            print("Graph command not yet implemented")
-            return 1
+            print("\n=== BUILD GRAPH ===\n")
+            graph_path = run_build_graph(config, logger)
+            viz_path = run_viz(config, logger)
+            artifacts["graph"] = str(graph_path)
+            artifacts["graph_html"] = str(viz_path)
+            stages_completed.extend(["build_graph", "viz"])
+
         elif args.command == "eval":
-            print("Eval command not yet implemented")
-            return 1
+            print("\n=== EVALUATE ===\n")
+            metrics_path = run_evaluate(config, logger)
+            artifacts["metrics"] = str(metrics_path)
+            stages_completed.append("evaluate")
+
         elif args.command == "all":
-            print("All command not yet implemented")
-            return 1
+            print("\n=== RUNNING COMPLETE PIPELINE ===\n")
+
+            # Stage 1: Extract triples
+            print("\n--- Stage 1/7: Extract Triples ---")
+            triples_raw_path = run_extract(config, logger)
+            artifacts["triples_raw"] = str(triples_raw_path)
+            stages_completed.append("extract")
+
+            # Stage 2: Canonicalize entities
+            print("\n--- Stage 2/7: Canonicalize Entities ---")
+            triples_canon_path = run_canonicalize(config, logger)
+            artifacts["triples_canonical"] = str(triples_canon_path)
+            stages_completed.append("canonicalize")
+
+            # Stage 3: Apply QA filters
+            print("\n--- Stage 3/7: QA Filtering ---")
+            triples = load_jsonl(triples_canon_path)
+            filtered_triples = apply_filters(triples, config, logger)
+            save_jsonl(filtered_triples, triples_canon_path)
+            logger.info("qa_filters", f"Updated {triples_canon_path} with filtered triples")
+            stages_completed.append("qa_filters")
+
+            # Stage 4: Infer personality traits
+            print("\n--- Stage 4/7: Infer Personality Traits ---")
+            traits_path = run_personality(config, logger)
+            artifacts["traits_final"] = str(traits_path)
+            stages_completed.append("traits")
+
+            # Stage 5: Build graph
+            print("\n--- Stage 5/7: Build Property Graph ---")
+            graph_path = run_build_graph(config, logger)
+            artifacts["graph"] = str(graph_path)
+            stages_completed.append("build_graph")
+
+            # Stage 6: Create visualization
+            print("\n--- Stage 6/7: Create Visualization ---")
+            viz_path = run_viz(config, logger)
+            artifacts["graph_html"] = str(viz_path)
+            stages_completed.append("viz")
+
+            # Stage 7: Evaluate
+            print("\n--- Stage 7/7: Evaluate and Generate Metrics ---")
+            metrics_path = run_evaluate(config, logger)
+            artifacts["metrics"] = str(metrics_path)
+            stages_completed.append("evaluate")
+
+            print("\n=== PIPELINE COMPLETE ===\n")
+
+        # Create run summary
+        total_duration = time.time() - start_time
+        create_run_summary(
+            config.output_root,
+            stages_completed,
+            total_duration,
+            artifacts,
+        )
+
+        print(f"\n{'='*60}")
+        print(f"Pipeline completed successfully!")
+        print(f"Duration: {total_duration:.1f}s")
+        print(f"Output: {config.output_root}")
+        print(f"{'='*60}\n")
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"\nError: {e}")
         import traceback
         traceback.print_exc()
         return 1

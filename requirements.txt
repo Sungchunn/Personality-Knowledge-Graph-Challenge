@@ -1,0 +1,17 @@
+pymupdf==1.23.26
+regex==2023.12.25
+python-slugify==8.0.1
+tqdm==4.66.1
+pillow==10.2.0
+pytesseract==0.3.10
+
+# Pipeline dependencies
+anthropic==0.34.0
+pydantic==2.5.3
+networkx==3.2.1
+pyvis==0.3.2
+
+# Development
+pytest==7.4.3
+ruff==0.1.9
+black==23.12.1
