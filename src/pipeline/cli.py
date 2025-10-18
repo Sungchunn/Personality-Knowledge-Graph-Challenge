@@ -3,8 +3,13 @@ Master CLI for the knowledge graph extraction pipeline.
 """
 
 import argparse
+import os
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 def create_parser() -> argparse.ArgumentParser:
@@ -37,7 +42,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--model-name",
         type=str,
-        default="claude-3-5-sonnet-20241022",
+        default="gpt-4o-2024-08-06",
         help="LLM model name",
     )
 
