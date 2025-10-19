@@ -14,6 +14,7 @@ class PipelineConfig:
     # Input/Output paths
     input_jsonl_root: Path
     output_root: Path
+    input_file: Optional[Path] = None  # Single JSONL file (overrides input_jsonl_root)
 
     # LLM settings (OpenAI GPT-4o)
     model_name: str = "gpt-4o-2024-08-06"

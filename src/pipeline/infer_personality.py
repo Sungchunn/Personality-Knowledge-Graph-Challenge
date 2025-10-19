@@ -12,6 +12,7 @@ from tqdm import tqdm
 from .config import PipelineConfig
 from .io_utils import discover_jsonl_files, iter_jsonl, load_jsonl, save_jsonl
 from .logging_utils import PipelineLogger
+from .qa_filters import validate_trait_evidence
 
 
 def extract_people_from_triples(triples: List[Dict[str, Any]]) -> Set[str]:
@@ -54,7 +55,12 @@ def find_passages_mentioning_person(
         List of passage dictionaries mentioning the person
     """
     passages = []
-    jsonl_files = discover_jsonl_files(config.input_jsonl_root)
+
+    # Handle single file mode
+    if config.input_file:
+        jsonl_files = [config.input_file]
+    else:
+        jsonl_files = discover_jsonl_files(config.input_jsonl_root)
 
     for jsonl_file in jsonl_files:
         for passage in iter_jsonl(jsonl_file):
@@ -64,6 +70,64 @@ def find_passages_mentioning_person(
     return passages
 
 
+def aggregate_character_context(
+    person_name: str,
+    passages: List[Dict[str, Any]],
+    max_passages: int = 50,
+    max_chars: int = 12000,
+) -> str:
+    """
+    Aggregate passages mentioning a character into comprehensive context.
+
+    Strategy:
+    - Sample passages across the book (beginning, middle, end)
+    - Prioritize longer passages (more context)
+    - Stay within token limits
+
+    Args:
+        person_name: Character name
+        passages: All passages mentioning the character
+        max_passages: Maximum passages to include
+        max_chars: Maximum total characters
+
+    Returns:
+        Aggregated text context
+    """
+    if not passages:
+        return ""
+
+    # Sort by position in book to maintain narrative order
+    sorted_passages = sorted(passages, key=lambda p: p.get("chunk_index", 0))
+
+    # Sample evenly across the book
+    if len(sorted_passages) > max_passages:
+        # Take every Nth passage to get even distribution
+        step = len(sorted_passages) // max_passages
+        sampled = [sorted_passages[i * step] for i in range(max_passages)]
+    else:
+        sampled = sorted_passages
+
+    # Build aggregated context
+    context_parts = []
+    total_chars = 0
+
+    for i, passage in enumerate(sampled):
+        passage_text = passage["text"]
+
+        # Add context marker
+        chunk_id = passage.get("chunk_index", i)
+        header = f"\n--- Passage {chunk_id} ---\n"
+
+        # Check if we exceed limit
+        if total_chars + len(header) + len(passage_text) > max_chars:
+            break
+
+        context_parts.append(header + passage_text)
+        total_chars += len(header) + len(passage_text)
+
+    return "\n".join(context_parts)
+
+
 def infer_personality_for_person(
     person_name: str,
     passages: List[Dict[str, Any]],
@@ -71,32 +135,37 @@ def infer_personality_for_person(
     client: OpenAI,
 ) -> Dict[str, Any]:
     """
-    Infer Big Five personality traits for a person.
+    Infer Big Five personality traits for a person using aggregated context.
 
     Args:
         person_name: Name of person
-        passages: Relevant text passages
+        passages: All relevant text passages mentioning the person
         config: Pipeline configuration
         client: OpenAI API client
 
     Returns:
         Personality profile dictionary
     """
-    # Combine passages (limit to avoid token limits)
-    max_context = 8000
-    combined_text = ""
-    source_ids = []
+    # Aggregate context from ALL passages mentioning the character
+    aggregated_text = aggregate_character_context(
+        person_name,
+        passages,
+        max_passages=50,  # Sample up to 50 passages
+        max_chars=12000,  # ~3K tokens for GPT-4
+    )
 
-    for passage in passages[:10]:  # Limit passages
-        combined_text += passage["text"] + "\n\n"
-        source_ids.append(f"{passage['book_id']}_{passage['chunk_index']}")
+    if not aggregated_text:
+        return None
 
-        if len(combined_text) > max_context:
-            break
+    # Collect source IDs for provenance
+    source_ids = [
+        f"{p['book_id']}_{p['chunk_index']}"
+        for p in passages[:100]  # Limit metadata
+    ]
 
     prompt_template = config.load_prompt("infer_personality")
     prompt = prompt_template.format(
-        person_name=person_name, passage_text=combined_text
+        person_name=person_name, passage_text=aggregated_text
     )
 
     try:
@@ -158,7 +227,7 @@ def run_personality(config: PipelineConfig, logger: PipelineLogger) -> Path:
         for person_name in tqdm(people, desc="Inferring personalities"):
             logger.info("infer_personality", f"Processing: {person_name}")
 
-            # Find relevant passages
+            # Find ALL relevant passages mentioning this character
             passages = find_passages_mentioning_person(person_name, config)
 
             if not passages:
@@ -168,7 +237,13 @@ def run_personality(config: PipelineConfig, logger: PipelineLogger) -> Path:
                 )
                 continue
 
-            # Infer personality
+            logger.info(
+                "infer_personality",
+                f"Found {len(passages)} passages mentioning {person_name}",
+                passage_count=len(passages),
+            )
+
+            # Infer personality using aggregated context from all passages
             profile = infer_personality_for_person(
                 person_name, passages, config, client
             )
@@ -187,17 +262,24 @@ def run_personality(config: PipelineConfig, logger: PipelineLogger) -> Path:
         save_jsonl(all_profiles, raw_output_path)
         logger.info("infer_personality", f"Saved raw traits to {raw_output_path}")
 
-        # Filter by confidence and save final
+        # Filter by confidence, evidence quality, and save final
         final_profiles = []
         for profile in all_profiles:
-            # Check if at least 3 traits meet confidence threshold
-            high_conf_traits = sum(
-                1
-                for trait in profile.get("traits", [])
-                if trait["confidence"] >= config.confidence_threshold
-            )
+            # Validate each trait's evidence quality
+            valid_traits = []
+            for trait in profile.get("traits", []):
+                # Check confidence threshold
+                if trait["confidence"] < config.confidence_threshold:
+                    continue
 
-            if high_conf_traits >= 3:
+                # Check evidence quality (min 2 spans, 50+ chars each, no overlap)
+                if validate_trait_evidence(trait, min_spans=2, min_span_length=50):
+                    valid_traits.append(trait)
+
+            # Keep profile if at least 3 high-quality traits
+            if len(valid_traits) >= 3:
+                # Update profile with only valid traits
+                profile["traits"] = valid_traits
                 final_profiles.append(profile)
 
         logger.info(

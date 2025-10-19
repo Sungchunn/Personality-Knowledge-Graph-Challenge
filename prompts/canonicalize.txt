@@ -22,15 +22,15 @@ ENTITY LIST:
 {entity_list}
 
 OUTPUT FORMAT (JSON only):
-{
+{{
   "mappings": [
-    {
+    {{
       "alias": "string",
       "canonical": "string",
       "confidence": float,
       "evidence": "brief justification"
-    }
+    }}
   ]
-}
+}}
 
 Return only valid JSON with canonicalization mappings.

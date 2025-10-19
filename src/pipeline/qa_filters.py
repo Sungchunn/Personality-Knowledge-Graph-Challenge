@@ -59,6 +59,78 @@ def normalize_entity(entity: str) -> str:
     return entity
 
 
+def check_span_overlap(span1: Dict[str, Any], span2: Dict[str, Any], max_overlap_ratio: float = 0.3) -> bool:
+    """
+    Check if two evidence spans overlap significantly.
+
+    Args:
+        span1, span2: Evidence span dictionaries with 'start' and 'end' keys
+        max_overlap_ratio: Maximum allowed overlap as fraction of smaller span
+
+    Returns:
+        True if overlaps too much, False if acceptable
+    """
+    if not (span1 and span2):
+        return False
+
+    start1, end1 = span1.get("start", 0), span1.get("end", 0)
+    start2, end2 = span2.get("start", 0), span2.get("end", 0)
+
+    # Calculate overlap
+    overlap_start = max(start1, start2)
+    overlap_end = min(end1, end2)
+    overlap_length = max(0, overlap_end - overlap_start)
+
+    if overlap_length == 0:
+        return False
+
+    # Check if overlap exceeds threshold relative to smaller span
+    min_span_length = min(end1 - start1, end2 - start2)
+    overlap_ratio = overlap_length / min_span_length if min_span_length > 0 else 0
+
+    return overlap_ratio > max_overlap_ratio
+
+
+def validate_trait_evidence(
+    trait: Dict[str, Any], min_spans: int = 2, min_span_length: int = 50
+) -> bool:
+    """
+    Validate personality trait evidence quality.
+
+    Args:
+        trait: Trait dictionary with evidence_spans
+        min_spans: Minimum number of distinct evidence spans required
+        min_span_length: Minimum characters per span
+
+    Returns:
+        True if valid, False otherwise
+    """
+    evidence_spans = trait.get("evidence_spans", [])
+
+    # Check minimum number of spans
+    if len(evidence_spans) < min_spans:
+        return False
+
+    # Validate each span length
+    valid_spans = []
+    for span in evidence_spans:
+        if not span or "text" not in span:
+            continue
+        if len(span["text"].strip()) >= min_span_length:
+            valid_spans.append(span)
+
+    if len(valid_spans) < min_spans:
+        return False
+
+    # Check for excessive overlap between spans
+    for i, span1 in enumerate(valid_spans):
+        for span2 in valid_spans[i+1:]:
+            if check_span_overlap(span1, span2):
+                return False  # Reject if spans overlap too much
+
+    return True
+
+
 def deduplicate_triples(triples: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
     Deduplicate triples, keeping highest confidence version.
@@ -159,11 +231,19 @@ def apply_filters(
 
     final_count = len(deduplicated)
     total_dropped = initial_count - final_count
+
+    # Calculate retention rate safely (avoid division by zero)
+    retention_rate = (
+        f"{100 * final_count / initial_count:.1f}%"
+        if initial_count > 0
+        else "0.0%"
+    )
+
     logger.info(
         "qa_filters",
         f"QA filtering complete: {final_count} triples retained",
         total_dropped=total_dropped,
-        retention_rate=f"{100 * final_count / initial_count:.1f}%",
+        retention_rate=retention_rate,
     )
 
     return deduplicated

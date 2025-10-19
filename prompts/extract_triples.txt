@@ -35,21 +35,21 @@ REQUIREMENTS:
 5. Evidence spans must be verbatim quotes from the passage
 
 OUTPUT FORMAT (JSON only):
-{
+{{
   "triples": [
-    {
+    {{
       "subject": "string",
       "relation": "string",
       "object": "string",
       "confidence": float,
-      "evidence_span": {
+      "evidence_span": {{
         "text": "exact quote from passage",
         "start": int,
         "end": int
-      }
-    }
+      }}
+    }}
   ]
-}
+}}
 
 PASSAGE:
 {passage_text}

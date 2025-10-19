@@ -74,13 +74,20 @@ def run_extract(config: PipelineConfig, logger: PipelineLogger) -> Path:
     with logger.stage_context("extract_triples"):
         logger.info("extract_triples", "Discovering input JSONL files")
 
-        # Discover all input files
-        jsonl_files = discover_jsonl_files(config.input_jsonl_root)
-        logger.info(
-            "extract_triples",
-            f"Found {len(jsonl_files)} JSONL files",
-            file_count=len(jsonl_files),
-        )
+        # Discover input files (single file mode or all files)
+        if config.input_file:
+            jsonl_files = [config.input_file]
+            logger.info(
+                "extract_triples",
+                f"Processing single file: {config.input_file.name}",
+            )
+        else:
+            jsonl_files = discover_jsonl_files(config.input_jsonl_root)
+            logger.info(
+                "extract_triples",
+                f"Found {len(jsonl_files)} JSONL files",
+                file_count=len(jsonl_files),
+            )
 
         # Initialize OpenAI client
         client = OpenAI()

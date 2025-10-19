@@ -6,10 +6,6 @@ import argparse
 import os
 from pathlib import Path
 from datetime import datetime
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
 
 
 def create_parser() -> argparse.ArgumentParser:
@@ -24,6 +20,12 @@ def create_parser() -> argparse.ArgumentParser:
         type=Path,
         default="/Users/chromatrical/CAREER/Side Projects/Intellumia shortlist/Project/data/jsonl",
         help="Root directory containing input JSONL files",
+    )
+
+    parser.add_argument(
+        "--input-file",
+        type=Path,
+        help="Process a single JSONL file instead of entire directory",
     )
 
     parser.add_argument(
@@ -132,6 +134,7 @@ def main():
 
         config = PipelineConfig(
             input_jsonl_root=args.input_jsonl_root,
+            input_file=args.input_file,
             output_root=args.output_root,
             confidence_threshold=args.confidence_threshold,
             model_name=args.model_name,

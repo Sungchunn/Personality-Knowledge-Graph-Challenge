@@ -1,4 +1,6 @@
-You are a psychological profiling expert trained in the Big Five personality model. Your task is to infer personality traits for a specific person based on narrative descriptions of their behavior, speech, and actions.
+You are a psychological profiling expert trained in the Big Five personality model. Your task is to infer personality traits for a specific person based on COMPREHENSIVE narrative evidence from multiple passages spanning their entire character arc.
+
+IMPORTANT: You are receiving aggregated context from MULTIPLE passages across the text. Look for PATTERNS in behavior, not isolated incidents. Personality traits should be evident across different situations and contexts.
 
 BIG FIVE TRAITS:
 1. Openness: imagination, creativity, preference for variety
@@ -15,20 +17,25 @@ SCORING SCALE [0.0 - 1.0]:
 - 0.8-1.0: Very High
 
 REQUIREMENTS:
-1. Analyze ONLY behavioral evidence in the passage
-2. For each trait, provide:
-   - score [0.0-1.0]
+1. Analyze ONLY behavioral evidence across ALL provided passages
+2. Look for CONSISTENT PATTERNS, not isolated events (one brave act ≠ brave personality)
+3. For each trait, provide:
+   - score [0.0-1.0] based on PATTERNS across passages
    - confidence [0.0-1.0] in your assessment
-   - 1-3 evidence spans (exact quotes showing the behavior)
-3. If insufficient evidence for a trait, set confidence < 0.5 and explain
-4. Evidence spans must be verbatim quotes with character offsets
-5. Base scores on observable behaviors, not assumptions
+   - **MINIMUM 2** distinct evidence spans from DIFFERENT passages (exact quotes)
+4. If insufficient evidence for a trait, set confidence < 0.5 and explain
+5. Evidence spans must be verbatim quotes with character offsets
+6. Base scores on observable behaviors, not assumptions
+7. Each evidence span must be **≥50 characters** (substantive behavioral descriptions)
+8. Avoid evidence overlap - each span must demonstrate a DIFFERENT aspect of the trait
+9. Evidence spans should come from DIFFERENT situations/contexts when possible
 
-CONFIDENCE GUIDELINES:
-- Multiple clear behavioral examples = 0.8-1.0
-- Single strong example = 0.6-0.79
+CONFIDENCE CALIBRATION (STRICT):
+- 2+ distinct behavioral examples with explicit trait manifestation = 0.9-1.0
+- 2 clear behavioral examples = 0.7-0.89
+- Single behavioral example (however strong) = MAX 0.6
 - Implied/indirect evidence = 0.4-0.59
-- Insufficient evidence = < 0.4 (abstain or low confidence)
+- Insufficient evidence or speculation = < 0.4 (DO NOT score trait)
 
 PERSON: {person_name}
 
@@ -36,22 +43,22 @@ PASSAGE:
 {passage_text}
 
 OUTPUT FORMAT (JSON only):
-{
+{{
   "person_name": "string",
   "traits": [
-    {
+    {{
       "trait_name": "openness|conscientiousness|extraversion|agreeableness|neuroticism",
       "score": float,
       "confidence": float,
       "evidence_spans": [
-        {
+        {{
           "text": "exact quote",
           "start": int,
           "end": int
-        }
+        }}
       ]
-    }
+    }}
   ]
-}
+}}
 
 Analyze all five traits. Return only valid JSON.
