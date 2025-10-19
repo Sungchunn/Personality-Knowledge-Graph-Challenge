@@ -96,7 +96,7 @@ def run_extract(config: PipelineConfig, logger: PipelineLogger) -> Path:
         passage_count = 0
 
         # Process each book
-        for jsonl_file in tqdm(jsonl_files, desc="Processing books"):
+        for jsonl_file in tqdm(jsonl_files, desc="Processing books", unit="book"):
             book_id = jsonl_file.stem
             logger.info("extract_triples", f"Processing book: {book_id}")
 
@@ -106,9 +106,14 @@ def run_extract(config: PipelineConfig, logger: PipelineLogger) -> Path:
             if config.max_passages_per_book:
                 passages = passages[: config.max_passages_per_book]
 
-            # Process each passage
+            # Process each passage with progress bar
             for passage in tqdm(
-                passages, desc=f"  {book_id}", leave=False, disable=True
+                passages,
+                desc=f"  Extracting from {book_id}",
+                leave=False,
+                disable=len(passages) < 5,  # Only show for longer runs
+                unit="passage",
+                smoothing=0.1  # Faster ETA adaptation
             ):
                 triples = extract_triples_from_passage(passage, config, client)
                 all_triples.extend(triples)

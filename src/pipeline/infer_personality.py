@@ -224,7 +224,12 @@ def run_personality(config: PipelineConfig, logger: PipelineLogger) -> Path:
         all_profiles = []
 
         # Process each person
-        for person_name in tqdm(people, desc="Inferring personalities"):
+        for person_name in tqdm(
+            people,
+            desc="Inferring personalities",
+            unit="person",
+            smoothing=0.1  # Faster ETA adaptation
+        ):
             logger.info("infer_personality", f"Processing: {person_name}")
 
             # Find ALL relevant passages mentioning this character
