@@ -1,0 +1,86 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 215,
+    "avg_confidence": 0.877,
+    "min_confidence": 0.7,
+    "max_confidence": 0.9,
+    "unique_relations": 30,
+    "relation_distribution": {
+      "MENTIONED_IN": 38,
+      "FAMILY_OF": 22,
+      "KNOWS": 22,
+      "LOCATED_IN": 21,
+      "ENEMY_OF": 19,
+      "PARTICIPATES_IN": 18,
+      "WORKS_FOR": 13,
+      "MEMBER_OF": 11,
+      "FRIENDS_WITH": 8,
+      "OWNS": 6
+    }
+  },
+  "personality_stats": {
+    "total_profiles": 3,
+    "avg_trait_scores": {
+      "openness": 0.5,
+      "conscientiousness": 0.7,
+      "extraversion": 0.0,
+      "agreeableness": 0.333,
+      "neuroticism": 0.6
+    }
+  },
+  "graph_stats": {
+    "num_nodes": 123,
+    "num_edges": 215,
+    "density": 0.0143,
+    "avg_degree": 3.5,
+    "max_degree": 56,
+    "most_connected_nodes": [
+      {
+        "node": "Paul Atreides",
+        "degree": 56
+      },
+      {
+        "node": "Baron Vladimir Harkonnen",
+        "degree": 27
+      },
+      {
+        "node": "Arrakis",
+        "degree": 19
+      },
+      {
+        "node": "Reverend Mother Gaius Helen Mohiam",
+        "degree": 19
+      },
+      {
+        "node": "Jessica",
+        "degree": 17
+      },
+      {
+        "node": "Duke Leto",
+        "degree": 16
+      },
+      {
+        "node": "Gurney Halleck",
+        "degree": 15
+      },
+      {
+        "node": "Bene Gesserit",
+        "degree": 11
+      },
+      {
+        "node": "Thufir Hawat",
+        "degree": 11
+      },
+      {
+        "node": "House Harkonnen",
+        "degree": 11
+      }
+    ],
+    "num_components": 4,
+    "largest_component_size": 114
+  }
+}

@@ -1,0 +1,1490 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="evidence" attr.type="string" />
+  <key id="d11" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d10" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d9" for="node" attr.name="trait_neuroticism_conf" attr.type="double" />
+  <key id="d8" for="node" attr.name="trait_neuroticism" attr.type="double" />
+  <key id="d7" for="node" attr.name="trait_agreeableness_conf" attr.type="double" />
+  <key id="d6" for="node" attr.name="trait_agreeableness" attr.type="double" />
+  <key id="d5" for="node" attr.name="trait_conscientiousness_conf" attr.type="double" />
+  <key id="d4" for="node" attr.name="trait_conscientiousness" attr.type="double" />
+  <key id="d3" for="node" attr.name="trait_openness_conf" attr.type="double" />
+  <key id="d2" for="node" attr.name="trait_openness" attr.type="double" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Paul Atreides">
+      <data key="d0">person</data>
+      <data key="d1">Paul Atreides</data>
+      <data key="d2">0.8</data>
+      <data key="d3">0.9</data>
+      <data key="d4">0.7</data>
+      <data key="d5">0.9</data>
+      <data key="d6">0.6</data>
+      <data key="d7">0.7</data>
+      <data key="d8">0.6</data>
+      <data key="d9">0.7</data>
+    </node>
+    <node id="Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">Arrakis</data>
+    </node>
+    <node id="Caladan">
+      <data key="d0">unknown</data>
+      <data key="d1">Caladan</data>
+    </node>
+    <node id="Lady Jessica">
+      <data key="d0">person</data>
+      <data key="d1">Lady Jessica</data>
+      <data key="d2">0.7</data>
+      <data key="d3">0.8</data>
+      <data key="d4">0.6</data>
+      <data key="d5">0.7</data>
+      <data key="d8">0.6</data>
+      <data key="d9">0.7</data>
+    </node>
+    <node id="House of Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">House of Atreides</data>
+    </node>
+    <node id="Castle Caladan">
+      <data key="d0">unknown</data>
+      <data key="d1">Castle Caladan</data>
+    </node>
+    <node id="Bene Gesserit">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit</data>
+    </node>
+    <node id="Book 1 DUNE">
+      <data key="d0">unknown</data>
+      <data key="d1">Book 1 DUNE</data>
+    </node>
+    <node id="Duke Leto">
+      <data key="d0">unknown</data>
+      <data key="d1">Duke Leto</data>
+    </node>
+    <node id="Dune">
+      <data key="d0">unknown</data>
+      <data key="d1">Dune</data>
+    </node>
+    <node id="Thufir Hawat">
+      <data key="d0">unknown</data>
+      <data key="d1">Thufir Hawat</data>
+    </node>
+    <node id="Harkonnens">
+      <data key="d0">unknown</data>
+      <data key="d1">Harkonnens</data>
+    </node>
+    <node id="CHOAM Company">
+      <data key="d0">unknown</data>
+      <data key="d1">CHOAM Company</data>
+    </node>
+    <node id="Federated Great Houses of the Landsraad">
+      <data key="d0">unknown</data>
+      <data key="d1">Federated Great Houses of the Landsraad</data>
+    </node>
+    <node id="dream">
+      <data key="d0">unknown</data>
+      <data key="d1">dream</data>
+    </node>
+    <node id="Dr. Wellington Yueh">
+      <data key="d0">unknown</data>
+      <data key="d1">Dr. Wellington Yueh</data>
+    </node>
+    <node id="Fremen">
+      <data key="d0">unknown</data>
+      <data key="d1">Fremen</data>
+    </node>
+    <node id="Reverend Mother">
+      <data key="d0">person</data>
+      <data key="d1">Reverend Mother</data>
+      <data key="d2">0.7</data>
+      <data key="d3">0.8</data>
+      <data key="d4">0.8</data>
+      <data key="d5">0.9</data>
+      <data key="d6">0.3</data>
+      <data key="d7">0.7</data>
+    </node>
+    <node id="Emperor">
+      <data key="d0">unknown</data>
+      <data key="d1">Emperor</data>
+    </node>
+    <node id="Paul's dreams">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul's dreams</data>
+    </node>
+    <node id="Reverend Mother Gaius Helen Mohiam">
+      <data key="d0">unknown</data>
+      <data key="d1">Reverend Mother Gaius Helen Mohiam</data>
+    </node>
+    <node id="Padishah Emperor's Truthsayer">
+      <data key="d0">unknown</data>
+      <data key="d1">Padishah Emperor's Truthsayer</data>
+    </node>
+    <node id="farmlands">
+      <data key="d0">unknown</data>
+      <data key="d1">farmlands</data>
+    </node>
+    <node id="old woman">
+      <data key="d0">unknown</data>
+      <data key="d1">old woman</data>
+    </node>
+    <node id="gom jabbar">
+      <data key="d0">unknown</data>
+      <data key="d1">gom jabbar</data>
+    </node>
+    <node id="duke">
+      <data key="d0">unknown</data>
+      <data key="d1">duke</data>
+    </node>
+    <node id="test">
+      <data key="d0">unknown</data>
+      <data key="d1">test</data>
+    </node>
+    <node id="Litany against Fear">
+      <data key="d0">unknown</data>
+      <data key="d1">Litany against Fear</data>
+    </node>
+    <node id="test with the gom jabbar">
+      <data key="d0">unknown</data>
+      <data key="d1">test with the gom jabbar</data>
+    </node>
+    <node id="people">
+      <data key="d0">unknown</data>
+      <data key="d1">people</data>
+    </node>
+    <node id="Butlerian Jihad">
+      <data key="d0">unknown</data>
+      <data key="d1">Butlerian Jihad</data>
+    </node>
+    <node id="Orange Catholic Bible">
+      <data key="d0">unknown</data>
+      <data key="d1">Orange Catholic Bible</data>
+    </node>
+    <node id="Mentat">
+      <data key="d0">unknown</data>
+      <data key="d1">Mentat</data>
+    </node>
+    <node id="schools">
+      <data key="d0">unknown</data>
+      <data key="d1">schools</data>
+    </node>
+    <node id="Spacing Guild">
+      <data key="d0">unknown</data>
+      <data key="d1">Spacing Guild</data>
+    </node>
+    <node id="Politics">
+      <data key="d0">unknown</data>
+      <data key="d1">Politics</data>
+    </node>
+    <node id="Truthsayer drug">
+      <data key="d0">unknown</data>
+      <data key="d1">Truthsayer drug</data>
+    </node>
+    <node id="passage">
+      <data key="d0">unknown</data>
+      <data key="d1">passage</data>
+    </node>
+    <node id="Kwisatz Haderach">
+      <data key="d0">unknown</data>
+      <data key="d1">Kwisatz Haderach</data>
+    </node>
+    <node id="Baron Vladimir Harkonnen">
+      <data key="d0">unknown</data>
+      <data key="d1">Baron Vladimir Harkonnen</data>
+    </node>
+    <node id="Piter de Vries">
+      <data key="d0">unknown</data>
+      <data key="d1">Piter de Vries</data>
+    </node>
+    <node id="Feyd-Rautha Harkonnen">
+      <data key="d0">unknown</data>
+      <data key="d1">Feyd-Rautha Harkonnen</data>
+    </node>
+    <node id="Leto Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">Leto Atreides</data>
+    </node>
+    <node id="Empire">
+      <data key="d0">unknown</data>
+      <data key="d1">Empire</data>
+    </node>
+    <node id="end of all the Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">end of all the Atreides</data>
+    </node>
+    <node id="Corps of Sardaukar">
+      <data key="d0">unknown</data>
+      <data key="d1">Corps of Sardaukar</data>
+    </node>
+    <node id="end to the Baron Vladimir Harkonnen">
+      <data key="d0">unknown</data>
+      <data key="d1">end to the Baron Vladimir Harkonnen</data>
+    </node>
+    <node id="Giedi Prime">
+      <data key="d0">unknown</data>
+      <data key="d1">Giedi Prime</data>
+    </node>
+    <node id="Arrakeen">
+      <data key="d0">unknown</data>
+      <data key="d1">Arrakeen</data>
+    </node>
+    <node id="Residency">
+      <data key="d0">unknown</data>
+      <data key="d1">Residency</data>
+    </node>
+    <node id="Count Fenring">
+      <data key="d0">unknown</data>
+      <data key="d1">Count Fenring</data>
+    </node>
+    <node id="Ambassador to the Smugglers">
+      <data key="d0">unknown</data>
+      <data key="d1">Ambassador to the Smugglers</data>
+    </node>
+    <node id="Suk School">
+      <data key="d0">unknown</data>
+      <data key="d1">Suk School</data>
+    </node>
+    <node id="Imperial Conditioning">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperial Conditioning</data>
+    </node>
+    <node id="House Harkonnen">
+      <data key="d0">unknown</data>
+      <data key="d1">House Harkonnen</data>
+    </node>
+    <node id="Imperial House">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperial House</data>
+    </node>
+    <node id="Imperium">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperium</data>
+    </node>
+    <node id="Kynes">
+      <data key="d0">unknown</data>
+      <data key="d1">Kynes</data>
+    </node>
+    <node id="His Majesty">
+      <data key="d0">unknown</data>
+      <data key="d1">His Majesty</data>
+    </node>
+    <node id="subfief on Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">subfief on Arrakis</data>
+    </node>
+    <node id="dispensation of that fief">
+      <data key="d0">unknown</data>
+      <data key="d1">dispensation of that fief</data>
+    </node>
+    <node id="St. Alia-of-the-Knife">
+      <data key="d0">unknown</data>
+      <data key="d1">St. Alia-of-the-Knife</data>
+    </node>
+    <node id="Muad'Dib, Family Commentaries">
+      <data key="d0">unknown</data>
+      <data key="d1">Muad'Dib, Family Commentaries</data>
+    </node>
+    <node id="Princess Irulan">
+      <data key="d0">unknown</data>
+      <data key="d1">Princess Irulan</data>
+    </node>
+    <node id="Bene Gesserit school">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit school</data>
+    </node>
+    <node id="Wallach IX">
+      <data key="d0">unknown</data>
+      <data key="d1">Wallach IX</data>
+    </node>
+    <node id="son">
+      <data key="d0">unknown</data>
+      <data key="d1">son</data>
+    </node>
+    <node id="path of the flood.">
+      <data key="d0">unknown</data>
+      <data key="d1">path of the flood.</data>
+    </node>
+    <node id="his friends">
+      <data key="d0">unknown</data>
+      <data key="d1">his friends</data>
+    </node>
+    <node id="fifty-nine point six-five per cent of the CHOAM directorship's votes">
+      <data key="d0">unknown</data>
+      <data key="d1">fifty-nine point six-five per cent of the CHOAM directorship's votes</data>
+    </node>
+    <node id="Imperial Household">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperial Household</data>
+    </node>
+    <node id="monopoly on interstellar transport">
+      <data key="d0">unknown</data>
+      <data key="d1">monopoly on interstellar transport</data>
+    </node>
+    <node id="his son">
+      <data key="d0">unknown</data>
+      <data key="d1">his son</data>
+    </node>
+    <node id="her son">
+      <data key="d0">unknown</data>
+      <data key="d1">her son</data>
+    </node>
+    <node id="EVENT">
+      <data key="d0">unknown</data>
+      <data key="d1">EVENT</data>
+    </node>
+    <node id="Missionaria Protectiva">
+      <data key="d0">unknown</data>
+      <data key="d1">Missionaria Protectiva</data>
+    </node>
+    <node id="poem">
+      <data key="d0">unknown</data>
+      <data key="d1">poem</data>
+    </node>
+    <node id="Gurney Halleck">
+      <data key="d0">unknown</data>
+      <data key="d1">Gurney Halleck</data>
+    </node>
+    <node id="tone poems">
+      <data key="d0">unknown</data>
+      <data key="d1">tone poems</data>
+    </node>
+    <node id="his father">
+      <data key="d0">unknown</data>
+      <data key="d1">his father</data>
+    </node>
+    <node id="Duncan Idaho">
+      <data key="d0">unknown</data>
+      <data key="d1">Duncan Idaho</data>
+    </node>
+    <node id="A Child's History of Muad'Dib">
+      <data key="d0">unknown</data>
+      <data key="d1">A Child's History of Muad'Dib</data>
+    </node>
+    <node id="Proctor">
+      <data key="d0">unknown</data>
+      <data key="d1">Proctor</data>
+    </node>
+    <node id="FAMILY">
+      <data key="d0">unknown</data>
+      <data key="d1">FAMILY</data>
+    </node>
+    <node id="Paul's father">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul's father</data>
+    </node>
+    <node id="wilderness">
+      <data key="d0">unknown</data>
+      <data key="d1">wilderness</data>
+    </node>
+    <node id="Mother">
+      <data key="d0">person</data>
+      <data key="d1">Mother</data>
+      <data key="d2">0.6</data>
+      <data key="d3">0.7</data>
+      <data key="d4">0.7</data>
+      <data key="d5">0.7</data>
+      <data key="d8">0.6</data>
+      <data key="d9">0.7</data>
+    </node>
+    <node id="Duncan">
+      <data key="d0">unknown</data>
+      <data key="d1">Duncan</data>
+    </node>
+    <node id="second wave onto Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">second wave onto Arrakis</data>
+    </node>
+    <node id="council">
+      <data key="d0">unknown</data>
+      <data key="d1">council</data>
+    </node>
+    <node id="Halleck">
+      <data key="d0">unknown</data>
+      <data key="d1">Halleck</data>
+    </node>
+    <node id="Beast Rabban">
+      <data key="d0">unknown</data>
+      <data key="d1">Beast Rabban</data>
+    </node>
+    <node id="Harkonnen slave pit">
+      <data key="d0">unknown</data>
+      <data key="d1">Harkonnen slave pit</data>
+    </node>
+    <node id="training fight">
+      <data key="d0">unknown</data>
+      <data key="d1">training fight</data>
+    </node>
+    <node id="younger sister">
+      <data key="d0">unknown</data>
+      <data key="d1">younger sister</data>
+    </node>
+    <node id="pansies">
+      <data key="d0">unknown</data>
+      <data key="d1">pansies</data>
+    </node>
+    <node id="Harkonnen troops">
+      <data key="d0">unknown</data>
+      <data key="d1">Harkonnen troops</data>
+    </node>
+    <node id="Wellington Yueh">
+      <data key="d0">unknown</data>
+      <data key="d1">Wellington Yueh</data>
+    </node>
+    <node id="Wanna Marcus">
+      <data key="d0">unknown</data>
+      <data key="d1">Wanna Marcus</data>
+    </node>
+    <node id="crossing to Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">crossing to Arrakis</data>
+    </node>
+    <node id="investigation">
+      <data key="d0">unknown</data>
+      <data key="d1">investigation</data>
+    </node>
+    <node id="Liet-Kynes">
+      <data key="d0">unknown</data>
+      <data key="d1">Liet-Kynes</data>
+    </node>
+    <node id="desert">
+      <data key="d0">unknown</data>
+      <data key="d1">desert</data>
+    </node>
+    <node id="poems">
+      <data key="d0">unknown</data>
+      <data key="d1">poems</data>
+    </node>
+    <node id="study about the sandworms">
+      <data key="d0">unknown</data>
+      <data key="d1">study about the sandworms</data>
+    </node>
+    <node id="filmbook">
+      <data key="d0">unknown</data>
+      <data key="d1">filmbook</data>
+    </node>
+    <node id="northern latitudes">
+      <data key="d0">unknown</data>
+      <data key="d1">northern latitudes</data>
+    </node>
+    <node id="conical projection chart">
+      <data key="d0">unknown</data>
+      <data key="d1">conical projection chart</data>
+    </node>
+    <node id="gift">
+      <data key="d0">unknown</data>
+      <data key="d1">gift</data>
+    </node>
+    <edge source="Paul Atreides" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Arrakis, the planet known as Dune, is forever his place.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Arrakis" id="1">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">you'll be following tomorrow. Next time we meet it'll be on the soil of your new world.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Caladan" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">he was born on Caladan and lived his first fifteen years there.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Caladan" id="1">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I talk to her and tell her about you, about seeing the Reverend Mother on Caladan.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Lady Jessica" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">an old crone came to visit the mother of the boy, Paul.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Lady Jessica" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">He stared at his mother as though she were a stranger.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Duke Leto" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">mother of the ducal heir</data>
+    </edge>
+    <edge source="Paul Atreides" target="dream" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul fell asleep to dream of an Arrakeen cavern</data>
+    </edge>
+    <edge source="Paul Atreides" target="dream" id="1">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul closed his eyes. "I dreamed a cavern . . . and water . . . and a girl there -- very skinny with big eyes.</data>
+    </edge>
+    <edge source="Paul Atreides" target="House of Atreides" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">It carried the red Atreides hawk crest above the breast pocket.</data>
+    </edge>
+    <edge source="Paul Atreides" target="duke" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">you dare suggest a duke's son is an animal?</data>
+    </edge>
+    <edge source="Paul Atreides" target="test" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Your mother survived this test. Now it's your turn.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Litany against Fear" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">he recalled the response from the Litany against Fear as his mother had taught him</data>
+    </edge>
+    <edge source="Paul Atreides" target="test with the gom jabbar" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">He jerked his hand from the box, stared at it astonished.</data>
+    </edge>
+    <edge source="Paul Atreides" target="old woman" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.8</data>
+      <data key="d12">He dropped the hand to his side, looked at the old woman.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Butlerian Jihad" id="0">
+      <data key="d10">QUOTED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul quoted. "Right out of the Butlerian Jihad</data>
+    </edge>
+    <edge source="Paul Atreides" target="Orange Catholic Bible" id="0">
+      <data key="d10">QUOTED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul quoted. "Right out of the Butlerian Jihad and the Orange Catholic Bible</data>
+    </edge>
+    <edge source="Paul Atreides" target="Orange Catholic Bible" id="1">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"It's a very old Orange Catholic Bible made for space travelers."</data>
+    </edge>
+    <edge source="Paul Atreides" target="Harkonnens" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">To attempt an understanding of Muad'Dib without understanding his mortal enemies, the Harkonnens</data>
+    </edge>
+    <edge source="Paul Atreides" target="Reverend Mother" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Wariness veiled his eyes when he glanced at the Reverend Mother, but this time he nodded to her, the nod one gives an equal.</data>
+    </edge>
+    <edge source="Paul Atreides" target="poem" id="0">
+      <data key="d10">CREATED</data>
+      <data key="d11">0.8</data>
+      <data key="d12">And I tell her the poem, but I have to explain some of the words -- like beach and surf and seaweed and seagulls.</data>
+    </edge>
+    <edge source="Paul Atreides" target="his father" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">You talk as though my father were dead.</data>
+    </edge>
+    <edge source="Paul Atreides" target="EVENT" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Hawat pulled up a chair across from Paul, sat down facing the door.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Thufir Hawat" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Hawat looked at the boy. "I was thinking we'll all be out of here soon and likely never see the place again."</data>
+    </edge>
+    <edge source="Paul Atreides" target="FAMILY" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"Did my father send you up to test me?"</data>
+    </edge>
+    <edge source="Paul Atreides" target="Mother" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">he'd already been warned -- by you, by Mother</data>
+    </edge>
+    <edge source="Paul Atreides" target="Duncan" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">How'd she figure your father attracted men like Duncan and Gurney?</data>
+    </edge>
+    <edge source="Paul Atreides" target="Gurney Halleck" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">How'd she figure your father attracted men like Duncan and Gurney?</data>
+    </edge>
+    <edge source="Paul Atreides" target="Gurney Halleck" id="1">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Of all his father's men, he liked Gurney Halleck best, knew the man's moods and deviltry, his humors, and thought of him more as a friend than as a hired sword.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Dr. Wellington Yueh" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">that's what Dr. Yueh calls the Mystery of Life.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Paul's father" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I tell you only as your father's helper.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Halleck" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul stepped back, chagrined.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Halleck" id="1">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.7</data>
+      <data key="d12">Is this betrayal? Paul wondered. Surely not Gurney!</data>
+    </edge>
+    <edge source="Paul Atreides" target="training fight" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul activated his shield, parried and countered.</data>
+    </edge>
+    <edge source="Paul Atreides" target="crossing to Arrakis" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">crossing to Arrakis</data>
+    </edge>
+    <edge source="Paul Atreides" target="study about the sandworms" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I'd like to study more about the sandworms."</data>
+    </edge>
+    <edge source="Paul Atreides" target="conical projection chart" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul glanced down at a conical projection chart of the northern Arrakeen latitudes spread on the table.</data>
+    </edge>
+    <edge source="Arrakis" target="Dune" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Arrakis -- Dune -- Desert Planet</data>
+    </edge>
+    <edge source="Arrakis" target="Empire" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"Arrakis! Truly unique. A superb setting for a unique Victory."</data>
+    </edge>
+    <edge source="Arrakis" target="EVENT" id="0">
+      <data key="d10">LOCATION</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Is it really that terrible, this planet of Arrakis?</data>
+    </edge>
+    <edge source="Arrakis" target="EVENT" id="1">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">It struck him as an odd place suddenly, a stranger-place with most of its hardware already gone off to Arrakis.</data>
+    </edge>
+    <edge source="Arrakis" target="wilderness" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">the wilderness that is empty, the wasteland where nothing lives except the spice and the sandworms</data>
+    </edge>
+    <edge source="Arrakis" target="northern latitudes" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"It was taken in the northern latitudes."</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">a Bene Gesserit Lady</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit" id="1">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Damn that Jessica! the Reverend Mother thought. If only she'd borne us a girl as she was ordered to do!</data>
+    </edge>
+    <edge source="Lady Jessica" target="Duke Leto" id="0">
+      <data key="d10">LOVES</data>
+      <data key="d11">0.8</data>
+      <data key="d12">a duke's concubine</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul Atreides" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Jessica's hand went to Paul's shoulder, tightened there.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul Atreides" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Paul," Jessica said.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul Atreides" id="2">
+      <data key="d10">TRAINED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"You've been training him in the Way -- I've seen the signs of it."</data>
+    </edge>
+    <edge source="Lady Jessica" target="Reverend Mother" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Reverend Mother" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Reverend Mother looked at Jessica.</data>
+    </edge>
+    <edge source="Lady Jessica" target="old woman" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"The Lady Jessica was my serving wench, lad, for fourteen years at school."</data>
+    </edge>
+    <edge source="Lady Jessica" target="old woman" id="1">
+      <data key="d10">HATES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Jessica, have you ever stopped hating me?" the old woman asked.</data>
+    </edge>
+    <edge source="Lady Jessica" target="old woman" id="2">
+      <data key="d10">LOVES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I both love and hate you," Jessica said.</data>
+    </edge>
+    <edge source="Lady Jessica" target="test" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Your mother survived this test.</data>
+    </edge>
+    <edge source="Lady Jessica" target="House of Atreides" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">You were told to bear only daughters to the Atreides.</data>
+    </edge>
+    <edge source="Lady Jessica" target="son" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the life of your son.</data>
+    </edge>
+    <edge source="Lady Jessica" target="her son" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"And your son will pay with you."</data>
+    </edge>
+    <edge source="Lady Jessica" target="A Child's History of Muad'Dib" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Lady Jessica, who guided her son in the Bene Gesserit Way,</data>
+    </edge>
+    <edge source="Lady Jessica" target="EVENT" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">they sent the old Proctor here -- to whip our dear Lady Jessica into line.</data>
+    </edge>
+    <edge source="House of Atreides" target="Castle Caladan" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations</data>
+    </edge>
+    <edge source="House of Atreides" target="Paul Atreides" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Atreides family as home for twenty-six generations</data>
+    </edge>
+    <edge source="House of Atreides" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete</data>
+    </edge>
+    <edge source="House of Atreides" target="Arrakis" id="1">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I indicate that House Atreides will go to Arrakis."</data>
+    </edge>
+    <edge source="House of Atreides" target="Harkonnens" id="0">
+      <data key="d10">REPLACES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="House of Atreides" target="farmlands" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the green farmlands of the Atreides family holding</data>
+    </edge>
+    <edge source="Bene Gesserit" target="Book 1 DUNE" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">This every sister of the Bene Gesserit knows.</data>
+    </edge>
+    <edge source="Bene Gesserit" target="people" id="0">
+      <data key="d10">SIFT</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"We Bene Gesserit sift people to find the humans."</data>
+    </edge>
+    <edge source="Bene Gesserit" target="schools" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Bene Gesserit schools?" She nodded.</data>
+    </edge>
+    <edge source="Bene Gesserit" target="Politics" id="0">
+      <data key="d10">PERFORMS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Bene Gesserit performs another function." "Politics," he said.</data>
+    </edge>
+    <edge source="Duke Leto" target="Federated Great Houses of the Landsraad" id="0">
+      <data key="d10">POPULAR_AMONG</data>
+      <data key="d11">0.9</data>
+      <data key="d12">for the Duke Leto was popular among the Great Houses of the Landsraad</data>
+    </edge>
+    <edge source="Duke Leto" target="Arrakis" id="0">
+      <data key="d10">LEADS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">He signs it: 'Duke Leto of Arrakis.'</data>
+    </edge>
+    <edge source="Duke Leto" target="House of Atreides" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"our campaign against the House of Atreides."</data>
+    </edge>
+    <edge source="Duke Leto" target="House of Atreides" id="1">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Duke and his family</data>
+    </edge>
+    <edge source="Duke Leto" target="Residency" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Duke and his family will occupy the Residency</data>
+    </edge>
+    <edge source="Duke Leto" target="Fremen" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.7</data>
+      <data key="d12">The Duke Leto," Piter said, "may attempt to flee to the new Fremen scum along the desert's edge.</data>
+    </edge>
+    <edge source="Duke Leto" target="his son" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">this chip here, this is the Duke Leto, and this one's his son</data>
+    </edge>
+    <edge source="Duke Leto" target="A Child's History of Muad'Dib" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Duke Leto, whose qualities as a father have long been overlooked.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Duke Leto" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Thufir Hawat, his father's Master of Assassins</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Mentat" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I've studied with Thufir Hawat."</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Paul Atreides" id="0">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.8</data>
+      <data key="d12">There was Thufir Hawat, the old Mentat Master of Assassins, who struck fear even into the heart of the Padishah Emperor.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Paul Atreides" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Hawat pulled up a chair across from Paul, sat down facing the door.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Paul Atreides" id="2">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.8</data>
+      <data key="d12">noting that Hawat's men already had been over it, checking, making it safe for a duke's heir.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="A Child's History of Muad'Dib" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">was Thufir Hawat, the old Mentat Master of Assassins, who struck fear even into the heart of the Padishah Emperor.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Castle Caladan" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Thufir Hawat slipped into the training room of Castle Caladan, closed the door softly.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="EVENT" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Hawat pulled up a chair across from Paul, sat down facing the door.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Paul's father" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Did my father send you up to test me?" Hawat scowled -- the boy had such observing ways about him. He nodded.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Hawat thought</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Reverend Mother" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Did you meet the Reverend Mother?" "That Truthsayer witch from the Imperium?" Hawat's eyes quickened with interest. "I met her."</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Arrakis" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Hawat stood up. "I leave today for Arrakis.</data>
+    </edge>
+    <edge source="Harkonnens" target="House of Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">their mortal enemies, the Harkonnens</data>
+    </edge>
+    <edge source="Harkonnens" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens, had been on Arrakis eighty years</data>
+    </edge>
+    <edge source="Harkonnens" target="Arrakis" id="1">
+      <data key="d10">LEAVES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="CHOAM Company" target="Arrakis" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.8</data>
+      <data key="d12">under a CHOAM Company contract to mine the geriatric spice</data>
+    </edge>
+    <edge source="CHOAM Company" target="Imperium" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">CHOAM was the key to wealth, each noble House dipping from the company's coffers whatever it could under the power of the directorships.</data>
+    </edge>
+    <edge source="CHOAM Company" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Imperium, the CHOAM Company, all the Great Houses, they are but bits of flotsam in the path of the flood.</data>
+    </edge>
+    <edge source="CHOAM Company" target="path of the flood." id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">path of the flood."   "CHOAM," Jessica muttered.</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Paul Atreides" id="0">
+      <data key="d10">TEACHES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Dr. Yueh, his teacher, had hinted</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Paul Atreides" id="1">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Dr. Wellington Yueh, a name</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Paul Atreides" id="2">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul joined him at the table, buttoning his jacket.</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="end of all the Atreides" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Dr. Yueh will move against him soon, and that'll be the end of all the Atreides.</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Baron Vladimir Harkonnen" id="0">
+      <data key="d10">AGENT_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The obvious suspect is Dr. Yueh, who is indeed our agent.</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Suk School" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">our doctor is a Suk School graduate</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Imperial Conditioning" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">our doctor is a Suk School graduate with Imperial Conditioning</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="A Child's History of Muad'Dib" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Dr. Wellington Yueh, a name black in treachery but bright in knowledge;</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="investigation" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I must seek out the planetary ecologist when we arrive -- a Dr. Kynes -- and offer my help in the investigation.</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Orange Catholic Bible" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"It's a very old Orange Catholic Bible made for space travelers."</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="filmbook" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I've a filmbook on a small specimen, only one hundred and ten meters long and twenty-two meters in diameter."</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="gift" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Before I go, I've a gift for you, something I came across in packing."</data>
+    </edge>
+    <edge source="Dr. Wellington Yueh" target="Wanna Marcus" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">my Wanna's favorite passage</data>
+    </edge>
+    <edge source="Fremen" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen</data>
+    </edge>
+    <edge source="Fremen" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Have you ever seen the Fremen?</data>
+    </edge>
+    <edge source="Fremen" target="Harkonnens" id="0">
+      <data key="d10">HATES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">they hate Harkonnens with a bloody passion.</data>
+    </edge>
+    <edge source="Fremen" target="desert" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Fremen must be brave to live at the edge of that desert.</data>
+    </edge>
+    <edge source="Fremen" target="poems" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">They compose poems to their knives.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Emperor" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Now, she's the Emperor's Truthsayer.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Paul's dreams" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"I dreamed of her once," Paul said.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Lady Jessica" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Lady Jessica" id="1">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">The old voice carried a tone of cruel mimicry.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Butlerian Jihad" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Right out of the Butlerian Jihad and the Orange Catholic Bible," she said.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Orange Catholic Bible" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Right out of the Butlerian Jihad and the Orange Catholic Bible," she said.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Bene Gesserit" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Reverend Mother returned her attention to Paul.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Bene Gesserit" id="1">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The old woman stared at Paul, then: "Young man, as a Proctor of the Bene Gesserit, I seek the Kwisatz Haderach, the male who truly can become one of us.</data>
+    </edge>
+    <edge source="Reverend Mother" target="Paul Atreides" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Reverend Mother stared at him, wondering: Did I hear criticism in his voice?</data>
+    </edge>
+    <edge source="Reverend Mother" target="Kwisatz Haderach" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Don't you want to hear what the Reverend Mother can tell you about the Kwisatz Haderach?</data>
+    </edge>
+    <edge source="Reverend Mother" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the ordeal with the Reverend Mother</data>
+    </edge>
+    <edge source="Reverend Mother" target="Imperium" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"That Truthsayer witch from the Imperium?"</data>
+    </edge>
+    <edge source="Emperor" target="his friends" id="0">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Emperor and his friends now command fifty-nine point six-five per cent of the CHOAM directorship's votes.</data>
+    </edge>
+    <edge source="Emperor" target="fifty-nine point six-five per cent of the CHOAM directorship's votes" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Emperor and his friends now command fifty-nine point six-five per cent of the CHOAM directorship's votes.</data>
+    </edge>
+    <edge source="Emperor" target="Paul Atreides" id="0">
+      <data key="d10">ORDERS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Because the Emperor ordered it.</data>
+    </edge>
+    <edge source="Reverend Mother Gaius Helen Mohiam" target="Bene Gesserit" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">a mission that required personal attention from a Bene Gesserit-with-theSight.</data>
+    </edge>
+    <edge source="Reverend Mother Gaius Helen Mohiam" target="Padishah Emperor's Truthsayer" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Even the Padishah Emperor's Truthsayer couldn't evade that responsibility</data>
+    </edge>
+    <edge source="Reverend Mother Gaius Helen Mohiam" target="Bene Gesserit school" id="0">
+      <data key="d10">LEADS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Reverend Mother Gaius Helen Mohiam, Proctor Superior of the Bene Gesserit school</data>
+    </edge>
+    <edge source="old woman" target="Paul Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.7</data>
+      <data key="d12">Withdraw your hand and the gom jabbar takes you.</data>
+    </edge>
+    <edge source="old woman" target="test with the gom jabbar" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The old woman muttered. "Kull wahad! No woman child ever withstood that much."</data>
+    </edge>
+    <edge source="gom jabbar" target="Paul Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"The gom jabbar, the highhanded enemy. It's a needle with a drop of poison on its tip."</data>
+    </edge>
+    <edge source="gom jabbar" target="test with the gom jabbar" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">She leaned back, withdrawing the gom jabbar from the side of his neck.</data>
+    </edge>
+    <edge source="Spacing Guild" target="schools" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Bene Gesserit and the Spacing Guild. The Guild, so we think, emphasizes almost pure mathematics.</data>
+    </edge>
+    <edge source="Spacing Guild" target="monopoly on interstellar transport" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Guild with its damnable monopoly on interstellar transport.</data>
+    </edge>
+    <edge source="Truthsayer drug" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Now, lad, do you know about the Truthsayer drug?</data>
+    </edge>
+    <edge source="Kwisatz Haderach" target="passage" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">You say maybe I'm the . . . Kwisatz Haderach.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Piter de Vries" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">There it is, Piter -- the biggest mantrap in all history. And the Duke's headed into its jaws. Is it not a magnificent thing that I, the Baron Vladimir Harkonnen, do?</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Piter de Vries" id="1">
+      <data key="d10">HATES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I must do away with that one soon. He has almost outlived his usefulness.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Piter de Vries" id="2">
+      <data key="d10">LEADS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">My uncle cannot talk to his Mental without arguing.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Feyd-Rautha Harkonnen" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Observe closely, Piter, and you, too, FeydRautha, my darling"</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Feyd-Rautha Harkonnen" id="1">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"it is not necessary to confuse my nephew."</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Feyd-Rautha Harkonnen" id="2">
+      <data key="d10">LOVES</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Send for food, my darling.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Duke Leto" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"the Padishah Emperor believes he's given the Duke your spice planet."</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Duke Leto" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Duke will know, too. He knows now.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Duke Leto" id="2">
+      <data key="d10">HATES</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Loveliest of all," Piter said, "is that the Duke will know, too.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Leto Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I have ofttimes met your treachery and this all men know."</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Emperor" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Already you have the Emperor's eyes on you, Baron.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Corps of Sardaukar" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">You'd enjoy seeing the Corps of Sardaukar pillage through my cities and sack this castle.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Lady Jessica" id="0">
+      <data key="d10">PROMISED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">You promised me the Lady Jessica. You promised her to me.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Lady Jessica" id="1">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">with that witch mother training him. Accursed woman!</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Paul Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">What of the Dukeling, the child Paul, my dear Piter?</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Mentat" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"This is a Mentat, Feyd. It has been trained and conditioned to perform certain duties."</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Thufir Hawat" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Hawat's mind will be so filled with this prospect it'll impair his function as a Mentat.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="dispensation of that fief" id="0">
+      <data key="d10">WILL_HAVE</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Your uncle will have dispensation of that fief.</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="House of Atreides" id="0">
+      <data key="d10">DESTROYED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Baron has destroyed the Atreides</data>
+    </edge>
+    <edge source="Baron Vladimir Harkonnen" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Baron moved out and away from the globe of Arrakis.</data>
+    </edge>
+    <edge source="Piter de Vries" target="Baron Vladimir Harkonnen" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">For a Mentat, you talk too much, Piter," the Baron said.</data>
+    </edge>
+    <edge source="Piter de Vries" target="Baron Vladimir Harkonnen" id="1">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I know as a Mentat when you will send the executioner.</data>
+    </edge>
+    <edge source="Piter de Vries" target="Arrakeen" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.7</data>
+      <data key="d12">He might've come directly from the Arrakeen labor pool.</data>
+    </edge>
+    <edge source="Feyd-Rautha Harkonnen" target="Baron Vladimir Harkonnen" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Yes, Uncle."</data>
+    </edge>
+    <edge source="Corps of Sardaukar" target="Emperor" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Emperor will send a legion or two of his Sardaukar</data>
+    </edge>
+    <edge source="Corps of Sardaukar" target="end to the Baron Vladimir Harkonnen" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">that'll be an end to the Baron Vladimir Harkonnen.</data>
+    </edge>
+    <edge source="Giedi Prime" target="Baron Vladimir Harkonnen" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Sardaukar down here onto Giedi Prime</data>
+    </edge>
+    <edge source="Arrakeen" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"The Guild will deposit them at the city of Arrakeen rather than at our city of Carthag."</data>
+    </edge>
+    <edge source="Count Fenring" target="Residency" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">lately the home of Count and Lady Fenring</data>
+    </edge>
+    <edge source="Count Fenring" target="Ambassador to the Smugglers" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">He calls Count Fenring Ambassador to the Smugglers</data>
+    </edge>
+    <edge source="House Harkonnen" target="Imperial House" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">since House Harkonnen is being used to do the Imperial dirty work</data>
+    </edge>
+    <edge source="House Harkonnen" target="CHOAM Company" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">we'll have an irrevocable directorship in the CHOAM Company</data>
+    </edge>
+    <edge source="House Harkonnen" target="subfief on Arrakis" id="0">
+      <data key="d10">WILL_HAVE</data>
+      <data key="d11">0.9</data>
+      <data key="d12">House Harkonnen will have a subfief on Arrakis within a Standard year.</data>
+    </edge>
+    <edge source="Kynes" target="His Majesty" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">that path is blocked by one of His Majesty's agents -- the planetary ecologist. You may remember him -- Kynes.</data>
+    </edge>
+    <edge source="St. Alia-of-the-Knife" target="Muad'Dib, Family Commentaries" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">-from "Muad'Dib, Family Commentaries" by the Princess Irulan</data>
+    </edge>
+    <edge source="Princess Irulan" target="Muad'Dib, Family Commentaries" id="0">
+      <data key="d10">CREATED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">-from "Muad'Dib, Family Commentaries" by the Princess Irulan</data>
+    </edge>
+    <edge source="Bene Gesserit school" target="Wallach IX" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Bene Gesserit school on Wallach IX</data>
+    </edge>
+    <edge source="Imperial Household" target="Federated Great Houses of the Landsraad" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.8</data>
+      <data key="d12">We've a three-point civilization: the Imperial Household balanced against the Federated Great Houses of the Landsraad</data>
+    </edge>
+    <edge source="Missionaria Protectiva" target="EVENT" id="0">
+      <data key="d10">ORGANIZATION</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Missionaria Protectiva has been in there and softened it up somewhat.</data>
+    </edge>
+    <edge source="Gurney Halleck" target="tone poems" id="0">
+      <data key="d10">CREATED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">It's just one of Gurney Halleck's tone poems for sad times.</data>
+    </edge>
+    <edge source="Gurney Halleck" target="Paul Atreides" id="0">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Muad'Dib did have wonderful companion-teachers. There was Gurney Halleck, the troubadour-warrior.</data>
+    </edge>
+    <edge source="Gurney Halleck" target="Paul Atreides" id="1">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.8</data>
+      <data key="d12">"are you the new weapons master?"</data>
+    </edge>
+    <edge source="Gurney Halleck" target="Paul Atreides" id="2">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Of all his father's men, he liked Gurney Halleck best, knew the man's moods and deviltry, his humors, and thought of him more as a friend than as a hired sword.</data>
+    </edge>
+    <edge source="Gurney Halleck" target="council" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.7</data>
+      <data key="d12">it was decided in council that you being such a poor fighter we'd best teach you the music trade</data>
+    </edge>
+    <edge source="Gurney Halleck" target="Duke Leto" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">As to your father -the Duke'd punish me only if I failed to make a first-class fighting man out of you.</data>
+    </edge>
+    <edge source="Duncan Idaho" target="Paul Atreides" id="0">
+      <data key="d10">FRIENDS_WITH</data>
+      <data key="d11">0.8</data>
+      <data key="d12">There were Duncan Idaho, the Swordmaster of the Ginaz;</data>
+    </edge>
+    <edge source="Duncan Idaho" target="A Child's History of Muad'Dib" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">There were Duncan Idaho, the Swordmaster of the Ginaz;</data>
+    </edge>
+    <edge source="Duncan Idaho" target="second wave onto Arrakis" id="0">
+      <data key="d10">LEADS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Duncan's gone to lead the second wave onto Arrakis</data>
+    </edge>
+    <edge source="Proctor" target="EVENT" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">they sent the old Proctor here -- to whip our dear Lady Jessica into line.</data>
+    </edge>
+    <edge source="Halleck" target="Paul Atreides" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Halleck watched the action, turned at the last minute to let the blunted blade pass his chest.</data>
+    </edge>
+    <edge source="Halleck" target="Paul Atreides" id="1">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.7</data>
+      <data key="d12">This in the hand of an enemy can let out your life's blood!</data>
+    </edge>
+    <edge source="Halleck" target="Beast Rabban" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime</data>
+    </edge>
+    <edge source="Halleck" target="Harkonnen slave pit" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime</data>
+    </edge>
+    <edge source="Halleck" target="Giedi Prime" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime</data>
+    </edge>
+    <edge source="Halleck" target="younger sister" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">For some reason, he recalled his younger sister, her elfin face so clear in his mind.</data>
+    </edge>
+    <edge source="younger sister" target="pansies" id="0">
+      <data key="d10">LOVES</data>
+      <data key="d11">0.7</data>
+      <data key="d12">She had loved pansies . . . or was it daisies?</data>
+    </edge>
+    <edge source="Harkonnen troops" target="younger sister" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">But she was dead now -- in a pleasure house for Harkonnen troops.</data>
+    </edge>
+    <edge source="Wellington Yueh" target="Suk School" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">1.0</data>
+      <data key="d12">medical doctor of the Suk School</data>
+    </edge>
+    <edge source="Wellington Yueh" target="Wanna Marcus" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">1.0</data>
+      <data key="d12">md: Wanna Marcus, B.G.</data>
+    </edge>
+    <edge source="Wellington Yueh" target="Leto Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">betrayer of Duke Leto Atreides</data>
+    </edge>
+    <edge source="Liet-Kynes" target="investigation" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I must seek out the planetary ecologist when we arrive -- a Dr. Kynes -- and offer my help in the investigation.</data>
+    </edge>
+  </graph>
+</graphml>

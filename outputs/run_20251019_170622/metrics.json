@@ -1,0 +1,86 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 42,
+    "avg_confidence": 0.883,
+    "min_confidence": 0.7,
+    "max_confidence": 0.9,
+    "unique_relations": 16,
+    "relation_distribution": {
+      "LOCATED_IN": 7,
+      "MENTIONED_IN": 6,
+      "FAMILY_OF": 5,
+      "MEMBER_OF": 5,
+      "WORKS_FOR": 4,
+      "PARTICIPATES_IN": 4,
+      "OWNS": 2,
+      "LOVES": 1,
+      "ENEMY_OF": 1,
+      "LEAVES": 1
+    }
+  },
+  "personality_stats": {
+    "total_profiles": 4,
+    "avg_trait_scores": {
+      "openness": 0.7,
+      "conscientiousness": 0.6,
+      "extraversion": 0.0,
+      "agreeableness": 0.6,
+      "neuroticism": 0.55
+    }
+  },
+  "graph_stats": {
+    "num_nodes": 31,
+    "num_edges": 42,
+    "density": 0.0452,
+    "avg_degree": 2.71,
+    "max_degree": 12,
+    "most_connected_nodes": [
+      {
+        "node": "Paul Atreides",
+        "degree": 12
+      },
+      {
+        "node": "Lady Jessica",
+        "degree": 9
+      },
+      {
+        "node": "Arrakis",
+        "degree": 7
+      },
+      {
+        "node": "Gaius Helen Mohiam",
+        "degree": 7
+      },
+      {
+        "node": "House of Atreides",
+        "degree": 6
+      },
+      {
+        "node": "Bene Gesserit",
+        "degree": 4
+      },
+      {
+        "node": "Leto Atreides",
+        "degree": 4
+      },
+      {
+        "node": "Harkonnens",
+        "degree": 4
+      },
+      {
+        "node": "gom jabbar",
+        "degree": 3
+      },
+      {
+        "node": "old woman",
+        "degree": 3
+      }
+    ],
+    "num_components": 1,
+    "largest_component_size": 31
+  }
+}

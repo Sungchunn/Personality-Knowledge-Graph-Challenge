@@ -1,0 +1,283 @@
+{"timestamp": "2025-10-20T16:48:35.012484+00:00", "level": "INFO", "stage": "extract_triples", "message": "Starting stage: extract_triples"}
+{"timestamp": "2025-10-20T16:48:35.012568+00:00", "level": "INFO", "stage": "extract_triples", "message": "Discovering input JSONL files"}
+{"timestamp": "2025-10-20T16:48:35.012614+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing single file: foundation-1-asimov-isaac-foundation-libgen-li.jsonl"}
+{"timestamp": "2025-10-20T16:48:35.182117+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing book: foundation-1-asimov-isaac-foundation-libgen-li"}
+{"timestamp": "2025-10-20T17:12:50.310085+00:00", "level": "INFO", "stage": "extract_triples", "message": "Extracted 1276 triples from 258 passages", "metadata": {"triple_count": 1276, "passage_count": 258}}
+{"timestamp": "2025-10-20T17:12:50.334149+00:00", "level": "INFO", "stage": "extract_triples", "message": "Saved raw triples to outputs/foundation_run_20251020_234834/triples_raw.jsonl"}
+{"timestamp": "2025-10-20T17:12:50.334496+00:00", "level": "INFO", "stage": "extract_triples", "message": "Completed stage: extract_triples", "metadata": {"duration_seconds": 1455.322203}}
+{"timestamp": "2025-10-20T17:12:50.336396+00:00", "level": "INFO", "stage": "canonicalize", "message": "Starting stage: canonicalize"}
+{"timestamp": "2025-10-20T17:12:50.336576+00:00", "level": "INFO", "stage": "canonicalize", "message": "Loading raw triples from outputs/foundation_run_20251020_234834/triples_raw.jsonl"}
+{"timestamp": "2025-10-20T17:12:50.344089+00:00", "level": "INFO", "stage": "canonicalize", "message": "Loaded 1276 raw triples"}
+{"timestamp": "2025-10-20T17:12:50.344559+00:00", "level": "INFO", "stage": "canonicalize", "message": "Found 604 unique entities"}
+{"timestamp": "2025-10-20T17:12:50.375722+00:00", "level": "INFO", "stage": "canonicalize", "message": "Generating canonical mappings"}
+{"timestamp": "2025-10-20T17:13:54.186854+00:00", "level": "INFO", "stage": "canonicalize", "message": "Generated 75 canonical mappings", "metadata": {"mapping_count": 75}}
+{"timestamp": "2025-10-20T17:13:54.213622+00:00", "level": "INFO", "stage": "canonicalize", "message": "Saved canonical triples to outputs/foundation_run_20251020_234834/triples_canonical.jsonl"}
+{"timestamp": "2025-10-20T17:13:54.213947+00:00", "level": "INFO", "stage": "canonicalize", "message": "Completed stage: canonicalize", "metadata": {"duration_seconds": 63.87753}}
+{"timestamp": "2025-10-20T17:13:54.222034+00:00", "level": "INFO", "stage": "qa_filters", "message": "Starting with 1276 triples"}
+{"timestamp": "2025-10-20T17:13:54.222350+00:00", "level": "INFO", "stage": "qa_filters", "message": "After confidence filter: 1276 triples", "metadata": {"dropped": 0}}
+{"timestamp": "2025-10-20T17:13:54.223379+00:00", "level": "INFO", "stage": "qa_filters", "message": "After evidence validation: 1266 triples", "metadata": {"dropped": 10}}
+{"timestamp": "2025-10-20T17:13:54.224018+00:00", "level": "INFO", "stage": "qa_filters", "message": "After normalization: 1176 triples"}
+{"timestamp": "2025-10-20T17:13:54.227880+00:00", "level": "INFO", "stage": "qa_filters", "message": "After deduplication: 974 triples", "metadata": {"dropped": 202}}
+{"timestamp": "2025-10-20T17:13:54.227999+00:00", "level": "INFO", "stage": "qa_filters", "message": "QA filtering complete: 974 triples retained", "metadata": {"total_dropped": 302, "retention_rate": "76.3%"}}
+{"timestamp": "2025-10-20T17:13:54.235036+00:00", "level": "INFO", "stage": "qa_filters", "message": "Updated outputs/foundation_run_20251020_234834/triples_canonical.jsonl with filtered triples"}
+{"timestamp": "2025-10-20T17:13:54.235166+00:00", "level": "INFO", "stage": "infer_personality", "message": "Starting stage: infer_personality"}
+{"timestamp": "2025-10-20T17:13:54.235264+00:00", "level": "INFO", "stage": "infer_personality", "message": "Loading triples from outputs/foundation_run_20251020_234834/triples_canonical.jsonl"}
+{"timestamp": "2025-10-20T17:13:54.239153+00:00", "level": "INFO", "stage": "infer_personality", "message": "Loaded 974 triples"}
+{"timestamp": "2025-10-20T17:13:54.239446+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 116 people"}
+{"timestamp": "2025-10-20T17:13:54.261715+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Jord Parma"}
+{"timestamp": "2025-10-20T17:13:54.266719+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 7 passages mentioning Jord Parma", "metadata": {"passage_count": 7}}
+{"timestamp": "2025-10-20T17:14:11.908633+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Siwenna"}
+{"timestamp": "2025-10-20T17:14:11.920890+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 9 passages mentioning Siwenna", "metadata": {"passage_count": 9}}
+{"timestamp": "2025-10-20T17:14:30.540272+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Anacreon"}
+{"timestamp": "2025-10-20T17:14:30.559714+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 74 passages mentioning Anacreon", "metadata": {"passage_count": 74}}
+{"timestamp": "2025-10-20T17:14:46.234063+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Enemy units"}
+{"timestamp": "2025-10-20T17:14:46.248187+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Enemy units", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:14:51.225333+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lepold's grandfather"}
+{"timestamp": "2025-10-20T17:14:51.240690+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Lepold's grandfather", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:14:56.143467+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: us"}
+{"timestamp": "2025-10-20T17:14:56.158674+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 253 passages mentioning us", "metadata": {"passage_count": 253}}
+{"timestamp": "2025-10-20T17:15:13.957855+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Les Gorm"}
+{"timestamp": "2025-10-20T17:15:13.970498+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Les Gorm", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:15:19.517066+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: King of Anacreon"}
+{"timestamp": "2025-10-20T17:15:19.530911+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 9 passages mentioning King of Anacreon", "metadata": {"passage_count": 9}}
+{"timestamp": "2025-10-20T17:15:35.157170+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Askone"}
+{"timestamp": "2025-10-20T17:15:35.173659+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 10 passages mentioning Askone", "metadata": {"passage_count": 10}}
+{"timestamp": "2025-10-20T17:15:53.895937+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Four Kingdoms"}
+{"timestamp": "2025-10-20T17:15:53.911248+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 13 passages mentioning Four Kingdoms", "metadata": {"passage_count": 13}}
+{"timestamp": "2025-10-20T17:16:27.082564+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: king"}
+{"timestamp": "2025-10-20T17:16:27.094991+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 121 passages mentioning king", "metadata": {"passage_count": 121}}
+{"timestamp": "2025-10-20T17:16:50.626618+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: She"}
+{"timestamp": "2025-10-20T17:16:50.642023+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 95 passages mentioning She", "metadata": {"passage_count": 95}}
+{"timestamp": "2025-10-20T17:17:05.166628+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Hober Mallow"}
+{"timestamp": "2025-10-20T17:17:05.182384+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 15 passages mentioning Hober Mallow", "metadata": {"passage_count": 15}}
+{"timestamp": "2025-10-20T17:17:40.744857+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Pirenne"}
+{"timestamp": "2025-10-20T17:17:40.759212+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 31 passages mentioning Pirenne", "metadata": {"passage_count": 31}}
+{"timestamp": "2025-10-20T17:18:00.369125+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: gold"}
+{"timestamp": "2025-10-20T17:18:00.387540+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 24 passages mentioning gold", "metadata": {"passage_count": 24}}
+{"timestamp": "2025-10-20T17:18:20.840103+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: machine"}
+{"timestamp": "2025-10-20T17:18:20.852511+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 14 passages mentioning machine", "metadata": {"passage_count": 14}}
+{"timestamp": "2025-10-20T17:18:39.182854+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: profits"}
+{"timestamp": "2025-10-20T17:18:39.196206+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 9 passages mentioning profits", "metadata": {"passage_count": 9}}
+{"timestamp": "2025-10-20T17:19:01.801218+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lieutenant Tinter"}
+{"timestamp": "2025-10-20T17:19:01.815571+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Lieutenant Tinter", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:19:05.795693+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Ambassador Verisof"}
+{"timestamp": "2025-10-20T17:19:05.810270+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Ambassador Verisof", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:19:07.841380+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Chen"}
+{"timestamp": "2025-10-20T17:19:07.855746+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 8 passages mentioning Chen", "metadata": {"passage_count": 8}}
+{"timestamp": "2025-10-20T17:19:24.304897+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Five Tribes"}
+{"timestamp": "2025-10-20T17:19:24.320126+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Five Tribes", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:19:32.218994+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: council seat"}
+{"timestamp": "2025-10-20T17:19:32.232708+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning council seat", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:19:47.266761+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Twer"}
+{"timestamp": "2025-10-20T17:19:47.284105+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 20 passages mentioning Twer", "metadata": {"passage_count": 20}}
+{"timestamp": "2025-10-20T17:20:10.416573+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Eskel Gorov"}
+{"timestamp": "2025-10-20T17:20:10.429392+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Eskel Gorov", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:20:19.179533+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Council"}
+{"timestamp": "2025-10-20T17:20:19.195516+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 36 passages mentioning Council", "metadata": {"passage_count": 36}}
+{"timestamp": "2025-10-20T17:21:09.092962+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: sixth son"}
+{"timestamp": "2025-10-20T17:21:09.108181+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning sixth son", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:21:14.411757+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: regent"}
+{"timestamp": "2025-10-20T17:21:14.427194+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 14 passages mentioning regent", "metadata": {"passage_count": 14}}
+{"timestamp": "2025-10-20T17:21:30.794785+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Asper"}
+{"timestamp": "2025-10-20T17:21:30.812141+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 10 passages mentioning Asper", "metadata": {"passage_count": 10}}
+{"timestamp": "2025-10-20T17:21:54.548193+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Crast"}
+{"timestamp": "2025-10-20T17:21:54.563231+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Crast", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:22:07.964633+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Mallow"}
+{"timestamp": "2025-10-20T17:22:07.978947+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 73 passages mentioning Mallow", "metadata": {"passage_count": 73}}
+{"timestamp": "2025-10-20T17:22:25.582322+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Avakim"}
+{"timestamp": "2025-10-20T17:22:25.598172+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Avakim", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:22:51.680748+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Hardin"}
+{"timestamp": "2025-10-20T17:22:51.695595+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 105 passages mentioning Hardin", "metadata": {"passage_count": 105}}
+{"timestamp": "2025-10-20T17:23:06.585033+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Commdora"}
+{"timestamp": "2025-10-20T17:23:06.599778+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 6 passages mentioning Commdora", "metadata": {"passage_count": 6}}
+{"timestamp": "2025-10-20T17:23:40.238256+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Smyrno"}
+{"timestamp": "2025-10-20T17:23:40.252561+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 12 passages mentioning Smyrno", "metadata": {"passage_count": 12}}
+{"timestamp": "2025-10-20T17:24:03.884430+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Korellian mob"}
+{"timestamp": "2025-10-20T17:24:03.901047+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Korellian mob", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:24:14.333977+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: my father"}
+{"timestamp": "2025-10-20T17:24:14.348022+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning my father", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:24:21.907870+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lundin Crast"}
+{"timestamp": "2025-10-20T17:24:21.922200+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Lundin Crast", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:24:27.847178+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Korellian Republic"}
+{"timestamp": "2025-10-20T17:24:27.861899+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Korellian Republic", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:24:34.300564+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Gaal Dornick"}
+{"timestamp": "2025-10-20T17:24:34.317245+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Gaal Dornick", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:24:51.445018+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Dr. Fara"}
+{"timestamp": "2025-10-20T17:24:51.461885+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Dr. Fara", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:24:57.234614+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Siwennese traitors"}
+{"timestamp": "2025-10-20T17:24:57.247601+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Siwennese traitors", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:25:07.334748+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Yohan Lee"}
+{"timestamp": "2025-10-20T17:25:07.347782+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 7 passages mentioning Yohan Lee", "metadata": {"passage_count": 7}}
+{"timestamp": "2025-10-20T17:25:25.773671+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Origin Question"}
+{"timestamp": "2025-10-20T17:25:25.789979+00:00", "level": "WARNING", "stage": "infer_personality", "message": "No passages found for Origin Question"}
+{"timestamp": "2025-10-20T17:25:25.790505+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Ankor Jael"}
+{"timestamp": "2025-10-20T17:25:25.800770+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 6 passages mentioning Ankor Jael", "metadata": {"passage_count": 6}}
+{"timestamp": "2025-10-20T17:25:39.630019+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Sutt"}
+{"timestamp": "2025-10-20T17:25:39.645556+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 39 passages mentioning Sutt", "metadata": {"passage_count": 39}}
+{"timestamp": "2025-10-20T17:26:06.671997+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Peace"}
+{"timestamp": "2025-10-20T17:26:06.686074+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 8 passages mentioning Peace", "metadata": {"passage_count": 8}}
+{"timestamp": "2025-10-20T17:26:28.578687+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lepold I"}
+{"timestamp": "2025-10-20T17:26:28.598166+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Lepold I", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:26:49.259830+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Manlio"}
+{"timestamp": "2025-10-20T17:26:49.276158+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 7 passages mentioning Manlio", "metadata": {"passage_count": 7}}
+{"timestamp": "2025-10-20T17:27:08.226350+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: three neighbors"}
+{"timestamp": "2025-10-20T17:27:08.276514+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning three neighbors", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:27:16.715129+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lewis Pirenne"}
+{"timestamp": "2025-10-20T17:27:16.730811+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Lewis Pirenne", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:27:24.195901+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Raven Seldon"}
+{"timestamp": "2025-10-20T17:27:24.211250+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Raven Seldon", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:27:30.045357+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Aporat"}
+{"timestamp": "2025-10-20T17:27:30.059753+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 8 passages mentioning Aporat", "metadata": {"passage_count": 8}}
+{"timestamp": "2025-10-20T17:27:48.551420+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Jaim Twer"}
+{"timestamp": "2025-10-20T17:27:48.568387+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 8 passages mentioning Jaim Twer", "metadata": {"passage_count": 8}}
+{"timestamp": "2025-10-20T17:28:11.837555+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Grand Master"}
+{"timestamp": "2025-10-20T17:28:11.847729+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 17 passages mentioning Grand Master", "metadata": {"passage_count": 17}}
+{"timestamp": "2025-10-20T17:28:36.422792+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Entuns"}
+{"timestamp": "2025-10-20T17:28:36.431524+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Entuns", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:28:44.464671+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Pherl"}
+{"timestamp": "2025-10-20T17:28:44.477467+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 10 passages mentioning Pherl", "metadata": {"passage_count": 10}}
+{"timestamp": "2025-10-20T17:28:59.522070+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: son"}
+{"timestamp": "2025-10-20T17:28:59.536070+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 76 passages mentioning son", "metadata": {"passage_count": 76}}
+{"timestamp": "2025-10-20T17:29:17.127314+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Jorane Sutt"}
+{"timestamp": "2025-10-20T17:29:17.144035+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 11 passages mentioning Jorane Sutt", "metadata": {"passage_count": 11}}
+{"timestamp": "2025-10-20T17:29:47.260681+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Salvor Hardin"}
+{"timestamp": "2025-10-20T17:29:47.276830+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 22 passages mentioning Salvor Hardin", "metadata": {"passage_count": 22}}
+{"timestamp": "2025-10-20T17:30:08.507319+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Hari Seldon"}
+{"timestamp": "2025-10-20T17:30:08.520533+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 44 passages mentioning Hari Seldon", "metadata": {"passage_count": 44}}
+{"timestamp": "2025-10-20T17:30:23.891388+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Commdor of Korell"}
+{"timestamp": "2025-10-20T17:30:23.907548+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Commdor of Korell", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:30:27.691872+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: commander"}
+{"timestamp": "2025-10-20T17:30:27.703148+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning commander", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:30:37.111545+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: viceroy"}
+{"timestamp": "2025-10-20T17:30:37.124800+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 11 passages mentioning viceroy", "metadata": {"passage_count": 11}}
+{"timestamp": "2025-10-20T17:30:51.505248+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Fara"}
+{"timestamp": "2025-10-20T17:30:51.521482+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 12 passages mentioning Fara", "metadata": {"passage_count": 12}}
+{"timestamp": "2025-10-20T17:31:09.563365+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: daughter"}
+{"timestamp": "2025-10-20T17:31:09.580535+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning daughter", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:31:12.941680+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lee"}
+{"timestamp": "2025-10-20T17:31:12.957286+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 38 passages mentioning Lee", "metadata": {"passage_count": 38}}
+{"timestamp": "2025-10-20T17:31:27.698691+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Trader Mallow"}
+{"timestamp": "2025-10-20T17:31:27.711575+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Trader Mallow", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:31:33.938455+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: The Foundation"}
+{"timestamp": "2025-10-20T17:31:33.954838+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 106 passages mentioning The Foundation", "metadata": {"passage_count": 106}}
+{"timestamp": "2025-10-20T17:31:49.602598+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Limmar Ponyets"}
+{"timestamp": "2025-10-20T17:31:49.618349+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Limmar Ponyets", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:31:54.623405+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Anacreonian navy"}
+{"timestamp": "2025-10-20T17:31:54.639156+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Anacreonian navy", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:32:18.593089+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: City"}
+{"timestamp": "2025-10-20T17:32:18.606498+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 43 passages mentioning City", "metadata": {"passage_count": 43}}
+{"timestamp": "2025-10-20T17:32:38.345805+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Wiscard"}
+{"timestamp": "2025-10-20T17:32:38.362476+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning Wiscard", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-20T17:32:42.339492+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Wienis"}
+{"timestamp": "2025-10-20T17:32:42.358233+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 37 passages mentioning Wienis", "metadata": {"passage_count": 37}}
+{"timestamp": "2025-10-20T17:32:56.773305+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Korell"}
+{"timestamp": "2025-10-20T17:32:56.784259+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 31 passages mentioning Korell", "metadata": {"passage_count": 31}}
+{"timestamp": "2025-10-20T17:33:15.313003+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lester del Rey"}
+{"timestamp": "2025-10-20T17:33:15.329681+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Lester del Rey", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:33:21.768750+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Imperial Purple"}
+{"timestamp": "2025-10-20T17:33:21.783168+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Imperial Purple", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:33:27.087721+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Jerril"}
+{"timestamp": "2025-10-20T17:33:27.101644+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning Jerril", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-20T17:33:32.106251+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Yate Fulham"}
+{"timestamp": "2025-10-20T17:33:32.119860+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 5 passages mentioning Yate Fulham", "metadata": {"passage_count": 5}}
+{"timestamp": "2025-10-20T17:33:53.097333+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Gorm"}
+{"timestamp": "2025-10-20T17:33:53.114449+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Gorm", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:34:00.724402+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Empire"}
+{"timestamp": "2025-10-20T17:34:00.739047+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 72 passages mentioning Empire", "metadata": {"passage_count": 72}}
+{"timestamp": "2025-10-20T17:34:13.562187+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: foreign spiritual power"}
+{"timestamp": "2025-10-20T17:34:13.577229+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning foreign spiritual power", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:34:18.248880+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Jael"}
+{"timestamp": "2025-10-20T17:34:18.260852+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 18 passages mentioning Jael", "metadata": {"passage_count": 18}}
+{"timestamp": "2025-10-20T17:34:35.031017+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Terminus"}
+{"timestamp": "2025-10-20T17:34:35.049326+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 54 passages mentioning Terminus", "metadata": {"passage_count": 54}}
+{"timestamp": "2025-10-20T17:34:50.905569+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: tech-man"}
+{"timestamp": "2025-10-20T17:34:50.917433+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 7 passages mentioning tech-man", "metadata": {"passage_count": 7}}
+{"timestamp": "2025-10-20T17:35:08.647884+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lewis Bort"}
+{"timestamp": "2025-10-20T17:35:08.661118+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Lewis Bort", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:35:19.044675+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Isaac Asimov"}
+{"timestamp": "2025-10-20T17:35:19.060446+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Isaac Asimov", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:35:26.343235+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: noble admiral"}
+{"timestamp": "2025-10-20T17:35:26.358137+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning noble admiral", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:35:30.789325+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Janet Jeppson"}
+{"timestamp": "2025-10-20T17:35:30.804750+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Janet Jeppson", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:35:32.521194+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: King Lepold"}
+{"timestamp": "2025-10-20T17:35:32.536092+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning King Lepold", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:35:37.445527+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Poly Verisof"}
+{"timestamp": "2025-10-20T17:35:37.464047+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Poly Verisof", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:35:43.693119+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lameth"}
+{"timestamp": "2025-10-20T17:35:43.708976+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Lameth", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:35:50.774198+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: old man"}
+{"timestamp": "2025-10-20T17:35:50.792594+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 11 passages mentioning old man", "metadata": {"passage_count": 11}}
+{"timestamp": "2025-10-20T17:36:13.081675+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Locris wine"}
+{"timestamp": "2025-10-20T17:36:13.096494+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Locris wine", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:36:17.999992+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Prince Lefkin"}
+{"timestamp": "2025-10-20T17:36:18.016904+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning Prince Lefkin", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-20T17:36:49.748916+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Ponyets"}
+{"timestamp": "2025-10-20T17:36:49.761817+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 25 passages mentioning Ponyets", "metadata": {"passage_count": 25}}
+{"timestamp": "2025-10-20T17:37:14.211702+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Emperor Cleon I"}
+{"timestamp": "2025-10-20T17:37:14.230147+00:00", "level": "WARNING", "stage": "infer_personality", "message": "No passages found for Emperor Cleon I"}
+{"timestamp": "2025-10-20T17:37:14.230769+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: my"}
+{"timestamp": "2025-10-20T17:37:14.241141+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 167 passages mentioning my", "metadata": {"passage_count": 167}}
+{"timestamp": "2025-10-20T17:37:27.525044+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Larry Ashmead"}
+{"timestamp": "2025-10-20T17:37:27.542583+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Larry Ashmead", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:37:33.287467+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: people"}
+{"timestamp": "2025-10-20T17:37:33.300151+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 39 passages mentioning people", "metadata": {"passage_count": 39}}
+{"timestamp": "2025-10-20T17:37:53.028302+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Fred Pohl"}
+{"timestamp": "2025-10-20T17:37:53.038643+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Fred Pohl", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:37:58.025524+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Gorov"}
+{"timestamp": "2025-10-20T17:37:58.033981+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 13 passages mentioning Gorov", "metadata": {"passage_count": 13}}
+{"timestamp": "2025-10-20T17:38:16.966133+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Emperor's crown"}
+{"timestamp": "2025-10-20T17:38:16.976217+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Emperor's crown", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:38:23.333696+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Tomaz Sutt"}
+{"timestamp": "2025-10-20T17:38:23.346559+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 2 passages mentioning Tomaz Sutt", "metadata": {"passage_count": 2}}
+{"timestamp": "2025-10-20T17:38:26.509666+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Outlanders"}
+{"timestamp": "2025-10-20T17:38:26.524844+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 3 passages mentioning Outlanders", "metadata": {"passage_count": 3}}
+{"timestamp": "2025-10-20T17:38:32.558096+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Commission"}
+{"timestamp": "2025-10-20T17:38:32.574868+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 15 passages mentioning Commission", "metadata": {"passage_count": 15}}
+{"timestamp": "2025-10-20T17:38:51.394660+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Barr"}
+{"timestamp": "2025-10-20T17:38:51.409059+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 13 passages mentioning Barr", "metadata": {"passage_count": 13}}
+{"timestamp": "2025-10-20T17:39:09.624909+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Bort"}
+{"timestamp": "2025-10-20T17:39:09.635773+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 7 passages mentioning Bort", "metadata": {"passage_count": 7}}
+{"timestamp": "2025-10-20T17:39:27.605306+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Sef Sermak"}
+{"timestamp": "2025-10-20T17:39:27.617309+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning Sef Sermak", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-20T17:39:34.302840+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: personal domain of his august majesty, the Emperor"}
+{"timestamp": "2025-10-20T17:39:34.317503+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning personal domain of his august majesty, the Emperor", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:39:40.552519+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lord Dorwin"}
+{"timestamp": "2025-10-20T17:39:40.564984+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 13 passages mentioning Lord Dorwin", "metadata": {"passage_count": 13}}
+{"timestamp": "2025-10-20T17:40:00.823298+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Watch-Sergeant Demen"}
+{"timestamp": "2025-10-20T17:40:00.838757+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning Watch-Sergeant Demen", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:40:05.430251+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: governor"}
+{"timestamp": "2025-10-20T17:40:05.445250+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 6 passages mentioning governor", "metadata": {"passage_count": 6}}
+{"timestamp": "2025-10-20T17:40:29.973289+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Mayor Hardin"}
+{"timestamp": "2025-10-20T17:40:29.994000+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 9 passages mentioning Mayor Hardin", "metadata": {"passage_count": 9}}
+{"timestamp": "2025-10-20T17:40:47.673115+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Haut Rodric"}
+{"timestamp": "2025-10-20T17:40:47.687338+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 12 passages mentioning Haut Rodric", "metadata": {"passage_count": 12}}
+{"timestamp": "2025-10-20T17:41:02.598718+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: archaeology"}
+{"timestamp": "2025-10-20T17:41:02.613901+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 1 passages mentioning archaeology", "metadata": {"passage_count": 1}}
+{"timestamp": "2025-10-20T17:41:07.022921+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: barbarians"}
+{"timestamp": "2025-10-20T17:41:07.034546+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning barbarians", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-20T17:41:14.195665+00:00", "level": "INFO", "stage": "infer_personality", "message": "Generated 114 personality profiles", "metadata": {"profile_count": 114}}
+{"timestamp": "2025-10-20T17:41:14.213593+00:00", "level": "INFO", "stage": "infer_personality", "message": "Saved raw traits to outputs/foundation_run_20251020_234834/traits_raw.jsonl"}
+{"timestamp": "2025-10-20T17:41:14.215106+00:00", "level": "INFO", "stage": "infer_personality", "message": "Filtered to 12 high-confidence profiles"}
+{"timestamp": "2025-10-20T17:41:14.217118+00:00", "level": "INFO", "stage": "infer_personality", "message": "Saved final traits to outputs/foundation_run_20251020_234834/traits_final.jsonl"}
+{"timestamp": "2025-10-20T17:41:14.217280+00:00", "level": "INFO", "stage": "infer_personality", "message": "Completed stage: infer_personality", "metadata": {"duration_seconds": 1639.982107}}
+{"timestamp": "2025-10-20T17:41:14.219349+00:00", "level": "INFO", "stage": "build_graph", "message": "Starting stage: build_graph"}
+{"timestamp": "2025-10-20T17:41:14.219576+00:00", "level": "INFO", "stage": "build_graph", "message": "Loading triples from outputs/foundation_run_20251020_234834/triples_canonical.jsonl"}
+{"timestamp": "2025-10-20T17:41:14.226598+00:00", "level": "INFO", "stage": "build_graph", "message": "Loading traits from outputs/foundation_run_20251020_234834/traits_final.jsonl"}
+{"timestamp": "2025-10-20T17:41:14.227138+00:00", "level": "INFO", "stage": "build_graph", "message": "Creating graph from 974 triples and 12 profiles"}
+{"timestamp": "2025-10-20T17:41:14.232420+00:00", "level": "INFO", "stage": "build_graph", "message": "Created graph with 546 nodes and 974 edges", "metadata": {"node_count": 546, "edge_count": 974}}
+{"timestamp": "2025-10-20T17:41:14.315360+00:00", "level": "INFO", "stage": "build_graph", "message": "Saved GraphML to outputs/foundation_run_20251020_234834/graph.graphml"}
+{"timestamp": "2025-10-20T17:41:14.323957+00:00", "level": "INFO", "stage": "build_graph", "message": "Saved JSON to outputs/foundation_run_20251020_234834/graph.json"}
+{"timestamp": "2025-10-20T17:41:14.324077+00:00", "level": "INFO", "stage": "build_graph", "message": "Completed stage: build_graph", "metadata": {"duration_seconds": 0.104728}}
+{"timestamp": "2025-10-20T17:41:14.324367+00:00", "level": "INFO", "stage": "viz", "message": "Starting stage: viz"}
+{"timestamp": "2025-10-20T17:41:14.324445+00:00", "level": "INFO", "stage": "viz", "message": "Loading graph from outputs/foundation_run_20251020_234834/graph.graphml"}
+{"timestamp": "2025-10-20T17:41:14.334016+00:00", "level": "INFO", "stage": "viz", "message": "Loaded graph with 546 nodes and 974 edges"}
+{"timestamp": "2025-10-20T17:41:14.334132+00:00", "level": "INFO", "stage": "viz", "message": "Creating interactive visualization"}
+{"timestamp": "2025-10-20T17:41:14.373024+00:00", "level": "INFO", "stage": "viz", "message": "Saved enhanced visualization to outputs/foundation_run_20251020_234834/graph.html"}
+{"timestamp": "2025-10-20T17:41:14.373098+00:00", "level": "INFO", "stage": "viz", "message": "Completed stage: viz", "metadata": {"duration_seconds": 0.048729}}
+{"timestamp": "2025-10-20T17:41:14.374142+00:00", "level": "INFO", "stage": "evaluate", "message": "Starting stage: evaluate"}
+{"timestamp": "2025-10-20T17:41:14.374219+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing triple statistics"}
+{"timestamp": "2025-10-20T17:41:14.377167+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing personality statistics"}
+{"timestamp": "2025-10-20T17:41:14.377422+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing graph statistics"}
+{"timestamp": "2025-10-20T17:41:15.295901+00:00", "level": "INFO", "stage": "evaluate", "message": "Saved metrics to outputs/foundation_run_20251020_234834/metrics.json"}
+{"timestamp": "2025-10-20T17:41:15.295982+00:00", "level": "INFO", "stage": "evaluate", "message": "Completed stage: evaluate", "metadata": {"duration_seconds": 0.921839}}

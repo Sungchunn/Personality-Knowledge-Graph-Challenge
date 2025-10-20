@@ -11,36 +11,50 @@ cd "$PROJECT_ROOT"
 
 source .venv/bin/activate
 
-# Check API key
-if [ -z "$ANTHROPIC_API_KEY" ]; then
-    echo "Error: ANTHROPIC_API_KEY not set"
-    echo "Run: export ANTHROPIC_API_KEY='your-key'"
-    exit 1
-fi
+# Note: API key should be in .env file (OPENAI_API_KEY or ANTHROPIC_API_KEY)
 
 # Parse arguments
 NOVEL_NAME="${1:-dune}"
 MAX_PASSAGES="${2:-50}"
 
-# Define available novels
-declare -A NOVELS=(
-    ["dune"]="data/jsonl/dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"
-    ["bladerunner"]="data/jsonl/bladerunner-1-dick-philip-kindred-do-androids-dream-of-electric-sheep-libgen-li-2.jsonl"
-    ["foundation"]="data/jsonl/foundation-1-asimov-isaac-foundation-libgen-li.jsonl"
-    ["neuromancer"]="data/jsonl/cyberpunk-1-gibson-william-neuromancer-libgen-li-2.jsonl"
-    ["dune2"]="data/jsonl/dune-2-herbert-brian-herbert-frank-dune-messiah-libgen-li.jsonl"
-    ["foundation2"]="data/jsonl/foundation-2-asimov-isaac-foundation-and-empire-libgen-li.jsonl"
-    ["foundation3"]="data/jsonl/foundation-3-asimov-isaac-second-foundation-libgen-li.jsonl"
-)
+# Define available novels (bash 3.x compatible)
+get_novel_path() {
+    case "$1" in
+        dune)
+            echo "data/jsonl/dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"
+            ;;
+        bladerunner)
+            echo "data/jsonl/bladerunner-1-dick-philip-kindred-do-androids-dream-of-electric-sheep-libgen-li-2.jsonl"
+            ;;
+        foundation)
+            echo "data/jsonl/foundation-1-asimov-isaac-foundation-libgen-li.jsonl"
+            ;;
+        neuromancer)
+            echo "data/jsonl/cyberpunk-1-gibson-william-neuromancer-libgen-li-2.jsonl"
+            ;;
+        dune2)
+            echo "data/jsonl/dune-2-herbert-brian-herbert-frank-dune-messiah-libgen-li.jsonl"
+            ;;
+        foundation2)
+            echo "data/jsonl/foundation-2-asimov-isaac-foundation-and-empire-libgen-li.jsonl"
+            ;;
+        foundation3)
+            echo "data/jsonl/foundation-3-asimov-isaac-second-foundation-libgen-li.jsonl"
+            ;;
+        *)
+            echo ""
+            ;;
+    esac
+}
+
+INPUT_FILE=$(get_novel_path "$NOVEL_NAME")
 
 # Validate novel name
-if [ -z "${NOVELS[$NOVEL_NAME]}" ]; then
+if [ -z "$INPUT_FILE" ]; then
     echo "Error: Unknown novel '$NOVEL_NAME'"
-    echo "Available novels: ${!NOVELS[@]}"
+    echo "Available novels: dune, bladerunner, foundation, neuromancer, dune2, foundation2, foundation3"
     exit 1
 fi
-
-INPUT_FILE="${NOVELS[$NOVEL_NAME]}"
 TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
 OUTPUT_DIR="outputs/${NOVEL_NAME}_run_${TIMESTAMP}"
 

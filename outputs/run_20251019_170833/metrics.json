@@ -1,0 +1,77 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 1008,
+    "avg_confidence": 0.874,
+    "min_confidence": 0.7,
+    "max_confidence": 0.9,
+    "unique_relations": 52,
+    "relation_distribution": {
+      "MENTIONED_IN": 174,
+      "KNOWS": 134,
+      "PARTICIPATES_IN": 113,
+      "WORKS_FOR": 87,
+      "LOCATED_IN": 86,
+      "ENEMY_OF": 86,
+      "LEADS": 66,
+      "FAMILY_OF": 60,
+      "MEMBER_OF": 47,
+      "LOVES": 29
+    }
+  },
+  "personality_stats": {},
+  "graph_stats": {
+    "num_nodes": 494,
+    "num_edges": 1008,
+    "density": 0.0041,
+    "avg_degree": 4.08,
+    "max_degree": 141,
+    "most_connected_nodes": [
+      {
+        "node": "Paul",
+        "degree": 141
+      },
+      {
+        "node": "Duke",
+        "degree": 106
+      },
+      {
+        "node": "Jessica",
+        "degree": 102
+      },
+      {
+        "node": "Kynes",
+        "degree": 74
+      },
+      {
+        "node": "Arrakis",
+        "degree": 62
+      },
+      {
+        "node": "Leto",
+        "degree": 56
+      },
+      {
+        "node": "Hawat",
+        "degree": 55
+      },
+      {
+        "node": "Fremen",
+        "degree": 54
+      },
+      {
+        "node": "Harkonnens",
+        "degree": 45
+      },
+      {
+        "node": "Baron",
+        "degree": 41
+      }
+    ],
+    "num_components": 20,
+    "largest_component_size": 452
+  }
+}

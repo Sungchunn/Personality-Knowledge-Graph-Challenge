@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-20T17:41:15.296465+00:00",
+  "stages_completed": [
+    "extract",
+    "canonicalize",
+    "qa_filters",
+    "traits",
+    "build_graph",
+    "viz",
+    "evaluate"
+  ],
+  "total_duration_seconds": 3160.2842428684235,
+  "artifacts": {
+    "triples_raw": "outputs/foundation_run_20251020_234834/triples_raw.jsonl",
+    "triples_canonical": "outputs/foundation_run_20251020_234834/triples_canonical.jsonl",
+    "traits_final": "outputs/foundation_run_20251020_234834/traits_final.jsonl",
+    "graph": "outputs/foundation_run_20251020_234834/graph.graphml",
+    "graph_html": "outputs/foundation_run_20251020_234834/graph.html",
+    "metrics": "outputs/foundation_run_20251020_234834/metrics.json"
+  },
+  "statistics": {}
+}

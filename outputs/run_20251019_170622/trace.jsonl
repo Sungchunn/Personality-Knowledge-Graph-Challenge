@@ -1,0 +1,62 @@
+{"timestamp": "2025-10-19T10:06:23.357847+00:00", "level": "INFO", "stage": "extract_triples", "message": "Starting stage: extract_triples"}
+{"timestamp": "2025-10-19T10:06:23.357954+00:00", "level": "INFO", "stage": "extract_triples", "message": "Discovering input JSONL files"}
+{"timestamp": "2025-10-19T10:06:23.358005+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing single file: dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"}
+{"timestamp": "2025-10-19T10:06:23.398371+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing book: dune-1-herbert-brian-herbert-frank-dune-libgen-li"}
+{"timestamp": "2025-10-19T10:07:08.309660+00:00", "level": "INFO", "stage": "extract_triples", "message": "Extracted 53 triples from 10 passages", "metadata": {"triple_count": 53, "passage_count": 10}}
+{"timestamp": "2025-10-19T10:07:08.314920+00:00", "level": "INFO", "stage": "extract_triples", "message": "Saved raw triples to outputs/run_20251019_170622/triples_raw.jsonl"}
+{"timestamp": "2025-10-19T10:07:08.315320+00:00", "level": "INFO", "stage": "extract_triples", "message": "Completed stage: extract_triples", "metadata": {"duration_seconds": 44.957586}}
+{"timestamp": "2025-10-19T10:07:08.315910+00:00", "level": "INFO", "stage": "canonicalize", "message": "Starting stage: canonicalize"}
+{"timestamp": "2025-10-19T10:07:08.316224+00:00", "level": "INFO", "stage": "canonicalize", "message": "Loading raw triples from outputs/run_20251019_170622/triples_raw.jsonl"}
+{"timestamp": "2025-10-19T10:07:08.317198+00:00", "level": "INFO", "stage": "canonicalize", "message": "Loaded 53 raw triples"}
+{"timestamp": "2025-10-19T10:07:08.317445+00:00", "level": "INFO", "stage": "canonicalize", "message": "Found 41 unique entities"}
+{"timestamp": "2025-10-19T10:07:08.354566+00:00", "level": "INFO", "stage": "canonicalize", "message": "Generating canonical mappings"}
+{"timestamp": "2025-10-19T10:07:17.307395+00:00", "level": "INFO", "stage": "canonicalize", "message": "Generated 14 canonical mappings", "metadata": {"mapping_count": 14}}
+{"timestamp": "2025-10-19T10:07:17.309141+00:00", "level": "INFO", "stage": "canonicalize", "message": "Saved canonical triples to outputs/run_20251019_170622/triples_canonical.jsonl"}
+{"timestamp": "2025-10-19T10:07:17.309254+00:00", "level": "INFO", "stage": "canonicalize", "message": "Completed stage: canonicalize", "metadata": {"duration_seconds": 8.993344}}
+{"timestamp": "2025-10-19T10:07:17.309896+00:00", "level": "INFO", "stage": "qa_filters", "message": "Starting with 53 triples"}
+{"timestamp": "2025-10-19T10:07:17.310071+00:00", "level": "INFO", "stage": "qa_filters", "message": "After confidence filter: 53 triples", "metadata": {"dropped": 0}}
+{"timestamp": "2025-10-19T10:07:17.310226+00:00", "level": "INFO", "stage": "qa_filters", "message": "After evidence validation: 53 triples", "metadata": {"dropped": 0}}
+{"timestamp": "2025-10-19T10:07:17.310354+00:00", "level": "INFO", "stage": "qa_filters", "message": "After normalization: 52 triples"}
+{"timestamp": "2025-10-19T10:07:17.310516+00:00", "level": "INFO", "stage": "qa_filters", "message": "After deduplication: 42 triples", "metadata": {"dropped": 10}}
+{"timestamp": "2025-10-19T10:07:17.310596+00:00", "level": "INFO", "stage": "qa_filters", "message": "QA filtering complete: 42 triples retained", "metadata": {"total_dropped": 11, "retention_rate": "79.2%"}}
+{"timestamp": "2025-10-19T10:07:17.311360+00:00", "level": "INFO", "stage": "qa_filters", "message": "Updated outputs/run_20251019_170622/triples_canonical.jsonl with filtered triples"}
+{"timestamp": "2025-10-19T10:07:17.311469+00:00", "level": "INFO", "stage": "infer_personality", "message": "Starting stage: infer_personality"}
+{"timestamp": "2025-10-19T10:07:17.311584+00:00", "level": "INFO", "stage": "infer_personality", "message": "Loading triples from outputs/run_20251019_170622/triples_canonical.jsonl"}
+{"timestamp": "2025-10-19T10:07:17.311950+00:00", "level": "INFO", "stage": "infer_personality", "message": "Loaded 42 triples"}
+{"timestamp": "2025-10-19T10:07:17.312049+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 9 people"}
+{"timestamp": "2025-10-19T10:07:17.312256+00:00", "level": "INFO", "stage": "infer_personality", "message": "Limited to 5 people for testing"}
+{"timestamp": "2025-10-19T10:07:17.345664+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Lady Jessica"}
+{"timestamp": "2025-10-19T10:07:17.357379+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 31 passages mentioning Lady Jessica", "metadata": {"passage_count": 31}}
+{"timestamp": "2025-10-19T10:07:30.774020+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: duke"}
+{"timestamp": "2025-10-19T10:07:30.793017+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 264 passages mentioning duke", "metadata": {"passage_count": 264}}
+{"timestamp": "2025-10-19T10:07:45.581688+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Paul Atreides"}
+{"timestamp": "2025-10-19T10:07:45.598209+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 12 passages mentioning Paul Atreides", "metadata": {"passage_count": 12}}
+{"timestamp": "2025-10-19T10:08:01.261015+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: Harkonnens"}
+{"timestamp": "2025-10-19T10:08:01.274678+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 112 passages mentioning Harkonnens", "metadata": {"passage_count": 112}}
+{"timestamp": "2025-10-19T10:08:14.639193+00:00", "level": "INFO", "stage": "infer_personality", "message": "Processing: House of Atreides"}
+{"timestamp": "2025-10-19T10:08:14.653906+00:00", "level": "INFO", "stage": "infer_personality", "message": "Found 4 passages mentioning House of Atreides", "metadata": {"passage_count": 4}}
+{"timestamp": "2025-10-19T10:08:29.234691+00:00", "level": "INFO", "stage": "infer_personality", "message": "Generated 5 personality profiles", "metadata": {"profile_count": 5}}
+{"timestamp": "2025-10-19T10:08:29.236844+00:00", "level": "INFO", "stage": "infer_personality", "message": "Saved raw traits to outputs/run_20251019_170622/traits_raw.jsonl"}
+{"timestamp": "2025-10-19T10:08:29.237115+00:00", "level": "INFO", "stage": "infer_personality", "message": "Filtered to 4 high-confidence profiles"}
+{"timestamp": "2025-10-19T10:08:29.238054+00:00", "level": "INFO", "stage": "infer_personality", "message": "Saved final traits to outputs/run_20251019_170622/traits_final.jsonl"}
+{"timestamp": "2025-10-19T10:08:29.238207+00:00", "level": "INFO", "stage": "infer_personality", "message": "Completed stage: infer_personality", "metadata": {"duration_seconds": 71.926724}}
+{"timestamp": "2025-10-19T10:08:29.238597+00:00", "level": "INFO", "stage": "build_graph", "message": "Starting stage: build_graph"}
+{"timestamp": "2025-10-19T10:08:29.238788+00:00", "level": "INFO", "stage": "build_graph", "message": "Loading triples from outputs/run_20251019_170622/triples_canonical.jsonl"}
+{"timestamp": "2025-10-19T10:08:29.239595+00:00", "level": "INFO", "stage": "build_graph", "message": "Loading traits from outputs/run_20251019_170622/traits_final.jsonl"}
+{"timestamp": "2025-10-19T10:08:29.239963+00:00", "level": "INFO", "stage": "build_graph", "message": "Creating graph from 42 triples and 4 profiles"}
+{"timestamp": "2025-10-19T10:08:29.241052+00:00", "level": "INFO", "stage": "build_graph", "message": "Created graph with 31 nodes and 42 edges", "metadata": {"node_count": 31, "edge_count": 42}}
+{"timestamp": "2025-10-19T10:08:29.248622+00:00", "level": "INFO", "stage": "build_graph", "message": "Saved GraphML to outputs/run_20251019_170622/graph.graphml"}
+{"timestamp": "2025-10-19T10:08:29.250587+00:00", "level": "INFO", "stage": "build_graph", "message": "Saved JSON to outputs/run_20251019_170622/graph.json"}
+{"timestamp": "2025-10-19T10:08:29.250692+00:00", "level": "INFO", "stage": "build_graph", "message": "Completed stage: build_graph", "metadata": {"duration_seconds": 0.012092}}
+{"timestamp": "2025-10-19T10:08:29.250863+00:00", "level": "INFO", "stage": "viz", "message": "Starting stage: viz"}
+{"timestamp": "2025-10-19T10:08:29.251024+00:00", "level": "INFO", "stage": "viz", "message": "Loading graph from outputs/run_20251019_170622/graph.graphml"}
+{"timestamp": "2025-10-19T10:08:29.253115+00:00", "level": "INFO", "stage": "viz", "message": "Loaded graph with 31 nodes and 42 edges"}
+{"timestamp": "2025-10-19T10:08:29.253233+00:00", "level": "INFO", "stage": "viz", "message": "Creating interactive visualization"}
+{"timestamp": "2025-10-19T10:08:29.273004+00:00", "level": "INFO", "stage": "viz", "message": "Saved enhanced visualization to outputs/run_20251019_170622/graph.html"}
+{"timestamp": "2025-10-19T10:08:29.273093+00:00", "level": "INFO", "stage": "viz", "message": "Completed stage: viz", "metadata": {"duration_seconds": 0.022227}}
+{"timestamp": "2025-10-19T10:08:29.273215+00:00", "level": "INFO", "stage": "evaluate", "message": "Starting stage: evaluate"}
+{"timestamp": "2025-10-19T10:08:29.273308+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing triple statistics"}
+{"timestamp": "2025-10-19T10:08:29.273791+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing personality statistics"}
+{"timestamp": "2025-10-19T10:08:29.274000+00:00", "level": "INFO", "stage": "evaluate", "message": "Computing graph statistics"}
+{"timestamp": "2025-10-19T10:08:29.276373+00:00", "level": "INFO", "stage": "evaluate", "message": "Saved metrics to outputs/run_20251019_170622/metrics.json"}
+{"timestamp": "2025-10-19T10:08:29.276458+00:00", "level": "INFO", "stage": "evaluate", "message": "Completed stage: evaluate", "metadata": {"duration_seconds": 0.003241}}

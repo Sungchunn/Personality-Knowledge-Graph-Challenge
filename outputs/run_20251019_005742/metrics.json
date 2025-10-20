@@ -1,0 +1,77 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 360,
+    "avg_confidence": 0.879,
+    "min_confidence": 0.7,
+    "max_confidence": 1.0,
+    "unique_relations": 33,
+    "relation_distribution": {
+      "MENTIONED_IN": 52,
+      "LOCATED_IN": 44,
+      "WORKS_FOR": 37,
+      "PARTICIPATES_IN": 34,
+      "FAMILY_OF": 30,
+      "ENEMY_OF": 24,
+      "CREATED": 20,
+      "LEADS": 19,
+      "OWNS": 18,
+      "MEMBER_OF": 18
+    }
+  },
+  "personality_stats": {},
+  "graph_stats": {
+    "num_nodes": 288,
+    "num_edges": 360,
+    "density": 0.0044,
+    "avg_degree": 2.5,
+    "max_degree": 37,
+    "most_connected_nodes": [
+      {
+        "node": "Paul Atreides",
+        "degree": 37
+      },
+      {
+        "node": "Case",
+        "degree": 28
+      },
+      {
+        "node": "Foundation",
+        "degree": 27
+      },
+      {
+        "node": "Paul",
+        "degree": 20
+      },
+      {
+        "node": "Bel Riose",
+        "degree": 20
+      },
+      {
+        "node": "Mule",
+        "degree": 19
+      },
+      {
+        "node": "Lady Jessica",
+        "degree": 16
+      },
+      {
+        "node": "Rick Deckard",
+        "degree": 12
+      },
+      {
+        "node": "Isaac Asimov",
+        "degree": 12
+      },
+      {
+        "node": "Doubleday",
+        "degree": 11
+      }
+    ],
+    "num_components": 21,
+    "largest_component_size": 219
+  }
+}

@@ -1,0 +1,5262 @@
+{
+  "nodes": [
+    {
+      "id": "Philip K. Dick",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Philip K. Dick"
+      }
+    },
+    {
+      "id": "Do Androids Dream of Electric Sheep?",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Do Androids Dream of Electric Sheep?"
+      }
+    },
+    {
+      "id": "Tu'imalila",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Tu'imalila"
+      }
+    },
+    {
+      "id": "Royal Palace Ground in the Tongan capital of Nuku, Alofa",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Royal Palace Ground in the Tongan capital of Nuku, Alofa"
+      }
+    },
+    {
+      "id": "Reuters, 1966",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Reuters, 1966"
+      }
+    },
+    {
+      "id": "Auckland Museum in New Zealand",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Auckland Museum in New Zealand"
+      }
+    },
+    {
+      "id": "Rick Deckard",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Rick Deckard"
+      }
+    },
+    {
+      "id": "Iran",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Iran"
+      }
+    },
+    {
+      "id": "cops",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "cops"
+      }
+    },
+    {
+      "id": "his wife",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his wife"
+      }
+    },
+    {
+      "id": "Buster Friendly and His Friendly Friends",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Buster Friendly and His Friendly Friends"
+      }
+    },
+    {
+      "id": "His Friendly Friends",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "His Friendly Friends"
+      }
+    },
+    {
+      "id": "Mountibank Lead Codpieces",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Mountibank Lead Codpieces"
+      }
+    },
+    {
+      "id": "commercial",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "commercial"
+      }
+    },
+    {
+      "id": "Penfield mood organ",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Penfield mood organ"
+      }
+    },
+    {
+      "id": "TV",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "TV"
+      }
+    },
+    {
+      "id": "electric sheep",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "electric sheep"
+      }
+    },
+    {
+      "id": "roof pasture",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "roof pasture"
+      }
+    },
+    {
+      "id": "plot of sod",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "plot of sod"
+      }
+    },
+    {
+      "id": "San Francisco",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "San Francisco"
+      }
+    },
+    {
+      "id": "Bill Barbour",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bill Barbour"
+      }
+    },
+    {
+      "id": "horse",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "horse"
+      }
+    },
+    {
+      "id": "State Animal Husbandry Board",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "State Animal Husbandry Board"
+      }
+    },
+    {
+      "id": "Fred Washborne",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fred Washborne"
+      }
+    },
+    {
+      "id": "algae-processing plant",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "algae-processing plant"
+      }
+    },
+    {
+      "id": "duck",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "duck"
+      }
+    },
+    {
+      "id": "Sidney's Animal & Fowl Catalogue January supplement",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sidney's Animal & Fowl Catalogue January supplement"
+      }
+    },
+    {
+      "id": "Barbour",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Barbour"
+      }
+    },
+    {
+      "id": "Judy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Judy"
+      }
+    },
+    {
+      "id": "Canada",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Canada"
+      }
+    },
+    {
+      "id": "sheep",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "sheep"
+      }
+    },
+    {
+      "id": "Graveson",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Graveson"
+      }
+    },
+    {
+      "id": "chicken",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "chicken"
+      }
+    },
+    {
+      "id": "Oakes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Oakes"
+      }
+    },
+    {
+      "id": "big red dog",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "big red dog"
+      }
+    },
+    {
+      "id": "Ed Smith",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ed Smith"
+      }
+    },
+    {
+      "id": "cat",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "cat"
+      }
+    },
+    {
+      "id": "Rick's wife",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Rick's wife"
+      }
+    },
+    {
+      "id": "Groucho",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Groucho"
+      }
+    },
+    {
+      "id": "photograph",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "photograph"
+      }
+    },
+    {
+      "id": "William Ford Gibson",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "William Ford Gibson"
+      }
+    },
+    {
+      "id": "Neuromancer",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Neuromancer"
+      }
+    },
+    {
+      "id": "Deb",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Deb"
+      }
+    },
+    {
+      "id": "Case",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Case"
+      }
+    },
+    {
+      "id": "Ratz",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ratz"
+      }
+    },
+    {
+      "id": "Chatsubo",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Chatsubo"
+      }
+    },
+    {
+      "id": "Chiba City",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Chiba City"
+      }
+    },
+    {
+      "id": "Zone",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Zone"
+      }
+    },
+    {
+      "id": "cyberspace",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "cyberspace"
+      }
+    },
+    {
+      "id": "Night City",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Night City"
+      }
+    },
+    {
+      "id": "The Sprawl",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Sprawl"
+      }
+    },
+    {
+      "id": "console",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "console"
+      }
+    },
+    {
+      "id": "Linda Lee",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Linda Lee"
+      }
+    },
+    {
+      "id": "the matrix",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "the matrix"
+      }
+    },
+    {
+      "id": "wealthier thieves",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "wealthier thieves"
+      }
+    },
+    {
+      "id": "McCoy Pauley",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "McCoy Pauley"
+      }
+    },
+    {
+      "id": "Bobby Quine",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bobby Quine"
+      }
+    },
+    {
+      "id": "the Fall",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "the Fall"
+      }
+    },
+    {
+      "id": "Memphis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Memphis"
+      }
+    },
+    {
+      "id": "Chiba",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Chiba"
+      }
+    },
+    {
+      "id": "Japan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Japan"
+      }
+    },
+    {
+      "id": "Sprawl",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sprawl"
+      }
+    },
+    {
+      "id": "Fuji Electric Company",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fuji Electric Company"
+      }
+    },
+    {
+      "id": "Tokyo",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Tokyo"
+      }
+    },
+    {
+      "id": "Ninsei",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ninsei"
+      }
+    },
+    {
+      "id": "killed two men and a woman",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "killed two men and a woman"
+      }
+    },
+    {
+      "id": "hustling fresh capital",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "hustling fresh capital"
+      }
+    },
+    {
+      "id": "washed down the night's first pill with a double espresso",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "washed down the night's first pill with a double espresso"
+      }
+    },
+    {
+      "id": "Jarre de The",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Jarre de The"
+      }
+    },
+    {
+      "id": "thought of Linda Lee",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "thought of Linda Lee"
+      }
+    },
+    {
+      "id": "LOCATION",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "LOCATION"
+      }
+    },
+    {
+      "id": "She",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "She"
+      }
+    },
+    {
+      "id": "Mona",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Mona"
+      }
+    },
+    {
+      "id": "Wage's boys",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wage's boys"
+      }
+    },
+    {
+      "id": "Wage",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wage"
+      }
+    },
+    {
+      "id": "Paul Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul Atreides"
+      }
+    },
+    {
+      "id": "57th year of the Padishah Emperor, Shaddam IV",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "57th year of the Padishah Emperor, Shaddam IV"
+      }
+    },
+    {
+      "id": "Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Arrakis"
+      }
+    },
+    {
+      "id": "Caladan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Caladan"
+      }
+    },
+    {
+      "id": "Paul",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul"
+      }
+    },
+    {
+      "id": "Lady Jessica",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lady Jessica"
+      }
+    },
+    {
+      "id": "Castle Caladan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Castle Caladan"
+      }
+    },
+    {
+      "id": "House Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "House Atreides"
+      }
+    },
+    {
+      "id": "old crone",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "old crone"
+      }
+    },
+    {
+      "id": "Bene Gesserit",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit"
+      }
+    },
+    {
+      "id": "Duke Leto",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Duke Leto"
+      }
+    },
+    {
+      "id": "Dune",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dune"
+      }
+    },
+    {
+      "id": "Thufir Hawat",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Thufir Hawat"
+      }
+    },
+    {
+      "id": "House Harkonnen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "House Harkonnen"
+      }
+    },
+    {
+      "id": "Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Atreides"
+      }
+    },
+    {
+      "id": "Combine Honnete Ober Advancer Mercantiles",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Combine Honnete Ober Advancer Mercantiles"
+      }
+    },
+    {
+      "id": "Great Houses of the Landsraad",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Great Houses of the Landsraad"
+      }
+    },
+    {
+      "id": "dream of an Arrakeen cavern",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dream of an Arrakeen cavern"
+      }
+    },
+    {
+      "id": "Dr. Yueh",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dr. Yueh"
+      }
+    },
+    {
+      "id": "Fremen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fremen"
+      }
+    },
+    {
+      "id": "Gaius Helen Mohiam",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Gaius Helen Mohiam"
+      }
+    },
+    {
+      "id": "Padishah Emperor",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Padishah Emperor"
+      }
+    },
+    {
+      "id": "Bene Gesserit school",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit school"
+      }
+    },
+    {
+      "id": "dreams",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dreams"
+      }
+    },
+    {
+      "id": "farmlands",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "farmlands"
+      }
+    },
+    {
+      "id": "Fitzwilliam Darcy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fitzwilliam Darcy"
+      }
+    },
+    {
+      "id": "The old woman",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The old woman"
+      }
+    },
+    {
+      "id": "The gom jabbar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The gom jabbar"
+      }
+    },
+    {
+      "id": "duke",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "duke"
+      }
+    },
+    {
+      "id": "mother",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "mother"
+      }
+    },
+    {
+      "id": "test",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "test"
+      }
+    },
+    {
+      "id": "gom jabbar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "gom jabbar"
+      }
+    },
+    {
+      "id": "Litany against Fear",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Litany against Fear"
+      }
+    },
+    {
+      "id": "Paul's mother",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul's mother"
+      }
+    },
+    {
+      "id": "event with the old woman and the box",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "event with the old woman and the box"
+      }
+    },
+    {
+      "id": "event with Paul and the box",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "event with Paul and the box"
+      }
+    },
+    {
+      "id": "pain by nerve induction",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "pain by nerve induction"
+      }
+    },
+    {
+      "id": "Bronso of IX",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bronso of IX"
+      }
+    },
+    {
+      "id": "Death Cell Interview",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Death Cell Interview"
+      }
+    },
+    {
+      "id": "semi-nomadic lives",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "semi-nomadic lives"
+      }
+    },
+    {
+      "id": "spice, melange",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "spice, melange"
+      }
+    },
+    {
+      "id": "Harkonnen war",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Harkonnen war"
+      }
+    },
+    {
+      "id": "Duncan Idaho",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Duncan Idaho"
+      }
+    },
+    {
+      "id": "Priests",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Priests"
+      }
+    },
+    {
+      "id": "Bene Gesserit adept",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit adept"
+      }
+    },
+    {
+      "id": "Holy Family",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Holy Family"
+      }
+    },
+    {
+      "id": "Fremen ritual",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fremen ritual"
+      }
+    },
+    {
+      "id": "Alia",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Alia"
+      }
+    },
+    {
+      "id": "Chani",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Chani"
+      }
+    },
+    {
+      "id": "Fremen customs",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fremen customs"
+      }
+    },
+    {
+      "id": "transform your desert planet into a water-rich paradise",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "transform your desert planet into a water-rich paradise"
+      }
+    },
+    {
+      "id": "Irulan Corrino",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Irulan Corrino"
+      }
+    },
+    {
+      "id": "Jihad",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Jihad"
+      }
+    },
+    {
+      "id": "Paul Muad'dib",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul Muad'dib"
+      }
+    },
+    {
+      "id": "Great Family",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Great Family"
+      }
+    },
+    {
+      "id": "Muad'dib Concordance",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Muad'dib Concordance"
+      }
+    },
+    {
+      "id": "The Tabla Memorium of the Mahdi Spirit Cult",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Tabla Memorium of the Mahdi Spirit Cult"
+      }
+    },
+    {
+      "id": "Sisterhood's breeding program",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sisterhood's breeding program"
+      }
+    },
+    {
+      "id": "Shaddam Corrino IV",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Shaddam Corrino IV"
+      }
+    },
+    {
+      "id": "Sardaukar legions",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sardaukar legions"
+      }
+    },
+    {
+      "id": "Imperial Forces",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperial Forces"
+      }
+    },
+    {
+      "id": "mercenaries",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "mercenaries"
+      }
+    },
+    {
+      "id": "Qizarate missionaries",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Qizarate missionaries"
+      }
+    },
+    {
+      "id": "monopoly over the ultimate coin of the realm -- the geriatric spice, melange",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "monopoly over the ultimate coin of the realm -- the geriatric spice, melange"
+      }
+    },
+    {
+      "id": "prophecy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "prophecy"
+      }
+    },
+    {
+      "id": "the Guild",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "the Guild"
+      }
+    },
+    {
+      "id": "the Sisterhood",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "the Sisterhood"
+      }
+    },
+    {
+      "id": "the Bene Tleilex",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "the Bene Tleilex"
+      }
+    },
+    {
+      "id": "Korba the Panegyrist",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Korba the Panegyrist"
+      }
+    },
+    {
+      "id": "Qizarate cabal",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Qizarate cabal"
+      }
+    },
+    {
+      "id": "Scytale",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Scytale"
+      }
+    },
+    {
+      "id": "Tleilaxu",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Tleilaxu"
+      }
+    },
+    {
+      "id": "Wallach IX",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wallach IX"
+      }
+    },
+    {
+      "id": "Edric",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Edric"
+      }
+    },
+    {
+      "id": "dome",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dome"
+      }
+    },
+    {
+      "id": "mutual foe",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "mutual foe"
+      }
+    },
+    {
+      "id": "hills",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "hills"
+      }
+    },
+    {
+      "id": "meeting",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "meeting"
+      }
+    },
+    {
+      "id": "fools' fight",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "fools' fight"
+      }
+    },
+    {
+      "id": "potential messiah",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "potential messiah"
+      }
+    },
+    {
+      "id": "silence",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "silence"
+      }
+    },
+    {
+      "id": "poison",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "poison"
+      }
+    },
+    {
+      "id": "Isaac Asimov",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Isaac Asimov"
+      }
+    },
+    {
+      "id": "Astounding",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Astounding"
+      }
+    },
+    {
+      "id": "Nightfall",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Nightfall"
+      }
+    },
+    {
+      "id": "Galactic Empire",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Galactic Empire"
+      }
+    },
+    {
+      "id": "Foundation",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Foundation"
+      }
+    },
+    {
+      "id": "Hari Seldon",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Hari Seldon"
+      }
+    },
+    {
+      "id": "Foundations",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Foundations"
+      }
+    },
+    {
+      "id": "Bridle and Saddle",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bridle and Saddle"
+      }
+    },
+    {
+      "id": "Fred Pohl",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fred Pohl"
+      }
+    },
+    {
+      "id": "Campbell",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Campbell"
+      }
+    },
+    {
+      "id": "May 1942 issue of Astounding",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "May 1942 issue of Astounding"
+      }
+    },
+    {
+      "id": "June 1942 issue",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "June 1942 issue"
+      }
+    },
+    {
+      "id": "John W. Campbell",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "John W. Campbell"
+      }
+    },
+    {
+      "id": "The Big and the Little",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Big and the Little"
+      }
+    },
+    {
+      "id": "August 1944 Astounding",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "August 1944 Astounding"
+      }
+    },
+    {
+      "id": "The Wedge",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Wedge"
+      }
+    },
+    {
+      "id": "October 1944 issue",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "October 1944 issue"
+      }
+    },
+    {
+      "id": "Dead Hand",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dead Hand"
+      }
+    },
+    {
+      "id": "April 1945 issue",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "April 1945 issue"
+      }
+    },
+    {
+      "id": "Mule",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Mule"
+      }
+    },
+    {
+      "id": "November and December 1945 issues",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "November and December 1945 issues"
+      }
+    },
+    {
+      "id": "Now You See It–",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Now You See It–"
+      }
+    },
+    {
+      "id": "January 1948 issue",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "January 1948 issue"
+      }
+    },
+    {
+      "id": "–And Now You Don't",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "–And Now You Don't"
+      }
+    },
+    {
+      "id": "November 1949, December 1949, and January 1950 issues of Astounding",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "November 1949, December 1949, and January 1950 issues of Astounding"
+      }
+    },
+    {
+      "id": "Boston University School of Medicine",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Boston University School of Medicine"
+      }
+    },
+    {
+      "id": "Boston",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Boston"
+      }
+    },
+    {
+      "id": "Doubleday",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Doubleday"
+      }
+    },
+    {
+      "id": "Gnome Press",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Gnome Press"
+      }
+    },
+    {
+      "id": "First Galactic Empire",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "First Galactic Empire"
+      }
+    },
+    {
+      "id": "Second Foundation",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Second Foundation"
+      }
+    },
+    {
+      "id": "Ace Books",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ace Books"
+      }
+    },
+    {
+      "id": "Timothy Seldes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Timothy Seldes"
+      }
+    },
+    {
+      "id": "Avon Books",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Avon Books"
+      }
+    },
+    {
+      "id": "The Foundation Trilogy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Foundation Trilogy"
+      }
+    },
+    {
+      "id": "Science Fiction Book Club",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Science Fiction Book Club"
+      }
+    },
+    {
+      "id": "World Science Fiction Convention",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "World Science Fiction Convention"
+      }
+    },
+    {
+      "id": "Cleveland",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Cleveland"
+      }
+    },
+    {
+      "id": "Hugo",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Hugo"
+      }
+    },
+    {
+      "id": "Tolkien",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Tolkien"
+      }
+    },
+    {
+      "id": "Lord of the Rings",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lord of the Rings"
+      }
+    },
+    {
+      "id": "Lester del Rey",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lester del Rey"
+      }
+    },
+    {
+      "id": "Isaac",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Isaac"
+      }
+    },
+    {
+      "id": "Larry Ashmead",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Larry Ashmead"
+      }
+    },
+    {
+      "id": "Cathleen Jordan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Cathleen Jordan"
+      }
+    },
+    {
+      "id": "Hugh O'Neill",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Hugh O'Neill"
+      }
+    },
+    {
+      "id": "Betty Prashker",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Betty Prashker"
+      }
+    },
+    {
+      "id": "Lightning Rod",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lightning Rod"
+      }
+    },
+    {
+      "id": "Pat LoBrutto",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Pat LoBrutto"
+      }
+    },
+    {
+      "id": "James Gunn",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "James Gunn"
+      }
+    },
+    {
+      "id": "sentences",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "sentences"
+      }
+    },
+    {
+      "id": "Trilogy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Trilogy"
+      }
+    },
+    {
+      "id": "Foundations at Bay",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Foundations at Bay"
+      }
+    },
+    {
+      "id": "Columbia University",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Columbia University"
+      }
+    },
+    {
+      "id": "psychohistory",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "psychohistory"
+      }
+    },
+    {
+      "id": "Bel Riose",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bel Riose"
+      }
+    },
+    {
+      "id": "Ducem Barr",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ducem Barr"
+      }
+    },
+    {
+      "id": "Twentieth Fleet",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Twentieth Fleet"
+      }
+    },
+    {
+      "id": "Onum Barr",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Onum Barr"
+      }
+    },
+    {
+      "id": "ENCYCLOPEDIA GALACTICA",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "ENCYCLOPEDIA GALACTICA"
+      }
+    },
+    {
+      "id": "116th Edition",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "116th Edition"
+      }
+    },
+    {
+      "id": "Sennett Forell",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sennett Forell"
+      }
+    },
+    {
+      "id": "Hober Mallow",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Hober Mallow"
+      }
+    },
+    {
+      "id": "Trade Fleet",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Trade Fleet"
+      }
+    },
+    {
+      "id": "captured scout ship",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "captured scout ship"
+      }
+    },
+    {
+      "id": "Salvor Hardin",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Salvor Hardin"
+      }
+    },
+    {
+      "id": "Fleet",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fleet"
+      }
+    },
+    {
+      "id": "Imperial rule",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperial rule"
+      }
+    },
+    {
+      "id": "Galaxy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Galaxy"
+      }
+    },
+    {
+      "id": "Galactic dominion",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Galactic dominion"
+      }
+    },
+    {
+      "id": "Cleon II",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Cleon II"
+      }
+    },
+    {
+      "id": "his great-grandfather",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his great-grandfather"
+      }
+    },
+    {
+      "id": "his father",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his father"
+      }
+    },
+    {
+      "id": "his three sons",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his three sons"
+      }
+    },
+    {
+      "id": "Brodrig",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Brodrig"
+      }
+    },
+    {
+      "id": "court",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "court"
+      }
+    },
+    {
+      "id": "Guards",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Guards"
+      }
+    },
+    {
+      "id": "affair off the Lemul Cluster",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "affair off the Lemul Cluster"
+      }
+    },
+    {
+      "id": "his men",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his men"
+      }
+    },
+    {
+      "id": "expedition in force",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "expedition in force"
+      }
+    },
+    {
+      "id": "ENTITY",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "ENTITY"
+      }
+    },
+    {
+      "id": "ancient province of Anacreon",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "ancient province of Anacreon"
+      }
+    },
+    {
+      "id": "forces of the Empire",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "forces of the Empire"
+      }
+    },
+    {
+      "id": "Siwenna",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Siwenna"
+      }
+    },
+    {
+      "id": "Lathan Devers",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lathan Devers"
+      }
+    },
+    {
+      "id": "war",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "war"
+      }
+    },
+    {
+      "id": "Wanda",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wanda"
+      }
+    },
+    {
+      "id": "Siwennian",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Siwennian"
+      }
+    },
+    {
+      "id": "Enclosure",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Enclosure"
+      }
+    },
+    {
+      "id": "Sergeant Mori Luk",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Sergeant Mori Luk"
+      }
+    },
+    {
+      "id": "general",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "general"
+      }
+    },
+    {
+      "id": "Engineer Orre",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Engineer Orre"
+      }
+    },
+    {
+      "id": "cylinder of film",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "cylinder of film"
+      }
+    },
+    {
+      "id": "Lord Brodrig",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Lord Brodrig"
+      }
+    },
+    {
+      "id": "army",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "army"
+      }
+    },
+    {
+      "id": "EVENT",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "EVENT"
+      }
+    },
+    {
+      "id": "Devers",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Devers"
+      }
+    },
+    {
+      "id": "Barr",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Barr"
+      }
+    },
+    {
+      "id": "Association of Independent Traders",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Association of Independent Traders"
+      }
+    },
+    {
+      "id": "Riose",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Riose"
+      }
+    },
+    {
+      "id": "sons",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "sons"
+      }
+    },
+    {
+      "id": "nephew",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "nephew"
+      }
+    },
+    {
+      "id": "daughter",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "daughter"
+      }
+    },
+    {
+      "id": "grandchildren",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "grandchildren"
+      }
+    },
+    {
+      "id": "Loris",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Loris"
+      }
+    },
+    {
+      "id": "Four Kingdoms",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Four Kingdoms"
+      }
+    },
+    {
+      "id": "FOUNDATION trilogy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "FOUNDATION trilogy"
+      }
+    },
+    {
+      "id": "psycho-history",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "psycho-history"
+      }
+    },
+    {
+      "id": "Empire in decay",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Empire in decay"
+      }
+    },
+    {
+      "id": "First Foundation",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "First Foundation"
+      }
+    },
+    {
+      "id": "outer periphery of the Galaxy",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "outer periphery of the Galaxy"
+      }
+    },
+    {
+      "id": "barbarized planets",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "barbarized planets"
+      }
+    },
+    {
+      "id": "Warlords",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Warlords"
+      }
+    },
+    {
+      "id": "Search for the Second Foundation",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Search for the Second Foundation"
+      }
+    },
+    {
+      "id": "Union of Worlds",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Union of Worlds"
+      }
+    },
+    {
+      "id": "Encyclopedia Galactica Publishing Co.",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Encyclopedia Galactica Publishing Co."
+      }
+    },
+    {
+      "id": "Union",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Union"
+      }
+    },
+    {
+      "id": "Captain Pritcher",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Captain Pritcher"
+      }
+    },
+    {
+      "id": "worlds",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "worlds"
+      }
+    },
+    {
+      "id": "Democratic Opposition",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Democratic Opposition"
+      }
+    },
+    {
+      "id": "Conversion",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Conversion"
+      }
+    },
+    {
+      "id": "Pritcher",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Pritcher"
+      }
+    },
+    {
+      "id": "Bail Channis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bail Channis"
+      }
+    },
+    {
+      "id": "Palace",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Palace"
+      }
+    },
+    {
+      "id": "city",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "city"
+      }
+    },
+    {
+      "id": "audience",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "audience"
+      }
+    },
+    {
+      "id": "Kalgan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Kalgan"
+      }
+    },
+    {
+      "id": "Channis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Channis"
+      }
+    },
+    {
+      "id": "palace",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "palace"
+      }
+    },
+    {
+      "id": "First Citizen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "First Citizen"
+      }
+    },
+    {
+      "id": "PERSON",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "PERSON"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Philip K. Dick",
+      "target": "Do Androids Dream of Electric Sheep?",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "PHILIP K. DICK DO ANDROIDS DREAM OF ELECTRIC SHEEP ?"
+      }
+    },
+    {
+      "source": "Tu'imalila",
+      "target": "Royal Palace Ground in the Tongan capital of Nuku, Alofa",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "THE ANIMAL, CALLED TU'IMALILA, DIED AT THE ROYAL PALACE GROUND IN THE TONGAN CAPITAL OF NUKU, ALOFA."
+      }
+    },
+    {
+      "source": "Tu'imalila",
+      "target": "Reuters, 1966",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Reuters, 1966"
+      }
+    },
+    {
+      "source": "Tu'imalila",
+      "target": "Auckland Museum in New Zealand",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "TONGA RADIO SAID TU'IMALILA'S CARCASS WOULD BE SENT TO THE AUCKLAND MUSEUM IN NEW ZEALAND."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Iran",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Now, in her bed, his wife Iran opened her gray, unmerry eyes"
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "cops",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "\"You're a murderer hired by the cops."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Buster Friendly and His Friendly Friends",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.7,
+        "evidence": "He turned up the TV sound, and the voice of Buster Friendly boomed out and filled the room."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "electric sheep",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "his electric sheep \"grazed.\""
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "plot of sod",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "the particular plot of sod which he owned"
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "San Francisco",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "the San Francisco Police Department"
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Sidney's Animal & Fowl Catalogue January supplement",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Rick found his creased, much-studied copy of Sidney's Animal & Fowl Catalogue January supplement"
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "sheep",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Going over to his sheep, Rick bent down, searching in the thick white wool"
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "his wife",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "My wife's father gave it to us outright when he emigrated."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Rick's wife",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "My wife's father gave it to us outright when he emigrated."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Barbour",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Barbour said, remembering and nodding."
+      }
+    },
+    {
+      "source": "Rick Deckard",
+      "target": "Groucho",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I showed them a photograph of Groucho. They made this."
+      }
+    },
+    {
+      "source": "Iran",
+      "target": "his wife",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"You're worse,\" his wife said, her eyes still shut."
+      }
+    },
+    {
+      "source": "Iran",
+      "target": "Penfield mood organ",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I was in a 382 mood; I had just dialed it."
+      }
+    },
+    {
+      "source": "his wife",
+      "target": "Iran",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"You're worse,\" his wife said, her eyes still shut."
+      }
+    },
+    {
+      "source": "Buster Friendly and His Friendly Friends",
+      "target": "His Friendly Friends",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Buster Friendly and His Friendly Friends"
+      }
+    },
+    {
+      "source": "Buster Friendly and His Friendly Friends",
+      "target": "TV",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the voice of Buster Friendly boomed out and filled the room"
+      }
+    },
+    {
+      "source": "Mountibank Lead Codpieces",
+      "target": "commercial",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "that awful commercial came on, the one I hate; you know, for Mountibank Lead Codpieces."
+      }
+    },
+    {
+      "source": "electric sheep",
+      "target": "roof pasture",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "to the covered roof pasture whereon his electric sheep \"grazed.\""
+      }
+    },
+    {
+      "source": "Bill Barbour",
+      "target": "horse",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "\"My horse,\" Barbour declared beamingly"
+      }
+    },
+    {
+      "source": "Bill Barbour",
+      "target": "State Animal Husbandry Board",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "Through inside contacts I have with the State Animal Husbandry Board"
+      }
+    },
+    {
+      "source": "Fred Washborne",
+      "target": "algae-processing plant",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Fred Washborne, who owns the algae-processing plant"
+      }
+    },
+    {
+      "source": "Fred Washborne",
+      "target": "duck",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "that article about his duck in yesterday's Chronicle"
+      }
+    },
+    {
+      "source": "Barbour",
+      "target": "Judy",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "I've had Judy for three years"
+      }
+    },
+    {
+      "source": "Barbour",
+      "target": "Canada",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "To acquire her I had to fly to Canada"
+      }
+    },
+    {
+      "source": "Graveson",
+      "target": "chicken",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Graveson has that chicken over there."
+      }
+    },
+    {
+      "source": "Oakes",
+      "target": "his wife",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Oakes and his wife have that big red dog"
+      }
+    },
+    {
+      "source": "Oakes",
+      "target": "big red dog",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Oakes and his wife have that big red dog that barks in the night."
+      }
+    },
+    {
+      "source": "Ed Smith",
+      "target": "cat",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.7,
+        "evidence": "I think Ed Smith has a cat down in his apt; - at least he says so, but no one's ever seen it."
+      }
+    },
+    {
+      "source": "Groucho",
+      "target": "photograph",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I showed them a photograph of Groucho."
+      }
+    },
+    {
+      "source": "William Ford Gibson",
+      "target": "Neuromancer",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "Neuromancer by William Gibson"
+      }
+    },
+    {
+      "source": "Deb",
+      "target": "William Ford Gibson",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.9,
+        "evidence": "for Deb who made it possible with love"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Neuromancer",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Case heard someone say"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Zone",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.9,
+        "evidence": "Zone, he's a close personal friend of mine."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Ratz",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "You I let work here for entertainment value."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "cyberspace",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "A year here and he still dreamed of cyberspace"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Night City",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "all the turns he'd taken and the corners he'd cut in Night City"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "The Sprawl",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The Sprawl was a long strange way home over the Pacific now"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "console",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "trying to reach the console that wasn't there"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Linda Lee",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"Miss Linda Lee.\" Case shook his head."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "the matrix",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "jacked into a custom cyberspace deck that projected his disembodied consciousness into the con sensual hallucination that was the matrix."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "wealthier thieves",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "he'd worked for other, wealthier thieves"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "the Fall",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "For Case, who'd lived for the bodiless exultation of cyberspace, it was the Fall."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Memphis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Strapped to a bed in a Memphis hotel"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "killed two men and a woman",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "he'd killed two men and a woman over sums that a year before would have seemed ludicrous."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Chiba",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "finding himself alone in Chiba"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "hustling fresh capital",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "hustling fresh capital with a cold intensity"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "washed down the night's first pill with a double espresso",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Case washed down the night's first pill with a double espresso."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "thought of Linda Lee",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.9,
+        "evidence": "that most hated the thought of Linda Lee."
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Jarre de The",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Alone at a table in the Jarre de The"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Ninsei",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "the warm rain that sizzled across the Ninsei pavement"
+      }
+    },
+    {
+      "source": "Case",
+      "target": "She",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"Hey. Case, good buddy....\""
+      }
+    },
+    {
+      "source": "Case",
+      "target": "She",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "\"Hey. Case, good buddy....\""
+      }
+    },
+    {
+      "source": "Case",
+      "target": "Wage",
+      "attributes": {
+        "relation": "OWES",
+        "confidence": 0.9,
+        "evidence": "I owe Wage a lot more than that."
+      }
+    },
+    {
+      "source": "Ratz",
+      "target": "Chatsubo",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Ratz was tending bar"
+      }
+    },
+    {
+      "source": "Ratz",
+      "target": "Case",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "He saw Case and smiled"
+      }
+    },
+    {
+      "source": "Ratz",
+      "target": "Case",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"I saw your girl last night,\" Ratz said, passing Case his second Kirin."
+      }
+    },
+    {
+      "source": "Ratz",
+      "target": "Case",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "\"No girl? Nothing? Only biz, friend artiste? Dedication to commerce?\""
+      }
+    },
+    {
+      "source": "Chatsubo",
+      "target": "Chiba City",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.7,
+        "evidence": "The Chatsubo was a bar for professional expatriates"
+      }
+    },
+    {
+      "source": "Night City",
+      "target": "Ninsei",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Night City, with Ninsei its heart."
+      }
+    },
+    {
+      "source": "Linda Lee",
+      "target": "Case",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "You get your money, Case, you find Wage quick."
+      }
+    },
+    {
+      "source": "McCoy Pauley",
+      "target": "Case",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "He'd been trained by the best, by McCoy Pauley and Bobby Quine"
+      }
+    },
+    {
+      "source": "Bobby Quine",
+      "target": "Case",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "He'd been trained by the best, by McCoy Pauley and Bobby Quine"
+      }
+    },
+    {
+      "source": "Chiba",
+      "target": "Japan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "In Japan, he'd known with a clenched and absolute certainty, he'd find his cure. In Chiba."
+      }
+    },
+    {
+      "source": "Chiba",
+      "target": "Sprawl",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Chiba was a magnet for the Sprawl's techno-criminal subcultures."
+      }
+    },
+    {
+      "source": "Fuji Electric Company",
+      "target": "Tokyo",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "not even the towering hologram logo of the Fuji Electric Company, and Tokyo Bay"
+      }
+    },
+    {
+      "source": "Ninsei",
+      "target": "LOCATION",
+      "attributes": {
+        "relation": "LOCATION",
+        "confidence": 0.9,
+        "evidence": "Ninsei pavement"
+      }
+    },
+    {
+      "source": "Jarre de The",
+      "target": "Night City",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Two blocks west of the Chat, in a teashop called the Jarre de The"
+      }
+    },
+    {
+      "source": "She",
+      "target": "Sprawl",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.7,
+        "evidence": "Her accent put her south along the Sprawl, toward Atlanta."
+      }
+    },
+    {
+      "source": "Mona",
+      "target": "Wage's boys",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "Mona. Her new squeeze is one of Wage's boys."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "57th year of the Padishah Emperor, Shaddam IV",
+      "attributes": {
+        "relation": "BORN_IN",
+        "confidence": 0.9,
+        "evidence": "born in the 57th year of the Padishah Emperor, Shaddam IV"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis, the planet known as Dune, is forever his place"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Caladan",
+      "attributes": {
+        "relation": "BORN_IN",
+        "confidence": 0.9,
+        "evidence": "he was born on Caladan"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Death Cell Interview",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "What led you to take your particular approach to a history of Muad'dib?"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Paul and the Lady Jessica could escape"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Harkonnen war",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "his losing his father here in the Harkonnen war"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Holy Family",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.8,
+        "evidence": "We do not trouble the Holy Family with trivia"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Fremen",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Muad'dib would not have become leader of all Fremen"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Fremen ritual",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "It was a Fremen ritual which gave Paul his first massive dose of melange"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Chani",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.8,
+        "evidence": "You think Muad'dib is yours because he mated with Chani"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Chani",
+      "attributes": {
+        "relation": "MATED_WITH",
+        "confidence": 0.9,
+        "evidence": "Muad'dib is yours because he mated with Chani"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Fremen customs",
+      "attributes": {
+        "relation": "ADOPTED",
+        "confidence": 0.9,
+        "evidence": "he adopted Fremen customs"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Bene Gesserit adept",
+      "attributes": {
+        "relation": "TRAINED_BY",
+        "confidence": 0.9,
+        "evidence": "he was trained by a Bene Gesserit adept"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "transform your desert planet into a water-rich paradise",
+      "attributes": {
+        "relation": "PROMISED",
+        "confidence": 0.9,
+        "evidence": "He promised to transform your desert planet into a water-rich paradise"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Irulan Corrino",
+      "attributes": {
+        "relation": "MARRIED",
+        "confidence": 0.9,
+        "evidence": "the sham of Muad'dib's marriage to the Princess Irulan"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Jihad",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Twelve years of Muad'dib's Jihad"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Jihad",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Twelve years of Muad'dib's Jihad created the argument"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Great Family",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "This man, born Paul Atreides in an ancient Great Family"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "received the deep prana-bindu training from the Lady Jessica, his Bene Gesserit mother"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Muad'dib Concordance",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Dedication in the Muad'dib Concordance"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "The Tabla Memorium of the Mahdi Spirit Cult",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "as copied from The Tabla Memorium of the Mahdi Spirit Cult"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Sisterhood's breeding program",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Muad'dib was the kwisatz haderach which the Sisterhood's breeding program had sought"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Shaddam Corrino IV",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "Muad'dib's wild Fremen did, indeed, overwhelm the Padishah Shaddam IV."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Sardaukar legions",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Imperial Forces",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "mercenaries",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Qizarate missionaries",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Muad'dib's Qizarate missionaries carried their religious war across space in a Jihad whose major impetus endured only twelve standard years"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "monopoly over the ultimate coin of the realm -- the geriatric spice, melange",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "capture of Arrakis, that planet known more often as Dune, gave him a monopoly over the ultimate coin of the realm -- the geriatric spice, melange"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Alia",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "placed his own sister, Alia, on the religious throne"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Padishah Emperor",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "this man became Emperor Muad'dib"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "the Guild",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Muad'dib was defeated by obvious plotters -- the Guild"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "the Sisterhood",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Muad'dib was defeated by obvious plotters -- the Guild, the Sisterhood"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "the Bene Tleilex",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Muad'dib was defeated by obvious plotters -- the Guild, the Sisterhood and the scientific amoralists of the Bene Tleilex"
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "Dune",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis -- Dune -- Desert Planet"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "the mother of the boy, Paul"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "Castle Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "It was a warm night at Castle Caladan"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "mother of the ducal heir"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "dream of an Arrakeen cavern",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Paul fell asleep to dream of an Arrakeen cavern"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "dreams",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "you must tell her about your dreams"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "Fitzwilliam Darcy",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"Remember that you're a duke's son,\" Jessica said."
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "The gom jabbar",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Paul put his hand into the box."
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "duke",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "you dare suggest a duke's son is an animal?"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "mother",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "How did you trick my mother into leaving me alone with you?"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Your mother survived this test. Now it's your turn."
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "gom jabbar",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "trapped by that hand at his neck: the gom jabbar."
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "Litany against Fear",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the Litany against Fear as his mother had taught him"
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "The old woman",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "He felt calmness return, said: \"Get on with it, old woman.\""
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "event with the old woman and the box",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He jerked his hand from the box, stared at it astonished."
+      }
+    },
+    {
+      "source": "Paul",
+      "target": "event with the old woman and the box",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Paul felt his right arm trembling, felt sweat bathing his body."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "House Atreides",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Paul's mother answered in her soft contralto: \"The Atreides are known to start late getting their growth, Your Reverence.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "a Bene Gesserit Lady"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.9,
+        "evidence": "a duke's concubine"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit school",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "She was my teacher at the Bene Gesserit school"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Jessica's hand went to Paul's shoulder, tightened there."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Gaius Helen Mohiam",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "Damn that Jessica! the Reverend Mother thought."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Gaius Helen Mohiam",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "\"The Lady Jessica was my serving wench, lad, for fourteen years at school.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "The old woman",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit adept",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "the Lady Jessica was a Bene Gesserit-trained adept"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "her son in the sisterhood's ways"
+      }
+    },
+    {
+      "source": "House Atreides",
+      "target": "Castle Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the ancient pile of stone that had served the Atreides family as home for twenty-six generations"
+      }
+    },
+    {
+      "source": "House Atreides",
+      "target": "farmlands",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "the green farmlands of the Atreides family holding"
+      }
+    },
+    {
+      "source": "old crone",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "VISITED",
+        "confidence": 0.9,
+        "evidence": "an old crone came to visit the mother of the boy, Paul"
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "Wallach IX",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the transparent dome which the Bene Gesserit had built for this meeting"
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "dome",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "the transparent dome which the Bene Gesserit had built for this meeting"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "Great Houses of the Landsraad",
+      "attributes": {
+        "relation": "POPULAR_AMONG",
+        "confidence": 0.9,
+        "evidence": "for the Duke Leto was popular among the Great Houses of the Landsraad"
+      }
+    },
+    {
+      "source": "Dune",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Not Arrakis, notice, but Dune."
+      }
+    },
+    {
+      "source": "Dune",
+      "target": "spice, melange",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Dune is a one-crop planet because it is the sole and exclusive source of the spice, melange."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Thufir Hawat, his father's Master of Assassins"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "their mortal enemies, the Harkonnens"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens, had been on Arrakis eighty years"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LEAVES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "Combine Honnete Ober Advancer Mercantiles",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "under a CHOAM Company contract"
+      }
+    },
+    {
+      "source": "Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete"
+      }
+    },
+    {
+      "source": "Atreides",
+      "target": "House Harkonnen",
+      "attributes": {
+        "relation": "REPLACES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "Combine Honnete Ober Advancer Mercantiles",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "under a CHOAM Company contract to mine the geriatric spice, melange"
+      }
+    },
+    {
+      "source": "Dr. Yueh",
+      "target": "Paul",
+      "attributes": {
+        "relation": "TEACHES",
+        "confidence": 0.9,
+        "evidence": "Dr. Yueh, his teacher, had hinted"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "Dune",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "History is obsessed by Dune as desert, as birthplace of the Fremen."
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "semi-nomadic lives",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Fremen led semi-nomadic lives in stillsuits which recovered most of their body's moisture."
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Padishah Emperor",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "she's the Emperor's Truthsayer"
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "a mission that required personal attention from a Bene Gesserit-with-theSight."
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"The Lady Jessica was my serving wench, lad, for fourteen years at school.\""
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Wallach IX",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "their hostess here on Wallach IX"
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "fools' fight",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"You wish to draw me into this fools' fight?\" Scytale asked."
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "meeting",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "\"Have you nothing to say for yourself, Scytale?\" the Reverend Mother demanded."
+      }
+    },
+    {
+      "source": "Fitzwilliam Darcy",
+      "target": "Paul",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"Remember that you're a duke's son,\" Jessica said."
+      }
+    },
+    {
+      "source": "The old woman",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "The old woman",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "How could this be a test? he wondered."
+      }
+    },
+    {
+      "source": "The old woman",
+      "target": "Paul",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "\"Old woman!\" she snapped. \"You've courage, and that can't be denied. Well, we shall see, sirra.\""
+      }
+    },
+    {
+      "source": "The old woman",
+      "target": "event with Paul and the box",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The old woman muttered. \"Kull wahad! No woman child ever withstood that much.\""
+      }
+    },
+    {
+      "source": "The old woman",
+      "target": "pain by nerve induction",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "\"Pain by nerve induction,\" she said."
+      }
+    },
+    {
+      "source": "Paul's mother",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "his mother had taught him out of the Bene Gesserit rite."
+      }
+    },
+    {
+      "source": "Bronso of IX",
+      "target": "Death Cell Interview",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Excerpts from the Death Cell Interview with Bronso of IX"
+      }
+    },
+    {
+      "source": "Duncan Idaho",
+      "target": "Harkonnen war",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "the death of Duncan Idaho, who sacrificed himself that Paul and the Lady Jessica could escape"
+      }
+    },
+    {
+      "source": "Duncan Idaho",
+      "target": "Paul",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.7,
+        "evidence": "Duncan Idaho, the Atreides lieutenant who perished saving the life of the young Paul."
+      }
+    },
+    {
+      "source": "Priests",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.8,
+        "evidence": "You Priests do well to make common cause with the Bene Gesserit Sisterhood"
+      }
+    },
+    {
+      "source": "Alia",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "that same melange awakened the unborn Alia in the Lady Jessica's womb"
+      }
+    },
+    {
+      "source": "Chani",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "MATE_OF",
+        "confidence": 0.9,
+        "evidence": "Chani, his little Fremen darling -- she's his mate"
+      }
+    },
+    {
+      "source": "Chani",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.7,
+        "evidence": "place the blame on Chani, the Fremen concubine."
+      }
+    },
+    {
+      "source": "Irulan Corrino",
+      "target": "mutual foe",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.8,
+        "evidence": "Princess Irulan, wife (but not mate, Scytale reminded himself) of their mutual foe"
+      }
+    },
+    {
+      "source": "Irulan Corrino",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.7,
+        "evidence": "betrayed the controls of her Bene Gesserit background"
+      }
+    },
+    {
+      "source": "Paul Muad'dib",
+      "target": "Alia",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Such a rich store of myths enfolds Paul Muad'dib, the Mentat Emperor, and his sister, Alia"
+      }
+    },
+    {
+      "source": "Paul Muad'dib",
+      "target": "Alia",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Such a rich store of myths enfolds Paul Muad'dib, the Mentat Emperor, and his sister, Alia"
+      }
+    },
+    {
+      "source": "Paul Muad'dib",
+      "target": "prophecy",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Without melange, Paul-Muad'dib could not prophesy."
+      }
+    },
+    {
+      "source": "Korba the Panegyrist",
+      "target": "Qizarate cabal",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "the Qizarate cabal guided by Korba the Panegyrist."
+      }
+    },
+    {
+      "source": "Korba the Panegyrist",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Korba's plan to make a martyr of Muad'dib"
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "Tleilaxu",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Scytale, the Tleilaxu Face Dancer"
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "meeting",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He had chosen a bland, round-faced appearance for this meeting"
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "fools' fight",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"You wish to draw me into this fools' fight?\" Scytale asked."
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "potential messiah",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"We're dealing with a potential messiah.\""
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "silence",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"I was enjoying the silence,\" Scytale said."
+      }
+    },
+    {
+      "source": "Scytale",
+      "target": "poison",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"Poison!\" He uttered the word with the atonals which said he alone understood its secret meaning."
+      }
+    },
+    {
+      "source": "Edric",
+      "target": "the Guild",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Edric, the Guild Steersman"
+      }
+    },
+    {
+      "source": "dome",
+      "target": "hills",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "All around the dome lay hills mangy with melting snow"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Astounding",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "I had sold five stories to John Campbell, editor of Astounding"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Nightfall",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "the fifth story, \"Nightfall,\" was about to appear"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "On August 11, 1941, therefore, I began the story of that interregnum and called it \"Foundation.\""
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Fred Pohl",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "had I not had a conversation with Fred Pohl on November 2"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Campbell",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "I got to Campbell's, and my enthusiasm must have been catching for Campbell blazed up as I had never seen him do."
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "Doubleday (which had already published a science-fiction novel by me, and which had contracted for another)"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "The Foundation Trilogy",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "The Foundation series was nominated, and I felt that was going to have to be glory enough for me, since I was sure that Tolkien's \"Lord of the Rings\" would win. It didn't. The Foundation series won, and the Hugo I received for it has been sitting on my bookcase in the livingroom ever since."
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Columbia University",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "I was 21 years old, a graduate student in chemistry at Columbia University"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "Boston University School of Medicine",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "I was on the biochemistry faculty of Boston University School of Medicine"
+      }
+    },
+    {
+      "source": "Isaac Asimov",
+      "target": "FOUNDATION trilogy",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "ISAAC ASIMOV brings to a close his thousand-year epic of the far future, the FOUNDATION trilogy."
+      }
+    },
+    {
+      "source": "Galactic Empire",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I began the story of that interregnum and called it \"Foundation.\" In it, I described how the psychohistorian, Hari Seldon, established a pair of Foundations at opposite ends of the Universe under such circumstances as to make sure that the forces of history would bring about the second Empire after one thousand years instead of the thirty thousand that would be required otherwise."
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "Astounding",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Foundation\" appeared in the May 1942 issue of Astounding"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "May 1942 issue of Astounding",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Foundation\" appeared in the May 1942 issue of As tounding"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "Isaac Asimov",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I had spent eight years on the Foundation, written nine stories"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "Galaxy",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "It is as far from belief as the outer galaxies from here."
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "Galactic dominion",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "The Foundation itself told you they aimed at Galactic dominion?"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "ENTITY",
+      "attributes": {
+        "relation": "LOCATION",
+        "confidence": 1.0,
+        "evidence": "The Foundation"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "ancient province of Anacreon",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "The area of the Galaxy indicated falls within the ancient province of Anacreon"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "worlds",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "On the worlds that five years previously had known the Foundation"
+      }
+    },
+    {
+      "source": "Foundation",
+      "target": "First Citizen",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "He might have established his capital on the Foundation, the strongest of his now-conquered enemies"
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "Foundations",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I described how the psychohistorian, Hari Seldon, established a pair of Foundations at opposite ends of the Universe"
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "psychohistory",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "He developed and brought to its highest pitch the science of psychohistory."
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "First Galactic Empire",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Hari Seldon was the last great scientist of the First Empire."
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "psycho-history",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "It was he who brought the science of psycho-history to its full development."
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "Empire in decay",
+      "attributes": {
+        "relation": "FORESAW",
+        "confidence": 0.9,
+        "evidence": "It was Seldon, then, who foresaw, against all common sense and popular belief, that the brilliant Empire which seemed so strong was in a state of irremediable decay and decline."
+      }
+    },
+    {
+      "source": "Hari Seldon",
+      "target": "First Foundation",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "All had been planned by Hari Seldon"
+      }
+    },
+    {
+      "source": "Bridle and Saddle",
+      "target": "Astounding",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the succeeding story, \"Bridle and Saddle,\" in the June 1942 issue."
+      }
+    },
+    {
+      "source": "Bridle and Saddle",
+      "target": "June 1942 issue",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Bridle and Saddle,\" in the June 1942 issue"
+      }
+    },
+    {
+      "source": "John W. Campbell",
+      "target": "Astounding",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "John Campbell kept my nose to the grindstone and made sure he got additional Foundation stories"
+      }
+    },
+    {
+      "source": "The Big and the Little",
+      "target": "August 1944 Astounding",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"The Big and the Little\" was in the August 1944 Astounding"
+      }
+    },
+    {
+      "source": "The Wedge",
+      "target": "October 1944 issue",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"The Wedge\" in the October 1944 issue"
+      }
+    },
+    {
+      "source": "Dead Hand",
+      "target": "April 1945 issue",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Dead Hand\" in the April 1945 issue"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "November and December 1945 issues",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"The Mule,\" my personal favorite among the Foundation stories, and the longest yet, for it was 50,000 words. It was printed as a two-part serial (the very first serial I was ever responsible for) in the November and December 1945 issues"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "First Foundation",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "Before him, the First Foundation fell and Seldon’s schemes lay partly in ruins."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Search for the Second Foundation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "The Mule must find it to make his conquest of the Galaxy complete."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Union of Worlds",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "it was he who first presented history with a unified volume at space truly imperial in scope."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Union",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "the Mule rose from nothing to vast dominion in five years"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "the Mule and his Empire"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "When the Foundation fell to the Mule without a fight"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "He might have established his capital on the Foundation, the strongest of his now-conquered enemies, but it was far out on the very rim of the Galaxy."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Captain Pritcher",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "Pritcher fought the Mule."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Captain Pritcher",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.9,
+        "evidence": "The Mule was conscious of that strong unalterable surface layer of loyalty and love that colored every swirl and eddy of the emotionality of Han Pritcher"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Captain Pritcher",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "The Mule was merely “First Citizen.”"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "Second Foundation",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "The Mule had discovered the whereabouts of the Second Foundation, and would attack"
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "city",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "The man who had no name other than the Mule, and no title other than First Citizen looked out through the one-way transparency of the wall to the light and lofty city on the horizon."
+      }
+    },
+    {
+      "source": "Mule",
+      "target": "palace",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "He was at the palace."
+      }
+    },
+    {
+      "source": "Now You See It–",
+      "target": "January 1948 issue",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Now You See It–\" which appeared in the January 1948 issue"
+      }
+    },
+    {
+      "source": "–And Now You Don't",
+      "target": "November 1949, December 1949, and January 1950 issues of Astounding",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"–And Now You Don't,\" and it appeared as a three-part serial in the November 1949, December 1949, and January 1950 issues of Astounding"
+      }
+    },
+    {
+      "source": "Boston University School of Medicine",
+      "target": "Boston",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "I was on the biochemistry faculty of Boston University School of Medicine"
+      }
+    },
+    {
+      "source": "Doubleday",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "Doubleday could publish them instead"
+      }
+    },
+    {
+      "source": "Doubleday",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "the Foundation books became Doubleday property"
+      }
+    },
+    {
+      "source": "Doubleday",
+      "target": "The Foundation Trilogy",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "Doubleday also published an omnibus volume, The Foundation Trilogy"
+      }
+    },
+    {
+      "source": "Doubleday",
+      "target": "The Foundation Trilogy",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "various editors at Doubleday over the years have pointed out that it might be wise to finish it."
+      }
+    },
+    {
+      "source": "Gnome Press",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "In 1951, the Gnome Press edition of Foundation was published"
+      }
+    },
+    {
+      "source": "Gnome Press",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "Any money that was involved was paid to Gnome Press"
+      }
+    },
+    {
+      "source": "Gnome Press",
+      "target": "First Galactic Empire",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "In 1952, Foundation and Empire appeared"
+      }
+    },
+    {
+      "source": "Gnome Press",
+      "target": "Second Foundation",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "in 1953, Second Foundation appeared"
+      }
+    },
+    {
+      "source": "First Galactic Empire",
+      "target": "Galaxy",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "The First Galactic Empire had endured for tens of thousands of years. It had included all the planets of the Galaxy in a centralized rule, sometimes tyrannical, sometimes benevolent, always orderly."
+      }
+    },
+    {
+      "source": "Second Foundation",
+      "target": "Isaac Asimov",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "SECOND FOUNDATION ISAAC ASIMOV"
+      }
+    },
+    {
+      "source": "Second Foundation",
+      "target": "FOUNDATION trilogy",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the FOUNDATION trilogy. This magnificently conceived series, winner of a special Hugo Award as Best All Time Series in the realm of science- and fantasy-fiction, is the finest imaginative creation in this field."
+      }
+    },
+    {
+      "source": "Ace Books",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "Ace Books did put out paperback editions of Foundation"
+      }
+    },
+    {
+      "source": "Ace Books",
+      "target": "First Galactic Empire",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "Ace Books did put out paperback editions of Foundation and of Foundation and Empire"
+      }
+    },
+    {
+      "source": "Timothy Seldes",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Timothy Seldes, who was then my editor at Doubleday"
+      }
+    },
+    {
+      "source": "Avon Books",
+      "target": "Second Foundation",
+      "attributes": {
+        "relation": "PUBLISHED",
+        "confidence": 0.9,
+        "evidence": "Avon Books, which had published a paperback version of Second Foundation"
+      }
+    },
+    {
+      "source": "The Foundation Trilogy",
+      "target": "Science Fiction Book Club",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The Foundation Trilogy, for its Science Fiction Book Club."
+      }
+    },
+    {
+      "source": "The Foundation Trilogy",
+      "target": "Hugo",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "The Foundation series was nominated, and I felt that was going to have to be glory enough for me, since I was sure that Tolkien's \"Lord of the Rings\" would win. It didn't. The Foundation series won, and the Hugo I received for it has been sitting on my bookcase in the livingroom ever since."
+      }
+    },
+    {
+      "source": "The Foundation Trilogy",
+      "target": "sentences",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I came across some sentences by science-fiction writer and critic, James Gunn, who, in connection with the Foundation series, said"
+      }
+    },
+    {
+      "source": "The Foundation Trilogy",
+      "target": "Trilogy",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Action and romance have little to do with the success of the Trilogy – virtually all the action takes place offstage, and the romance is almost invisible – but the stories provide a detective-story fascination with the permutations and reversals of ideas."
+      }
+    },
+    {
+      "source": "World Science Fiction Convention",
+      "target": "Cleveland",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the World Science Fiction Convention for that year (to be held in Cleveland)"
+      }
+    },
+    {
+      "source": "Tolkien",
+      "target": "Lord of the Rings",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "Tolkien's \"Lord of the Rings\""
+      }
+    },
+    {
+      "source": "Lester del Rey",
+      "target": "Isaac",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.9,
+        "evidence": "my good friend, the great science-fiction writer, Lester del Rey."
+      }
+    },
+    {
+      "source": "Lester del Rey",
+      "target": "Larry Ashmead",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.8,
+        "evidence": "He even told Larry Ashmead, then my editor at Doubleday, that if I refused to write more Foundation stories, he, Lester, would be willing to take on the task."
+      }
+    },
+    {
+      "source": "Isaac",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Larry Ashmead, then my editor at Doubleday"
+      }
+    },
+    {
+      "source": "Isaac",
+      "target": "Lightning Rod",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I called it \"Lightning Rod\" and managed to write fourteen pages"
+      }
+    },
+    {
+      "source": "Isaac",
+      "target": "The Foundation Trilogy",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "The Foundation series had been written at a time when our knowledge of astronomy was primitive compared with what it is today."
+      }
+    },
+    {
+      "source": "Isaac",
+      "target": "Foundations at Bay",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I suggested Foundations at Bay, therefore, and that may be the title that will actually be used."
+      }
+    },
+    {
+      "source": "Isaac",
+      "target": "Hugh O'Neill",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "I brought the manuscript to Hugh O'Neill in batches, and the poor fellow went half-crazy since he insisted on reading it in this broken fashion."
+      }
+    },
+    {
+      "source": "Cathleen Jordan",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Cathleen Jordan, then my editor at Doubleday"
+      }
+    },
+    {
+      "source": "Hugh O'Neill",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Hugh O'Neill, then my editor there"
+      }
+    },
+    {
+      "source": "Betty Prashker",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Betty Prashker wants to see you,\" and marched me into her office. She was then one of the senior editors"
+      }
+    },
+    {
+      "source": "Pat LoBrutto",
+      "target": "Doubleday",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Pat LoBrutto, the science-fiction editor at Doubleday"
+      }
+    },
+    {
+      "source": "James Gunn",
+      "target": "The Foundation Trilogy",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I came across some sentences by science-fiction writer and critic, James Gunn, who, in connection with the Foundation series, said"
+      }
+    },
+    {
+      "source": "James Gunn",
+      "target": "sentences",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "I came across some sentences by science-fiction writer and critic, James Gunn"
+      }
+    },
+    {
+      "source": "psychohistory",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "It was that psychohistory which Seldon and the group he worked with applied in full force to the establishment of the Foundation."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Ducem Barr",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Bel Riose smiled at the old man. “I am Riose-”  “I recognize you.”"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "I like to fight.  “That’s why they sent me here. I’m too troublesome at court."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Twentieth Fleet",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "the idolized lion of the Twentieth Fleet"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "he faced the Foundation squarely"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "Empire versus Foundation, that it?” “Right.”"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Padishah Emperor",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Patrician, are you a loyal subject of the Emperor?"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Fleet",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Commander Yume has reported that the Fleet is ready for an immediate attack in retaliation."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Cleon II",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "General Bel Riose, the Military Governor of Siwenna"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Guards",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "He began his career as a cadet in the Guards ten years back"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "affair off the Lemul Cluster",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He had part in that affair off the Lemul Cluster"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "his men",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "His men, I understand, are completely under his control"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "expedition in force",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He has spied out the land of these barbarians and advocates an expedition in force"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "forces of the Empire",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "the report went back to Bel Riose at the General Headquarters he had established on the rocky barrenness of a wandering sunless planet."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "war",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Empire versus Foundation, that it?” “Right.”"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Wanda",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "his walk through the gardens of the obscure planet Wanda, now temporary Imperial headquarters"
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Siwennian",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.8,
+        "evidence": "In the meanwhile, what of this other man you just mentioned, this Siwennian? You keep too many enemies in your good graces."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Siwennian",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "But he is a Siwennian and the son of a proscribed rebel."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "Enclosure",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "Interesting in that the Enclosure is complete today."
+      }
+    },
+    {
+      "source": "Bel Riose",
+      "target": "army",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "But Riose is not just a villain, doc. He’s the whole blamed army. It would fall apart without him."
+      }
+    },
+    {
+      "source": "Ducem Barr",
+      "target": "Imperial rule",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "I have no cause to love Imperial rule."
+      }
+    },
+    {
+      "source": "Ducem Barr",
+      "target": "Onum Barr",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "But just the same I’d like to have you prove that you’re the son of Onum Barr of Siwenna - the sixth and youngest who escaped the massacre."
+      }
+    },
+    {
+      "source": "Onum Barr",
+      "target": "Ducem Barr",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "My father was a Patrician of the Empire and a Senator of Siwenna. His name was Onum Barr."
+      }
+    },
+    {
+      "source": "ENCYCLOPEDIA GALACTICA",
+      "target": "116th Edition",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "All quotations from the Encyclopedia Galactica here reproduced are taken from the 116th Edition"
+      }
+    },
+    {
+      "source": "ENCYCLOPEDIA GALACTICA",
+      "target": "Encyclopedia Galactica Publishing Co.",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "All quotations from the Encyclopedia Galactica here reproduced are taken from the 116th Edition published in  1020 F.E. by the Encyclopedia Galactica Publishing Co., Terminus, with permission of the publishers."
+      }
+    },
+    {
+      "source": "Sennett Forell",
+      "target": "Hober Mallow",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "That Forell was a distant collateral relative of the late great Hober Mallow was recognized openly throughout the Foundation."
+      }
+    },
+    {
+      "source": "Sennett Forell",
+      "target": "Trade Fleet",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs."
+      }
+    },
+    {
+      "source": "Sennett Forell",
+      "target": "Trade Fleet",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.8,
+        "evidence": "I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs."
+      }
+    },
+    {
+      "source": "Sennett Forell",
+      "target": "captured scout ship",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs."
+      }
+    },
+    {
+      "source": "Sennett Forell",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "That Forell was a distant collateral relative of the late great Hober Mallow was recognized openly throughout the Foundation."
+      }
+    },
+    {
+      "source": "Hober Mallow",
+      "target": "ENCYCLOPEDIA GALACTICA",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The epic days of Hardin and Mallow had gone and with them were gone a certain hard daring and resolution.... ENCYCLOPEDIA GALACTICA"
+      }
+    },
+    {
+      "source": "Salvor Hardin",
+      "target": "ENCYCLOPEDIA GALACTICA",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The epic days of Hardin and Mallow had gone and with them were gone a certain hard daring and resolution.... ENCYCLOPEDIA GALACTICA"
+      }
+    },
+    {
+      "source": "Cleon II",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "The last strong Emperor of the First Empire"
+      }
+    },
+    {
+      "source": "Cleon II",
+      "target": "Bel Riose",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.8,
+        "evidence": "he is important for the political and artistic renaissance that took place during his long reign. He is best known to romance, however, for his connection with Bel Riose"
+      }
+    },
+    {
+      "source": "Cleon II",
+      "target": "his great-grandfather",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "where his great-grandfather had been the pirate ruler of a dust-speck planet"
+      }
+    },
+    {
+      "source": "Cleon II",
+      "target": "his father",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "the efforts of his father had cleansed the realm of its leprous patches of rebellion"
+      }
+    },
+    {
+      "source": "Cleon II",
+      "target": "his three sons",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "There were his three sons; three straight-backed youths full of promise and virtue."
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "Cleon II",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Brodrig craved audience. The low-born, faithful Brodrig"
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "court",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.8,
+        "evidence": "faithful because he was hated with a unanimous and cordial hatred that was the only point of agreement between the dozen cliques that divided his court"
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "Wanda",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "his walk through the gardens of the obscure planet Wanda, now temporary Imperial headquarters"
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "Enclosure",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "Interesting in that the Enclosure is complete today."
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "Riose",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Then when you, a Siwennian patrician and Peer of the Realm, tell this Cleon, this Emperor, that his favorite tame-parrot and his shiniest general are getting together to knock him over, and hand him the capsule as evidence, what will he think Brodrig’s ‘ultimate ends’ are?"
+      }
+    },
+    {
+      "source": "Brodrig",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "FROM: AMMEL BRODRIG, ENVOY EXTRAORDINARY OF HIS IMPERIAL MAJESTY, PRIVY SECRETARY OF THE COUNCIL, AND PEER OF THE REALM."
+      }
+    },
+    {
+      "source": "Siwenna",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "From the radiating point of Siwenna, the forces of the Empire reached out cautiously into the black unknown of the Periphery."
+      }
+    },
+    {
+      "source": "Lathan Devers",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "“You are a trader of the Foundation?” “That’s right."
+      }
+    },
+    {
+      "source": "Lathan Devers",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.7,
+        "evidence": "The Foundation itself retains less optimism. They offer me millions in order that I may not put this Seldon to the final test."
+      }
+    },
+    {
+      "source": "Lathan Devers",
+      "target": "war",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Empire versus Foundation, that it?” “Right.”"
+      }
+    },
+    {
+      "source": "Lathan Devers",
+      "target": "Ducem Barr",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "Ducem Barr got out of his chair. “Well, he gives us a fair return for the freezer. Let’s take a look at this new book."
+      }
+    },
+    {
+      "source": "Sergeant Mori Luk",
+      "target": "general",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "He accepted orders instantly, drove the men under him unbendingly and adored his general unswervingly."
+      }
+    },
+    {
+      "source": "Engineer Orre",
+      "target": "cylinder of film",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "The sergeant held out the tightly-wound cylinder of film and scratched his neck. “It belongs to Engineer Orre, but he’ll have to have it back."
+      }
+    },
+    {
+      "source": "Lord Brodrig",
+      "target": "general",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "And he hates the general, that’s what they say. They say he would like to kill the general, because the general is so great and wise."
+      }
+    },
+    {
+      "source": "Lord Brodrig",
+      "target": "general",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.8,
+        "evidence": "And he hates the general, that’s what they say."
+      }
+    },
+    {
+      "source": "Lord Brodrig",
+      "target": "Padishah Emperor",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "He is the Emperor’s adviser in all things, and the Emperor’s too in the worst things."
+      }
+    },
+    {
+      "source": "Lord Brodrig",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.7,
+        "evidence": "Lord Brodrig is coming to see you. Tomorrow!"
+      }
+    },
+    {
+      "source": "Devers",
+      "target": "Barr",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Barr watched patiently from his seat on the low cot in the comer, He asked, “No more signs of them?” “The Empire boys? No.” The trader growled the words with evident impatience."
+      }
+    },
+    {
+      "source": "Devers",
+      "target": "Association of Independent Traders",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "“I’m calling the Association - or trying to.” “The Association? Who are they?” “Association of Independent Traders."
+      }
+    },
+    {
+      "source": "Devers",
+      "target": "Association of Independent Traders",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "I’ve got friends somewhere out there, dying; and a whole world out there, my home, dying also."
+      }
+    },
+    {
+      "source": "Barr",
+      "target": "sons",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Well, I have two sons and a nephew."
+      }
+    },
+    {
+      "source": "Barr",
+      "target": "nephew",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Well, I have two sons and a nephew."
+      }
+    },
+    {
+      "source": "Barr",
+      "target": "daughter",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "My daughter and my two grandchildren have, I hope, left the planet safety before this,"
+      }
+    },
+    {
+      "source": "Barr",
+      "target": "grandchildren",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "My daughter and my two grandchildren have, I hope, left the planet safety before this,"
+      }
+    },
+    {
+      "source": "Riose",
+      "target": "Imperial Forces",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "TO: BEL RIOSE, MILITARY GOVERNOR OF SIWENNA. GENERAL OF THE IMPERIAL FORCES, AND PEER OF THE REALM."
+      }
+    },
+    {
+      "source": "Riose",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "TO: BEL RIOSE, MILITARY GOVERNOR OF SIWENNA. GENERAL OF THE IMPERIAL FORCES, AND PEER OF THE REALM."
+      }
+    },
+    {
+      "source": "Loris",
+      "target": "Four Kingdoms",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "Loris is close to the Foundation?” “Huh? Oh, you wouldn’t know. It’s one of the original Four Kingdoms."
+      }
+    },
+    {
+      "source": "FOUNDATION trilogy",
+      "target": "Second Foundation",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the FOUNDATION trilogy. This magnificently conceived series, winner of a special Hugo Award as Best All Time Series in the realm of science- and fantasy-fiction, is the finest imaginative creation in this field."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "outer periphery of the Galaxy",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "It began as a small community of Encyclopedists lost in the emptiness of the outer periphery of the Galaxy."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "Hari Seldon",
+      "attributes": {
+        "relation": "PLANNED_BY",
+        "confidence": 0.9,
+        "evidence": "All had been planned by Hari Seldon, long dead now."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "barbarized planets",
+      "attributes": {
+        "relation": "TOOK_OVER",
+        "confidence": 0.9,
+        "evidence": "The First Foundation, with its superior science, took over the barbarized planets that surrounded it."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "Warlords",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "It faced the anarchic Warlords that broke away from the dying Empire and beat them."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "Galactic Empire",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "It faced the remnant of the Empire itself under its last strong Emperor and its last strong General and beat it."
+      }
+    },
+    {
+      "source": "First Foundation",
+      "target": "Search for the Second Foundation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "The faithful of what was left of the First Foundation must find it for quite another reason."
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "Mule",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "the most useful was Han Pritcher, now lieutenant general."
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "Democratic Opposition",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Han Pritcher had been a captain and a member of the underground Democratic Opposition."
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "In the days of the Foundation, Han Pritcher had been a captain"
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Captain Pritcher of the one-time Foundation."
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "Conversion",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Until, that is, he was Converted."
+      }
+    },
+    {
+      "source": "Captain Pritcher",
+      "target": "PERSON",
+      "attributes": {
+        "relation": "PERSON",
+        "confidence": 0.9,
+        "evidence": "Captain Pritcher of the one-time Foundation"
+      }
+    },
+    {
+      "source": "Pritcher",
+      "target": "Mule",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "The huge, smooth door swung massively open at the general’s approach, and he entered."
+      }
+    },
+    {
+      "source": "Pritcher",
+      "target": "Foundation",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "Captain Pritcher of the one-time Foundation"
+      }
+    },
+    {
+      "source": "Bail Channis",
+      "target": "Mule",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "He was intelligent and self-possessed--therefore successful with the Mule."
+      }
+    },
+    {
+      "source": "Bail Channis",
+      "target": "Mule",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.7,
+        "evidence": "He did not fear the mysterious Second Foundation. For that matter, he did not fear the Mule, and boasted of it."
+      }
+    },
+    {
+      "source": "Bail Channis",
+      "target": "Mule",
+      "attributes": {
+        "relation": "PERSON",
+        "confidence": 0.9,
+        "evidence": "Bail Channis was one of these."
+      }
+    },
+    {
+      "source": "Bail Channis",
+      "target": "audience",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "And now, for the first time, the Mule had summoned him to personal audience."
+      }
+    },
+    {
+      "source": "Palace",
+      "target": "city",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "It brooded strongly over the empty grounds, over the crowded city on the horizon."
+      }
+    },
+    {
+      "source": "Kalgan",
+      "target": "Union",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "the residence of the First Citizen of the Union, who ruled over an empire of his own."
+      }
+    },
+    {
+      "source": "Kalgan",
+      "target": "Galaxy",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Kalgan, more centrally located, with a long tradition as aristocracy’s playground"
+      }
+    },
+    {
+      "source": "Kalgan",
+      "target": "LOCATION",
+      "attributes": {
+        "relation": "LOCATION",
+        "confidence": 0.9,
+        "evidence": "Kalgan, more centrally located, with a long tradition as aristocracy’s playground"
+      }
+    },
+    {
+      "source": "Channis",
+      "target": "Second Foundation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.7,
+        "evidence": "Channis was improvising words to the tune he was humming. Nonsense words with the recurrent refrain: “Second Foundation threatens the Nation and all of Creation.”"
+      }
+    },
+    {
+      "source": "First Citizen",
+      "target": "Kalgan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "For five years he had remained silent and buried here on Kalgan"
+      }
+    }
+  ]
+}

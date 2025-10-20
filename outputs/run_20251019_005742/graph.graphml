@@ -1,0 +1,2962 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="evidence" attr.type="string" />
+  <key id="d3" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d2" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Philip K. Dick">
+      <data key="d0">unknown</data>
+      <data key="d1">Philip K. Dick</data>
+    </node>
+    <node id="Do Androids Dream of Electric Sheep?">
+      <data key="d0">unknown</data>
+      <data key="d1">Do Androids Dream of Electric Sheep?</data>
+    </node>
+    <node id="Tu'imalila">
+      <data key="d0">unknown</data>
+      <data key="d1">Tu'imalila</data>
+    </node>
+    <node id="Royal Palace Ground in the Tongan capital of Nuku, Alofa">
+      <data key="d0">unknown</data>
+      <data key="d1">Royal Palace Ground in the Tongan capital of Nuku, Alofa</data>
+    </node>
+    <node id="Reuters, 1966">
+      <data key="d0">unknown</data>
+      <data key="d1">Reuters, 1966</data>
+    </node>
+    <node id="Auckland Museum in New Zealand">
+      <data key="d0">unknown</data>
+      <data key="d1">Auckland Museum in New Zealand</data>
+    </node>
+    <node id="Rick Deckard">
+      <data key="d0">unknown</data>
+      <data key="d1">Rick Deckard</data>
+    </node>
+    <node id="Iran">
+      <data key="d0">unknown</data>
+      <data key="d1">Iran</data>
+    </node>
+    <node id="cops">
+      <data key="d0">unknown</data>
+      <data key="d1">cops</data>
+    </node>
+    <node id="his wife">
+      <data key="d0">unknown</data>
+      <data key="d1">his wife</data>
+    </node>
+    <node id="Buster Friendly and His Friendly Friends">
+      <data key="d0">unknown</data>
+      <data key="d1">Buster Friendly and His Friendly Friends</data>
+    </node>
+    <node id="His Friendly Friends">
+      <data key="d0">unknown</data>
+      <data key="d1">His Friendly Friends</data>
+    </node>
+    <node id="Mountibank Lead Codpieces">
+      <data key="d0">unknown</data>
+      <data key="d1">Mountibank Lead Codpieces</data>
+    </node>
+    <node id="commercial">
+      <data key="d0">unknown</data>
+      <data key="d1">commercial</data>
+    </node>
+    <node id="Penfield mood organ">
+      <data key="d0">unknown</data>
+      <data key="d1">Penfield mood organ</data>
+    </node>
+    <node id="TV">
+      <data key="d0">unknown</data>
+      <data key="d1">TV</data>
+    </node>
+    <node id="electric sheep">
+      <data key="d0">unknown</data>
+      <data key="d1">electric sheep</data>
+    </node>
+    <node id="roof pasture">
+      <data key="d0">unknown</data>
+      <data key="d1">roof pasture</data>
+    </node>
+    <node id="plot of sod">
+      <data key="d0">unknown</data>
+      <data key="d1">plot of sod</data>
+    </node>
+    <node id="San Francisco">
+      <data key="d0">unknown</data>
+      <data key="d1">San Francisco</data>
+    </node>
+    <node id="Bill Barbour">
+      <data key="d0">unknown</data>
+      <data key="d1">Bill Barbour</data>
+    </node>
+    <node id="horse">
+      <data key="d0">unknown</data>
+      <data key="d1">horse</data>
+    </node>
+    <node id="State Animal Husbandry Board">
+      <data key="d0">unknown</data>
+      <data key="d1">State Animal Husbandry Board</data>
+    </node>
+    <node id="Fred Washborne">
+      <data key="d0">unknown</data>
+      <data key="d1">Fred Washborne</data>
+    </node>
+    <node id="algae-processing plant">
+      <data key="d0">unknown</data>
+      <data key="d1">algae-processing plant</data>
+    </node>
+    <node id="duck">
+      <data key="d0">unknown</data>
+      <data key="d1">duck</data>
+    </node>
+    <node id="Sidney's Animal &amp; Fowl Catalogue January supplement">
+      <data key="d0">unknown</data>
+      <data key="d1">Sidney's Animal &amp; Fowl Catalogue January supplement</data>
+    </node>
+    <node id="Barbour">
+      <data key="d0">unknown</data>
+      <data key="d1">Barbour</data>
+    </node>
+    <node id="Judy">
+      <data key="d0">unknown</data>
+      <data key="d1">Judy</data>
+    </node>
+    <node id="Canada">
+      <data key="d0">unknown</data>
+      <data key="d1">Canada</data>
+    </node>
+    <node id="sheep">
+      <data key="d0">unknown</data>
+      <data key="d1">sheep</data>
+    </node>
+    <node id="Graveson">
+      <data key="d0">unknown</data>
+      <data key="d1">Graveson</data>
+    </node>
+    <node id="chicken">
+      <data key="d0">unknown</data>
+      <data key="d1">chicken</data>
+    </node>
+    <node id="Oakes">
+      <data key="d0">unknown</data>
+      <data key="d1">Oakes</data>
+    </node>
+    <node id="big red dog">
+      <data key="d0">unknown</data>
+      <data key="d1">big red dog</data>
+    </node>
+    <node id="Ed Smith">
+      <data key="d0">unknown</data>
+      <data key="d1">Ed Smith</data>
+    </node>
+    <node id="cat">
+      <data key="d0">unknown</data>
+      <data key="d1">cat</data>
+    </node>
+    <node id="Rick's wife">
+      <data key="d0">unknown</data>
+      <data key="d1">Rick's wife</data>
+    </node>
+    <node id="Groucho">
+      <data key="d0">unknown</data>
+      <data key="d1">Groucho</data>
+    </node>
+    <node id="photograph">
+      <data key="d0">unknown</data>
+      <data key="d1">photograph</data>
+    </node>
+    <node id="William Ford Gibson">
+      <data key="d0">unknown</data>
+      <data key="d1">William Ford Gibson</data>
+    </node>
+    <node id="Neuromancer">
+      <data key="d0">unknown</data>
+      <data key="d1">Neuromancer</data>
+    </node>
+    <node id="Deb">
+      <data key="d0">unknown</data>
+      <data key="d1">Deb</data>
+    </node>
+    <node id="Case">
+      <data key="d0">unknown</data>
+      <data key="d1">Case</data>
+    </node>
+    <node id="Ratz">
+      <data key="d0">unknown</data>
+      <data key="d1">Ratz</data>
+    </node>
+    <node id="Chatsubo">
+      <data key="d0">unknown</data>
+      <data key="d1">Chatsubo</data>
+    </node>
+    <node id="Chiba City">
+      <data key="d0">unknown</data>
+      <data key="d1">Chiba City</data>
+    </node>
+    <node id="Zone">
+      <data key="d0">unknown</data>
+      <data key="d1">Zone</data>
+    </node>
+    <node id="cyberspace">
+      <data key="d0">unknown</data>
+      <data key="d1">cyberspace</data>
+    </node>
+    <node id="Night City">
+      <data key="d0">unknown</data>
+      <data key="d1">Night City</data>
+    </node>
+    <node id="The Sprawl">
+      <data key="d0">unknown</data>
+      <data key="d1">The Sprawl</data>
+    </node>
+    <node id="console">
+      <data key="d0">unknown</data>
+      <data key="d1">console</data>
+    </node>
+    <node id="Linda Lee">
+      <data key="d0">unknown</data>
+      <data key="d1">Linda Lee</data>
+    </node>
+    <node id="the matrix">
+      <data key="d0">unknown</data>
+      <data key="d1">the matrix</data>
+    </node>
+    <node id="wealthier thieves">
+      <data key="d0">unknown</data>
+      <data key="d1">wealthier thieves</data>
+    </node>
+    <node id="McCoy Pauley">
+      <data key="d0">unknown</data>
+      <data key="d1">McCoy Pauley</data>
+    </node>
+    <node id="Bobby Quine">
+      <data key="d0">unknown</data>
+      <data key="d1">Bobby Quine</data>
+    </node>
+    <node id="the Fall">
+      <data key="d0">unknown</data>
+      <data key="d1">the Fall</data>
+    </node>
+    <node id="Memphis">
+      <data key="d0">unknown</data>
+      <data key="d1">Memphis</data>
+    </node>
+    <node id="Chiba">
+      <data key="d0">unknown</data>
+      <data key="d1">Chiba</data>
+    </node>
+    <node id="Japan">
+      <data key="d0">unknown</data>
+      <data key="d1">Japan</data>
+    </node>
+    <node id="Sprawl">
+      <data key="d0">unknown</data>
+      <data key="d1">Sprawl</data>
+    </node>
+    <node id="Fuji Electric Company">
+      <data key="d0">unknown</data>
+      <data key="d1">Fuji Electric Company</data>
+    </node>
+    <node id="Tokyo">
+      <data key="d0">unknown</data>
+      <data key="d1">Tokyo</data>
+    </node>
+    <node id="Ninsei">
+      <data key="d0">unknown</data>
+      <data key="d1">Ninsei</data>
+    </node>
+    <node id="killed two men and a woman">
+      <data key="d0">unknown</data>
+      <data key="d1">killed two men and a woman</data>
+    </node>
+    <node id="hustling fresh capital">
+      <data key="d0">unknown</data>
+      <data key="d1">hustling fresh capital</data>
+    </node>
+    <node id="washed down the night's first pill with a double espresso">
+      <data key="d0">unknown</data>
+      <data key="d1">washed down the night's first pill with a double espresso</data>
+    </node>
+    <node id="Jarre de The">
+      <data key="d0">unknown</data>
+      <data key="d1">Jarre de The</data>
+    </node>
+    <node id="thought of Linda Lee">
+      <data key="d0">unknown</data>
+      <data key="d1">thought of Linda Lee</data>
+    </node>
+    <node id="LOCATION">
+      <data key="d0">unknown</data>
+      <data key="d1">LOCATION</data>
+    </node>
+    <node id="She">
+      <data key="d0">unknown</data>
+      <data key="d1">She</data>
+    </node>
+    <node id="Mona">
+      <data key="d0">unknown</data>
+      <data key="d1">Mona</data>
+    </node>
+    <node id="Wage's boys">
+      <data key="d0">unknown</data>
+      <data key="d1">Wage's boys</data>
+    </node>
+    <node id="Wage">
+      <data key="d0">unknown</data>
+      <data key="d1">Wage</data>
+    </node>
+    <node id="Paul Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul Atreides</data>
+    </node>
+    <node id="57th year of the Padishah Emperor, Shaddam IV">
+      <data key="d0">unknown</data>
+      <data key="d1">57th year of the Padishah Emperor, Shaddam IV</data>
+    </node>
+    <node id="Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">Arrakis</data>
+    </node>
+    <node id="Caladan">
+      <data key="d0">unknown</data>
+      <data key="d1">Caladan</data>
+    </node>
+    <node id="Paul">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul</data>
+    </node>
+    <node id="Lady Jessica">
+      <data key="d0">unknown</data>
+      <data key="d1">Lady Jessica</data>
+    </node>
+    <node id="Castle Caladan">
+      <data key="d0">unknown</data>
+      <data key="d1">Castle Caladan</data>
+    </node>
+    <node id="House Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">House Atreides</data>
+    </node>
+    <node id="old crone">
+      <data key="d0">unknown</data>
+      <data key="d1">old crone</data>
+    </node>
+    <node id="Bene Gesserit">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit</data>
+    </node>
+    <node id="Duke Leto">
+      <data key="d0">unknown</data>
+      <data key="d1">Duke Leto</data>
+    </node>
+    <node id="Dune">
+      <data key="d0">unknown</data>
+      <data key="d1">Dune</data>
+    </node>
+    <node id="Thufir Hawat">
+      <data key="d0">unknown</data>
+      <data key="d1">Thufir Hawat</data>
+    </node>
+    <node id="House Harkonnen">
+      <data key="d0">unknown</data>
+      <data key="d1">House Harkonnen</data>
+    </node>
+    <node id="Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">Atreides</data>
+    </node>
+    <node id="Combine Honnete Ober Advancer Mercantiles">
+      <data key="d0">unknown</data>
+      <data key="d1">Combine Honnete Ober Advancer Mercantiles</data>
+    </node>
+    <node id="Great Houses of the Landsraad">
+      <data key="d0">unknown</data>
+      <data key="d1">Great Houses of the Landsraad</data>
+    </node>
+    <node id="dream of an Arrakeen cavern">
+      <data key="d0">unknown</data>
+      <data key="d1">dream of an Arrakeen cavern</data>
+    </node>
+    <node id="Dr. Yueh">
+      <data key="d0">unknown</data>
+      <data key="d1">Dr. Yueh</data>
+    </node>
+    <node id="Fremen">
+      <data key="d0">unknown</data>
+      <data key="d1">Fremen</data>
+    </node>
+    <node id="Gaius Helen Mohiam">
+      <data key="d0">unknown</data>
+      <data key="d1">Gaius Helen Mohiam</data>
+    </node>
+    <node id="Padishah Emperor">
+      <data key="d0">unknown</data>
+      <data key="d1">Padishah Emperor</data>
+    </node>
+    <node id="Bene Gesserit school">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit school</data>
+    </node>
+    <node id="dreams">
+      <data key="d0">unknown</data>
+      <data key="d1">dreams</data>
+    </node>
+    <node id="farmlands">
+      <data key="d0">unknown</data>
+      <data key="d1">farmlands</data>
+    </node>
+    <node id="Fitzwilliam Darcy">
+      <data key="d0">unknown</data>
+      <data key="d1">Fitzwilliam Darcy</data>
+    </node>
+    <node id="The old woman">
+      <data key="d0">unknown</data>
+      <data key="d1">The old woman</data>
+    </node>
+    <node id="The gom jabbar">
+      <data key="d0">unknown</data>
+      <data key="d1">The gom jabbar</data>
+    </node>
+    <node id="duke">
+      <data key="d0">unknown</data>
+      <data key="d1">duke</data>
+    </node>
+    <node id="mother">
+      <data key="d0">unknown</data>
+      <data key="d1">mother</data>
+    </node>
+    <node id="test">
+      <data key="d0">unknown</data>
+      <data key="d1">test</data>
+    </node>
+    <node id="gom jabbar">
+      <data key="d0">unknown</data>
+      <data key="d1">gom jabbar</data>
+    </node>
+    <node id="Litany against Fear">
+      <data key="d0">unknown</data>
+      <data key="d1">Litany against Fear</data>
+    </node>
+    <node id="Paul's mother">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul's mother</data>
+    </node>
+    <node id="event with the old woman and the box">
+      <data key="d0">unknown</data>
+      <data key="d1">event with the old woman and the box</data>
+    </node>
+    <node id="event with Paul and the box">
+      <data key="d0">unknown</data>
+      <data key="d1">event with Paul and the box</data>
+    </node>
+    <node id="pain by nerve induction">
+      <data key="d0">unknown</data>
+      <data key="d1">pain by nerve induction</data>
+    </node>
+    <node id="Bronso of IX">
+      <data key="d0">unknown</data>
+      <data key="d1">Bronso of IX</data>
+    </node>
+    <node id="Death Cell Interview">
+      <data key="d0">unknown</data>
+      <data key="d1">Death Cell Interview</data>
+    </node>
+    <node id="semi-nomadic lives">
+      <data key="d0">unknown</data>
+      <data key="d1">semi-nomadic lives</data>
+    </node>
+    <node id="spice, melange">
+      <data key="d0">unknown</data>
+      <data key="d1">spice, melange</data>
+    </node>
+    <node id="Harkonnen war">
+      <data key="d0">unknown</data>
+      <data key="d1">Harkonnen war</data>
+    </node>
+    <node id="Duncan Idaho">
+      <data key="d0">unknown</data>
+      <data key="d1">Duncan Idaho</data>
+    </node>
+    <node id="Priests">
+      <data key="d0">unknown</data>
+      <data key="d1">Priests</data>
+    </node>
+    <node id="Bene Gesserit adept">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit adept</data>
+    </node>
+    <node id="Holy Family">
+      <data key="d0">unknown</data>
+      <data key="d1">Holy Family</data>
+    </node>
+    <node id="Fremen ritual">
+      <data key="d0">unknown</data>
+      <data key="d1">Fremen ritual</data>
+    </node>
+    <node id="Alia">
+      <data key="d0">unknown</data>
+      <data key="d1">Alia</data>
+    </node>
+    <node id="Chani">
+      <data key="d0">unknown</data>
+      <data key="d1">Chani</data>
+    </node>
+    <node id="Fremen customs">
+      <data key="d0">unknown</data>
+      <data key="d1">Fremen customs</data>
+    </node>
+    <node id="transform your desert planet into a water-rich paradise">
+      <data key="d0">unknown</data>
+      <data key="d1">transform your desert planet into a water-rich paradise</data>
+    </node>
+    <node id="Irulan Corrino">
+      <data key="d0">unknown</data>
+      <data key="d1">Irulan Corrino</data>
+    </node>
+    <node id="Jihad">
+      <data key="d0">unknown</data>
+      <data key="d1">Jihad</data>
+    </node>
+    <node id="Paul Muad'dib">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul Muad'dib</data>
+    </node>
+    <node id="Great Family">
+      <data key="d0">unknown</data>
+      <data key="d1">Great Family</data>
+    </node>
+    <node id="Muad'dib Concordance">
+      <data key="d0">unknown</data>
+      <data key="d1">Muad'dib Concordance</data>
+    </node>
+    <node id="The Tabla Memorium of the Mahdi Spirit Cult">
+      <data key="d0">unknown</data>
+      <data key="d1">The Tabla Memorium of the Mahdi Spirit Cult</data>
+    </node>
+    <node id="Sisterhood's breeding program">
+      <data key="d0">unknown</data>
+      <data key="d1">Sisterhood's breeding program</data>
+    </node>
+    <node id="Shaddam Corrino IV">
+      <data key="d0">unknown</data>
+      <data key="d1">Shaddam Corrino IV</data>
+    </node>
+    <node id="Sardaukar legions">
+      <data key="d0">unknown</data>
+      <data key="d1">Sardaukar legions</data>
+    </node>
+    <node id="Imperial Forces">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperial Forces</data>
+    </node>
+    <node id="mercenaries">
+      <data key="d0">unknown</data>
+      <data key="d1">mercenaries</data>
+    </node>
+    <node id="Qizarate missionaries">
+      <data key="d0">unknown</data>
+      <data key="d1">Qizarate missionaries</data>
+    </node>
+    <node id="monopoly over the ultimate coin of the realm -- the geriatric spice, melange">
+      <data key="d0">unknown</data>
+      <data key="d1">monopoly over the ultimate coin of the realm -- the geriatric spice, melange</data>
+    </node>
+    <node id="prophecy">
+      <data key="d0">unknown</data>
+      <data key="d1">prophecy</data>
+    </node>
+    <node id="the Guild">
+      <data key="d0">unknown</data>
+      <data key="d1">the Guild</data>
+    </node>
+    <node id="the Sisterhood">
+      <data key="d0">unknown</data>
+      <data key="d1">the Sisterhood</data>
+    </node>
+    <node id="the Bene Tleilex">
+      <data key="d0">unknown</data>
+      <data key="d1">the Bene Tleilex</data>
+    </node>
+    <node id="Korba the Panegyrist">
+      <data key="d0">unknown</data>
+      <data key="d1">Korba the Panegyrist</data>
+    </node>
+    <node id="Qizarate cabal">
+      <data key="d0">unknown</data>
+      <data key="d1">Qizarate cabal</data>
+    </node>
+    <node id="Scytale">
+      <data key="d0">unknown</data>
+      <data key="d1">Scytale</data>
+    </node>
+    <node id="Tleilaxu">
+      <data key="d0">unknown</data>
+      <data key="d1">Tleilaxu</data>
+    </node>
+    <node id="Wallach IX">
+      <data key="d0">unknown</data>
+      <data key="d1">Wallach IX</data>
+    </node>
+    <node id="Edric">
+      <data key="d0">unknown</data>
+      <data key="d1">Edric</data>
+    </node>
+    <node id="dome">
+      <data key="d0">unknown</data>
+      <data key="d1">dome</data>
+    </node>
+    <node id="mutual foe">
+      <data key="d0">unknown</data>
+      <data key="d1">mutual foe</data>
+    </node>
+    <node id="hills">
+      <data key="d0">unknown</data>
+      <data key="d1">hills</data>
+    </node>
+    <node id="meeting">
+      <data key="d0">unknown</data>
+      <data key="d1">meeting</data>
+    </node>
+    <node id="fools' fight">
+      <data key="d0">unknown</data>
+      <data key="d1">fools' fight</data>
+    </node>
+    <node id="potential messiah">
+      <data key="d0">unknown</data>
+      <data key="d1">potential messiah</data>
+    </node>
+    <node id="silence">
+      <data key="d0">unknown</data>
+      <data key="d1">silence</data>
+    </node>
+    <node id="poison">
+      <data key="d0">unknown</data>
+      <data key="d1">poison</data>
+    </node>
+    <node id="Isaac Asimov">
+      <data key="d0">unknown</data>
+      <data key="d1">Isaac Asimov</data>
+    </node>
+    <node id="Astounding">
+      <data key="d0">unknown</data>
+      <data key="d1">Astounding</data>
+    </node>
+    <node id="Nightfall">
+      <data key="d0">unknown</data>
+      <data key="d1">Nightfall</data>
+    </node>
+    <node id="Galactic Empire">
+      <data key="d0">unknown</data>
+      <data key="d1">Galactic Empire</data>
+    </node>
+    <node id="Foundation">
+      <data key="d0">unknown</data>
+      <data key="d1">Foundation</data>
+    </node>
+    <node id="Hari Seldon">
+      <data key="d0">unknown</data>
+      <data key="d1">Hari Seldon</data>
+    </node>
+    <node id="Foundations">
+      <data key="d0">unknown</data>
+      <data key="d1">Foundations</data>
+    </node>
+    <node id="Bridle and Saddle">
+      <data key="d0">unknown</data>
+      <data key="d1">Bridle and Saddle</data>
+    </node>
+    <node id="Fred Pohl">
+      <data key="d0">unknown</data>
+      <data key="d1">Fred Pohl</data>
+    </node>
+    <node id="Campbell">
+      <data key="d0">unknown</data>
+      <data key="d1">Campbell</data>
+    </node>
+    <node id="May 1942 issue of Astounding">
+      <data key="d0">unknown</data>
+      <data key="d1">May 1942 issue of Astounding</data>
+    </node>
+    <node id="June 1942 issue">
+      <data key="d0">unknown</data>
+      <data key="d1">June 1942 issue</data>
+    </node>
+    <node id="John W. Campbell">
+      <data key="d0">unknown</data>
+      <data key="d1">John W. Campbell</data>
+    </node>
+    <node id="The Big and the Little">
+      <data key="d0">unknown</data>
+      <data key="d1">The Big and the Little</data>
+    </node>
+    <node id="August 1944 Astounding">
+      <data key="d0">unknown</data>
+      <data key="d1">August 1944 Astounding</data>
+    </node>
+    <node id="The Wedge">
+      <data key="d0">unknown</data>
+      <data key="d1">The Wedge</data>
+    </node>
+    <node id="October 1944 issue">
+      <data key="d0">unknown</data>
+      <data key="d1">October 1944 issue</data>
+    </node>
+    <node id="Dead Hand">
+      <data key="d0">unknown</data>
+      <data key="d1">Dead Hand</data>
+    </node>
+    <node id="April 1945 issue">
+      <data key="d0">unknown</data>
+      <data key="d1">April 1945 issue</data>
+    </node>
+    <node id="Mule">
+      <data key="d0">unknown</data>
+      <data key="d1">Mule</data>
+    </node>
+    <node id="November and December 1945 issues">
+      <data key="d0">unknown</data>
+      <data key="d1">November and December 1945 issues</data>
+    </node>
+    <node id="Now You See It–">
+      <data key="d0">unknown</data>
+      <data key="d1">Now You See It–</data>
+    </node>
+    <node id="January 1948 issue">
+      <data key="d0">unknown</data>
+      <data key="d1">January 1948 issue</data>
+    </node>
+    <node id="–And Now You Don't">
+      <data key="d0">unknown</data>
+      <data key="d1">–And Now You Don't</data>
+    </node>
+    <node id="November 1949, December 1949, and January 1950 issues of Astounding">
+      <data key="d0">unknown</data>
+      <data key="d1">November 1949, December 1949, and January 1950 issues of Astounding</data>
+    </node>
+    <node id="Boston University School of Medicine">
+      <data key="d0">unknown</data>
+      <data key="d1">Boston University School of Medicine</data>
+    </node>
+    <node id="Boston">
+      <data key="d0">unknown</data>
+      <data key="d1">Boston</data>
+    </node>
+    <node id="Doubleday">
+      <data key="d0">unknown</data>
+      <data key="d1">Doubleday</data>
+    </node>
+    <node id="Gnome Press">
+      <data key="d0">unknown</data>
+      <data key="d1">Gnome Press</data>
+    </node>
+    <node id="First Galactic Empire">
+      <data key="d0">unknown</data>
+      <data key="d1">First Galactic Empire</data>
+    </node>
+    <node id="Second Foundation">
+      <data key="d0">unknown</data>
+      <data key="d1">Second Foundation</data>
+    </node>
+    <node id="Ace Books">
+      <data key="d0">unknown</data>
+      <data key="d1">Ace Books</data>
+    </node>
+    <node id="Timothy Seldes">
+      <data key="d0">unknown</data>
+      <data key="d1">Timothy Seldes</data>
+    </node>
+    <node id="Avon Books">
+      <data key="d0">unknown</data>
+      <data key="d1">Avon Books</data>
+    </node>
+    <node id="The Foundation Trilogy">
+      <data key="d0">unknown</data>
+      <data key="d1">The Foundation Trilogy</data>
+    </node>
+    <node id="Science Fiction Book Club">
+      <data key="d0">unknown</data>
+      <data key="d1">Science Fiction Book Club</data>
+    </node>
+    <node id="World Science Fiction Convention">
+      <data key="d0">unknown</data>
+      <data key="d1">World Science Fiction Convention</data>
+    </node>
+    <node id="Cleveland">
+      <data key="d0">unknown</data>
+      <data key="d1">Cleveland</data>
+    </node>
+    <node id="Hugo">
+      <data key="d0">unknown</data>
+      <data key="d1">Hugo</data>
+    </node>
+    <node id="Tolkien">
+      <data key="d0">unknown</data>
+      <data key="d1">Tolkien</data>
+    </node>
+    <node id="Lord of the Rings">
+      <data key="d0">unknown</data>
+      <data key="d1">Lord of the Rings</data>
+    </node>
+    <node id="Lester del Rey">
+      <data key="d0">unknown</data>
+      <data key="d1">Lester del Rey</data>
+    </node>
+    <node id="Isaac">
+      <data key="d0">unknown</data>
+      <data key="d1">Isaac</data>
+    </node>
+    <node id="Larry Ashmead">
+      <data key="d0">unknown</data>
+      <data key="d1">Larry Ashmead</data>
+    </node>
+    <node id="Cathleen Jordan">
+      <data key="d0">unknown</data>
+      <data key="d1">Cathleen Jordan</data>
+    </node>
+    <node id="Hugh O'Neill">
+      <data key="d0">unknown</data>
+      <data key="d1">Hugh O'Neill</data>
+    </node>
+    <node id="Betty Prashker">
+      <data key="d0">unknown</data>
+      <data key="d1">Betty Prashker</data>
+    </node>
+    <node id="Lightning Rod">
+      <data key="d0">unknown</data>
+      <data key="d1">Lightning Rod</data>
+    </node>
+    <node id="Pat LoBrutto">
+      <data key="d0">unknown</data>
+      <data key="d1">Pat LoBrutto</data>
+    </node>
+    <node id="James Gunn">
+      <data key="d0">unknown</data>
+      <data key="d1">James Gunn</data>
+    </node>
+    <node id="sentences">
+      <data key="d0">unknown</data>
+      <data key="d1">sentences</data>
+    </node>
+    <node id="Trilogy">
+      <data key="d0">unknown</data>
+      <data key="d1">Trilogy</data>
+    </node>
+    <node id="Foundations at Bay">
+      <data key="d0">unknown</data>
+      <data key="d1">Foundations at Bay</data>
+    </node>
+    <node id="Columbia University">
+      <data key="d0">unknown</data>
+      <data key="d1">Columbia University</data>
+    </node>
+    <node id="psychohistory">
+      <data key="d0">unknown</data>
+      <data key="d1">psychohistory</data>
+    </node>
+    <node id="Bel Riose">
+      <data key="d0">unknown</data>
+      <data key="d1">Bel Riose</data>
+    </node>
+    <node id="Ducem Barr">
+      <data key="d0">unknown</data>
+      <data key="d1">Ducem Barr</data>
+    </node>
+    <node id="Twentieth Fleet">
+      <data key="d0">unknown</data>
+      <data key="d1">Twentieth Fleet</data>
+    </node>
+    <node id="Onum Barr">
+      <data key="d0">unknown</data>
+      <data key="d1">Onum Barr</data>
+    </node>
+    <node id="ENCYCLOPEDIA GALACTICA">
+      <data key="d0">unknown</data>
+      <data key="d1">ENCYCLOPEDIA GALACTICA</data>
+    </node>
+    <node id="116th Edition">
+      <data key="d0">unknown</data>
+      <data key="d1">116th Edition</data>
+    </node>
+    <node id="Sennett Forell">
+      <data key="d0">unknown</data>
+      <data key="d1">Sennett Forell</data>
+    </node>
+    <node id="Hober Mallow">
+      <data key="d0">unknown</data>
+      <data key="d1">Hober Mallow</data>
+    </node>
+    <node id="Trade Fleet">
+      <data key="d0">unknown</data>
+      <data key="d1">Trade Fleet</data>
+    </node>
+    <node id="captured scout ship">
+      <data key="d0">unknown</data>
+      <data key="d1">captured scout ship</data>
+    </node>
+    <node id="Salvor Hardin">
+      <data key="d0">unknown</data>
+      <data key="d1">Salvor Hardin</data>
+    </node>
+    <node id="Fleet">
+      <data key="d0">unknown</data>
+      <data key="d1">Fleet</data>
+    </node>
+    <node id="Imperial rule">
+      <data key="d0">unknown</data>
+      <data key="d1">Imperial rule</data>
+    </node>
+    <node id="Galaxy">
+      <data key="d0">unknown</data>
+      <data key="d1">Galaxy</data>
+    </node>
+    <node id="Galactic dominion">
+      <data key="d0">unknown</data>
+      <data key="d1">Galactic dominion</data>
+    </node>
+    <node id="Cleon II">
+      <data key="d0">unknown</data>
+      <data key="d1">Cleon II</data>
+    </node>
+    <node id="his great-grandfather">
+      <data key="d0">unknown</data>
+      <data key="d1">his great-grandfather</data>
+    </node>
+    <node id="his father">
+      <data key="d0">unknown</data>
+      <data key="d1">his father</data>
+    </node>
+    <node id="his three sons">
+      <data key="d0">unknown</data>
+      <data key="d1">his three sons</data>
+    </node>
+    <node id="Brodrig">
+      <data key="d0">unknown</data>
+      <data key="d1">Brodrig</data>
+    </node>
+    <node id="court">
+      <data key="d0">unknown</data>
+      <data key="d1">court</data>
+    </node>
+    <node id="Guards">
+      <data key="d0">unknown</data>
+      <data key="d1">Guards</data>
+    </node>
+    <node id="affair off the Lemul Cluster">
+      <data key="d0">unknown</data>
+      <data key="d1">affair off the Lemul Cluster</data>
+    </node>
+    <node id="his men">
+      <data key="d0">unknown</data>
+      <data key="d1">his men</data>
+    </node>
+    <node id="expedition in force">
+      <data key="d0">unknown</data>
+      <data key="d1">expedition in force</data>
+    </node>
+    <node id="ENTITY">
+      <data key="d0">unknown</data>
+      <data key="d1">ENTITY</data>
+    </node>
+    <node id="ancient province of Anacreon">
+      <data key="d0">unknown</data>
+      <data key="d1">ancient province of Anacreon</data>
+    </node>
+    <node id="forces of the Empire">
+      <data key="d0">unknown</data>
+      <data key="d1">forces of the Empire</data>
+    </node>
+    <node id="Siwenna">
+      <data key="d0">unknown</data>
+      <data key="d1">Siwenna</data>
+    </node>
+    <node id="Lathan Devers">
+      <data key="d0">unknown</data>
+      <data key="d1">Lathan Devers</data>
+    </node>
+    <node id="war">
+      <data key="d0">unknown</data>
+      <data key="d1">war</data>
+    </node>
+    <node id="Wanda">
+      <data key="d0">unknown</data>
+      <data key="d1">Wanda</data>
+    </node>
+    <node id="Siwennian">
+      <data key="d0">unknown</data>
+      <data key="d1">Siwennian</data>
+    </node>
+    <node id="Enclosure">
+      <data key="d0">unknown</data>
+      <data key="d1">Enclosure</data>
+    </node>
+    <node id="Sergeant Mori Luk">
+      <data key="d0">unknown</data>
+      <data key="d1">Sergeant Mori Luk</data>
+    </node>
+    <node id="general">
+      <data key="d0">unknown</data>
+      <data key="d1">general</data>
+    </node>
+    <node id="Engineer Orre">
+      <data key="d0">unknown</data>
+      <data key="d1">Engineer Orre</data>
+    </node>
+    <node id="cylinder of film">
+      <data key="d0">unknown</data>
+      <data key="d1">cylinder of film</data>
+    </node>
+    <node id="Lord Brodrig">
+      <data key="d0">unknown</data>
+      <data key="d1">Lord Brodrig</data>
+    </node>
+    <node id="army">
+      <data key="d0">unknown</data>
+      <data key="d1">army</data>
+    </node>
+    <node id="EVENT">
+      <data key="d0">unknown</data>
+      <data key="d1">EVENT</data>
+    </node>
+    <node id="Devers">
+      <data key="d0">unknown</data>
+      <data key="d1">Devers</data>
+    </node>
+    <node id="Barr">
+      <data key="d0">unknown</data>
+      <data key="d1">Barr</data>
+    </node>
+    <node id="Association of Independent Traders">
+      <data key="d0">unknown</data>
+      <data key="d1">Association of Independent Traders</data>
+    </node>
+    <node id="Riose">
+      <data key="d0">unknown</data>
+      <data key="d1">Riose</data>
+    </node>
+    <node id="sons">
+      <data key="d0">unknown</data>
+      <data key="d1">sons</data>
+    </node>
+    <node id="nephew">
+      <data key="d0">unknown</data>
+      <data key="d1">nephew</data>
+    </node>
+    <node id="daughter">
+      <data key="d0">unknown</data>
+      <data key="d1">daughter</data>
+    </node>
+    <node id="grandchildren">
+      <data key="d0">unknown</data>
+      <data key="d1">grandchildren</data>
+    </node>
+    <node id="Loris">
+      <data key="d0">unknown</data>
+      <data key="d1">Loris</data>
+    </node>
+    <node id="Four Kingdoms">
+      <data key="d0">unknown</data>
+      <data key="d1">Four Kingdoms</data>
+    </node>
+    <node id="FOUNDATION trilogy">
+      <data key="d0">unknown</data>
+      <data key="d1">FOUNDATION trilogy</data>
+    </node>
+    <node id="psycho-history">
+      <data key="d0">unknown</data>
+      <data key="d1">psycho-history</data>
+    </node>
+    <node id="Empire in decay">
+      <data key="d0">unknown</data>
+      <data key="d1">Empire in decay</data>
+    </node>
+    <node id="First Foundation">
+      <data key="d0">unknown</data>
+      <data key="d1">First Foundation</data>
+    </node>
+    <node id="outer periphery of the Galaxy">
+      <data key="d0">unknown</data>
+      <data key="d1">outer periphery of the Galaxy</data>
+    </node>
+    <node id="barbarized planets">
+      <data key="d0">unknown</data>
+      <data key="d1">barbarized planets</data>
+    </node>
+    <node id="Warlords">
+      <data key="d0">unknown</data>
+      <data key="d1">Warlords</data>
+    </node>
+    <node id="Search for the Second Foundation">
+      <data key="d0">unknown</data>
+      <data key="d1">Search for the Second Foundation</data>
+    </node>
+    <node id="Union of Worlds">
+      <data key="d0">unknown</data>
+      <data key="d1">Union of Worlds</data>
+    </node>
+    <node id="Encyclopedia Galactica Publishing Co.">
+      <data key="d0">unknown</data>
+      <data key="d1">Encyclopedia Galactica Publishing Co.</data>
+    </node>
+    <node id="Union">
+      <data key="d0">unknown</data>
+      <data key="d1">Union</data>
+    </node>
+    <node id="Captain Pritcher">
+      <data key="d0">unknown</data>
+      <data key="d1">Captain Pritcher</data>
+    </node>
+    <node id="worlds">
+      <data key="d0">unknown</data>
+      <data key="d1">worlds</data>
+    </node>
+    <node id="Democratic Opposition">
+      <data key="d0">unknown</data>
+      <data key="d1">Democratic Opposition</data>
+    </node>
+    <node id="Conversion">
+      <data key="d0">unknown</data>
+      <data key="d1">Conversion</data>
+    </node>
+    <node id="Pritcher">
+      <data key="d0">unknown</data>
+      <data key="d1">Pritcher</data>
+    </node>
+    <node id="Bail Channis">
+      <data key="d0">unknown</data>
+      <data key="d1">Bail Channis</data>
+    </node>
+    <node id="Palace">
+      <data key="d0">unknown</data>
+      <data key="d1">Palace</data>
+    </node>
+    <node id="city">
+      <data key="d0">unknown</data>
+      <data key="d1">city</data>
+    </node>
+    <node id="audience">
+      <data key="d0">unknown</data>
+      <data key="d1">audience</data>
+    </node>
+    <node id="Kalgan">
+      <data key="d0">unknown</data>
+      <data key="d1">Kalgan</data>
+    </node>
+    <node id="Channis">
+      <data key="d0">unknown</data>
+      <data key="d1">Channis</data>
+    </node>
+    <node id="palace">
+      <data key="d0">unknown</data>
+      <data key="d1">palace</data>
+    </node>
+    <node id="First Citizen">
+      <data key="d0">unknown</data>
+      <data key="d1">First Citizen</data>
+    </node>
+    <node id="PERSON">
+      <data key="d0">unknown</data>
+      <data key="d1">PERSON</data>
+    </node>
+    <edge source="Philip K. Dick" target="Do Androids Dream of Electric Sheep?" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">PHILIP K. DICK DO ANDROIDS DREAM OF ELECTRIC SHEEP ?</data>
+    </edge>
+    <edge source="Tu'imalila" target="Royal Palace Ground in the Tongan capital of Nuku, Alofa" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">THE ANIMAL, CALLED TU'IMALILA, DIED AT THE ROYAL PALACE GROUND IN THE TONGAN CAPITAL OF NUKU, ALOFA.</data>
+    </edge>
+    <edge source="Tu'imalila" target="Reuters, 1966" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Reuters, 1966</data>
+    </edge>
+    <edge source="Tu'imalila" target="Auckland Museum in New Zealand" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">TONGA RADIO SAID TU'IMALILA'S CARCASS WOULD BE SENT TO THE AUCKLAND MUSEUM IN NEW ZEALAND.</data>
+    </edge>
+    <edge source="Rick Deckard" target="Iran" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Now, in her bed, his wife Iran opened her gray, unmerry eyes</data>
+    </edge>
+    <edge source="Rick Deckard" target="cops" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"You're a murderer hired by the cops.</data>
+    </edge>
+    <edge source="Rick Deckard" target="Buster Friendly and His Friendly Friends" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.7</data>
+      <data key="d4">He turned up the TV sound, and the voice of Buster Friendly boomed out and filled the room.</data>
+    </edge>
+    <edge source="Rick Deckard" target="electric sheep" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">his electric sheep "grazed."</data>
+    </edge>
+    <edge source="Rick Deckard" target="plot of sod" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the particular plot of sod which he owned</data>
+    </edge>
+    <edge source="Rick Deckard" target="San Francisco" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">the San Francisco Police Department</data>
+    </edge>
+    <edge source="Rick Deckard" target="Sidney's Animal &amp; Fowl Catalogue January supplement" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Rick found his creased, much-studied copy of Sidney's Animal &amp; Fowl Catalogue January supplement</data>
+    </edge>
+    <edge source="Rick Deckard" target="sheep" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Going over to his sheep, Rick bent down, searching in the thick white wool</data>
+    </edge>
+    <edge source="Rick Deckard" target="his wife" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">My wife's father gave it to us outright when he emigrated.</data>
+    </edge>
+    <edge source="Rick Deckard" target="Rick's wife" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">My wife's father gave it to us outright when he emigrated.</data>
+    </edge>
+    <edge source="Rick Deckard" target="Barbour" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Barbour said, remembering and nodding.</data>
+    </edge>
+    <edge source="Rick Deckard" target="Groucho" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I showed them a photograph of Groucho. They made this.</data>
+    </edge>
+    <edge source="Iran" target="his wife" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"You're worse," his wife said, her eyes still shut.</data>
+    </edge>
+    <edge source="Iran" target="Penfield mood organ" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I was in a 382 mood; I had just dialed it.</data>
+    </edge>
+    <edge source="his wife" target="Iran" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"You're worse," his wife said, her eyes still shut.</data>
+    </edge>
+    <edge source="Buster Friendly and His Friendly Friends" target="His Friendly Friends" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Buster Friendly and His Friendly Friends</data>
+    </edge>
+    <edge source="Buster Friendly and His Friendly Friends" target="TV" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the voice of Buster Friendly boomed out and filled the room</data>
+    </edge>
+    <edge source="Mountibank Lead Codpieces" target="commercial" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">that awful commercial came on, the one I hate; you know, for Mountibank Lead Codpieces.</data>
+    </edge>
+    <edge source="electric sheep" target="roof pasture" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">to the covered roof pasture whereon his electric sheep "grazed."</data>
+    </edge>
+    <edge source="Bill Barbour" target="horse" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"My horse," Barbour declared beamingly</data>
+    </edge>
+    <edge source="Bill Barbour" target="State Animal Husbandry Board" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Through inside contacts I have with the State Animal Husbandry Board</data>
+    </edge>
+    <edge source="Fred Washborne" target="algae-processing plant" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Fred Washborne, who owns the algae-processing plant</data>
+    </edge>
+    <edge source="Fred Washborne" target="duck" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">that article about his duck in yesterday's Chronicle</data>
+    </edge>
+    <edge source="Barbour" target="Judy" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I've had Judy for three years</data>
+    </edge>
+    <edge source="Barbour" target="Canada" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">To acquire her I had to fly to Canada</data>
+    </edge>
+    <edge source="Graveson" target="chicken" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Graveson has that chicken over there.</data>
+    </edge>
+    <edge source="Oakes" target="his wife" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Oakes and his wife have that big red dog</data>
+    </edge>
+    <edge source="Oakes" target="big red dog" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Oakes and his wife have that big red dog that barks in the night.</data>
+    </edge>
+    <edge source="Ed Smith" target="cat" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.7</data>
+      <data key="d4">I think Ed Smith has a cat down in his apt; - at least he says so, but no one's ever seen it.</data>
+    </edge>
+    <edge source="Groucho" target="photograph" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I showed them a photograph of Groucho.</data>
+    </edge>
+    <edge source="William Ford Gibson" target="Neuromancer" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Neuromancer by William Gibson</data>
+    </edge>
+    <edge source="Deb" target="William Ford Gibson" id="0">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">for Deb who made it possible with love</data>
+    </edge>
+    <edge source="Case" target="Neuromancer" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Case heard someone say</data>
+    </edge>
+    <edge source="Case" target="Zone" id="0">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Zone, he's a close personal friend of mine.</data>
+    </edge>
+    <edge source="Case" target="Ratz" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">You I let work here for entertainment value.</data>
+    </edge>
+    <edge source="Case" target="cyberspace" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">A year here and he still dreamed of cyberspace</data>
+    </edge>
+    <edge source="Case" target="Night City" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">all the turns he'd taken and the corners he'd cut in Night City</data>
+    </edge>
+    <edge source="Case" target="The Sprawl" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Sprawl was a long strange way home over the Pacific now</data>
+    </edge>
+    <edge source="Case" target="console" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">trying to reach the console that wasn't there</data>
+    </edge>
+    <edge source="Case" target="Linda Lee" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Miss Linda Lee." Case shook his head.</data>
+    </edge>
+    <edge source="Case" target="the matrix" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">jacked into a custom cyberspace deck that projected his disembodied consciousness into the con sensual hallucination that was the matrix.</data>
+    </edge>
+    <edge source="Case" target="wealthier thieves" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he'd worked for other, wealthier thieves</data>
+    </edge>
+    <edge source="Case" target="the Fall" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">For Case, who'd lived for the bodiless exultation of cyberspace, it was the Fall.</data>
+    </edge>
+    <edge source="Case" target="Memphis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Strapped to a bed in a Memphis hotel</data>
+    </edge>
+    <edge source="Case" target="killed two men and a woman" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he'd killed two men and a woman over sums that a year before would have seemed ludicrous.</data>
+    </edge>
+    <edge source="Case" target="Chiba" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">finding himself alone in Chiba</data>
+    </edge>
+    <edge source="Case" target="hustling fresh capital" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">hustling fresh capital with a cold intensity</data>
+    </edge>
+    <edge source="Case" target="washed down the night's first pill with a double espresso" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Case washed down the night's first pill with a double espresso.</data>
+    </edge>
+    <edge source="Case" target="thought of Linda Lee" id="0">
+      <data key="d2">HATES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">that most hated the thought of Linda Lee.</data>
+    </edge>
+    <edge source="Case" target="Jarre de The" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Alone at a table in the Jarre de The</data>
+    </edge>
+    <edge source="Case" target="Ninsei" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">the warm rain that sizzled across the Ninsei pavement</data>
+    </edge>
+    <edge source="Case" target="She" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Hey. Case, good buddy...."</data>
+    </edge>
+    <edge source="Case" target="She" id="1">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"Hey. Case, good buddy...."</data>
+    </edge>
+    <edge source="Case" target="Wage" id="0">
+      <data key="d2">OWES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I owe Wage a lot more than that.</data>
+    </edge>
+    <edge source="Ratz" target="Chatsubo" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Ratz was tending bar</data>
+    </edge>
+    <edge source="Ratz" target="Case" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He saw Case and smiled</data>
+    </edge>
+    <edge source="Ratz" target="Case" id="1">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"I saw your girl last night," Ratz said, passing Case his second Kirin.</data>
+    </edge>
+    <edge source="Ratz" target="Case" id="2">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"No girl? Nothing? Only biz, friend artiste? Dedication to commerce?"</data>
+    </edge>
+    <edge source="Chatsubo" target="Chiba City" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.7</data>
+      <data key="d4">The Chatsubo was a bar for professional expatriates</data>
+    </edge>
+    <edge source="Night City" target="Ninsei" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Night City, with Ninsei its heart.</data>
+    </edge>
+    <edge source="Linda Lee" target="Case" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">You get your money, Case, you find Wage quick.</data>
+    </edge>
+    <edge source="McCoy Pauley" target="Case" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He'd been trained by the best, by McCoy Pauley and Bobby Quine</data>
+    </edge>
+    <edge source="Bobby Quine" target="Case" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He'd been trained by the best, by McCoy Pauley and Bobby Quine</data>
+    </edge>
+    <edge source="Chiba" target="Japan" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">In Japan, he'd known with a clenched and absolute certainty, he'd find his cure. In Chiba.</data>
+    </edge>
+    <edge source="Chiba" target="Sprawl" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Chiba was a magnet for the Sprawl's techno-criminal subcultures.</data>
+    </edge>
+    <edge source="Fuji Electric Company" target="Tokyo" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">not even the towering hologram logo of the Fuji Electric Company, and Tokyo Bay</data>
+    </edge>
+    <edge source="Ninsei" target="LOCATION" id="0">
+      <data key="d2">LOCATION</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Ninsei pavement</data>
+    </edge>
+    <edge source="Jarre de The" target="Night City" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Two blocks west of the Chat, in a teashop called the Jarre de The</data>
+    </edge>
+    <edge source="She" target="Sprawl" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.7</data>
+      <data key="d4">Her accent put her south along the Sprawl, toward Atlanta.</data>
+    </edge>
+    <edge source="Mona" target="Wage's boys" id="0">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Mona. Her new squeeze is one of Wage's boys.</data>
+    </edge>
+    <edge source="Paul Atreides" target="57th year of the Padishah Emperor, Shaddam IV" id="0">
+      <data key="d2">BORN_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">born in the 57th year of the Padishah Emperor, Shaddam IV</data>
+    </edge>
+    <edge source="Paul Atreides" target="Arrakis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Arrakis, the planet known as Dune, is forever his place</data>
+    </edge>
+    <edge source="Paul Atreides" target="Caladan" id="0">
+      <data key="d2">BORN_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he was born on Caladan</data>
+    </edge>
+    <edge source="Paul Atreides" target="Death Cell Interview" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">What led you to take your particular approach to a history of Muad'dib?</data>
+    </edge>
+    <edge source="Paul Atreides" target="Lady Jessica" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Paul and the Lady Jessica could escape</data>
+    </edge>
+    <edge source="Paul Atreides" target="Harkonnen war" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">his losing his father here in the Harkonnen war</data>
+    </edge>
+    <edge source="Paul Atreides" target="Holy Family" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">We do not trouble the Holy Family with trivia</data>
+    </edge>
+    <edge source="Paul Atreides" target="Fremen" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Muad'dib would not have become leader of all Fremen</data>
+    </edge>
+    <edge source="Paul Atreides" target="Fremen ritual" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It was a Fremen ritual which gave Paul his first massive dose of melange</data>
+    </edge>
+    <edge source="Paul Atreides" target="Chani" id="0">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.8</data>
+      <data key="d4">You think Muad'dib is yours because he mated with Chani</data>
+    </edge>
+    <edge source="Paul Atreides" target="Chani" id="1">
+      <data key="d2">MATED_WITH</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Muad'dib is yours because he mated with Chani</data>
+    </edge>
+    <edge source="Paul Atreides" target="Fremen customs" id="0">
+      <data key="d2">ADOPTED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he adopted Fremen customs</data>
+    </edge>
+    <edge source="Paul Atreides" target="Bene Gesserit adept" id="0">
+      <data key="d2">TRAINED_BY</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he was trained by a Bene Gesserit adept</data>
+    </edge>
+    <edge source="Paul Atreides" target="transform your desert planet into a water-rich paradise" id="0">
+      <data key="d2">PROMISED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He promised to transform your desert planet into a water-rich paradise</data>
+    </edge>
+    <edge source="Paul Atreides" target="Irulan Corrino" id="0">
+      <data key="d2">MARRIED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the sham of Muad'dib's marriage to the Princess Irulan</data>
+    </edge>
+    <edge source="Paul Atreides" target="Jihad" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Twelve years of Muad'dib's Jihad</data>
+    </edge>
+    <edge source="Paul Atreides" target="Jihad" id="1">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Twelve years of Muad'dib's Jihad created the argument</data>
+    </edge>
+    <edge source="Paul Atreides" target="Great Family" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">This man, born Paul Atreides in an ancient Great Family</data>
+    </edge>
+    <edge source="Paul Atreides" target="Bene Gesserit" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">received the deep prana-bindu training from the Lady Jessica, his Bene Gesserit mother</data>
+    </edge>
+    <edge source="Paul Atreides" target="Muad'dib Concordance" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Dedication in the Muad'dib Concordance</data>
+    </edge>
+    <edge source="Paul Atreides" target="The Tabla Memorium of the Mahdi Spirit Cult" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">as copied from The Tabla Memorium of the Mahdi Spirit Cult</data>
+    </edge>
+    <edge source="Paul Atreides" target="Sisterhood's breeding program" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Muad'dib was the kwisatz haderach which the Sisterhood's breeding program had sought</data>
+    </edge>
+    <edge source="Paul Atreides" target="Shaddam Corrino IV" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Muad'dib's wild Fremen did, indeed, overwhelm the Padishah Shaddam IV.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Sardaukar legions" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Imperial Forces" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad.</data>
+    </edge>
+    <edge source="Paul Atreides" target="mercenaries" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">They toppled the Sardaukar legions, the allied forces of the Great Houses, the Harkonnen armies and the mercenaries bought with money voted in the Landsraad.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Qizarate missionaries" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Muad'dib's Qizarate missionaries carried their religious war across space in a Jihad whose major impetus endured only twelve standard years</data>
+    </edge>
+    <edge source="Paul Atreides" target="monopoly over the ultimate coin of the realm -- the geriatric spice, melange" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">capture of Arrakis, that planet known more often as Dune, gave him a monopoly over the ultimate coin of the realm -- the geriatric spice, melange</data>
+    </edge>
+    <edge source="Paul Atreides" target="Alia" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">placed his own sister, Alia, on the religious throne</data>
+    </edge>
+    <edge source="Paul Atreides" target="Padishah Emperor" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">this man became Emperor Muad'dib</data>
+    </edge>
+    <edge source="Paul Atreides" target="the Guild" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Muad'dib was defeated by obvious plotters -- the Guild</data>
+    </edge>
+    <edge source="Paul Atreides" target="the Sisterhood" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Muad'dib was defeated by obvious plotters -- the Guild, the Sisterhood</data>
+    </edge>
+    <edge source="Paul Atreides" target="the Bene Tleilex" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Muad'dib was defeated by obvious plotters -- the Guild, the Sisterhood and the scientific amoralists of the Bene Tleilex</data>
+    </edge>
+    <edge source="Arrakis" target="Dune" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Arrakis -- Dune -- Desert Planet</data>
+    </edge>
+    <edge source="Paul" target="Lady Jessica" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the mother of the boy, Paul</data>
+    </edge>
+    <edge source="Paul" target="Castle Caladan" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It was a warm night at Castle Caladan</data>
+    </edge>
+    <edge source="Paul" target="Duke Leto" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">mother of the ducal heir</data>
+    </edge>
+    <edge source="Paul" target="dream of an Arrakeen cavern" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Paul fell asleep to dream of an Arrakeen cavern</data>
+    </edge>
+    <edge source="Paul" target="dreams" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">you must tell her about your dreams</data>
+    </edge>
+    <edge source="Paul" target="Fitzwilliam Darcy" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Remember that you're a duke's son," Jessica said.</data>
+    </edge>
+    <edge source="Paul" target="The gom jabbar" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Paul put his hand into the box.</data>
+    </edge>
+    <edge source="Paul" target="duke" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">you dare suggest a duke's son is an animal?</data>
+    </edge>
+    <edge source="Paul" target="mother" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">How did you trick my mother into leaving me alone with you?</data>
+    </edge>
+    <edge source="Paul" target="test" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Your mother survived this test. Now it's your turn.</data>
+    </edge>
+    <edge source="Paul" target="gom jabbar" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">trapped by that hand at his neck: the gom jabbar.</data>
+    </edge>
+    <edge source="Paul" target="Litany against Fear" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Litany against Fear as his mother had taught him</data>
+    </edge>
+    <edge source="Paul" target="The old woman" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">He felt calmness return, said: "Get on with it, old woman."</data>
+    </edge>
+    <edge source="Paul" target="event with the old woman and the box" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He jerked his hand from the box, stared at it astonished.</data>
+    </edge>
+    <edge source="Paul" target="event with the old woman and the box" id="1">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Paul felt his right arm trembling, felt sweat bathing his body.</data>
+    </edge>
+    <edge source="Lady Jessica" target="House Atreides" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Paul's mother answered in her soft contralto: "The Atreides are known to start late getting their growth, Your Reverence."</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">a Bene Gesserit Lady</data>
+    </edge>
+    <edge source="Lady Jessica" target="Duke Leto" id="0">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">a duke's concubine</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit school" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">She was my teacher at the Bene Gesserit school</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Jessica's hand went to Paul's shoulder, tightened there.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Gaius Helen Mohiam" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">Damn that Jessica! the Reverend Mother thought.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Gaius Helen Mohiam" id="1">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"The Lady Jessica was my serving wench, lad, for fourteen years at school."</data>
+    </edge>
+    <edge source="Lady Jessica" target="The old woman" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit adept" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Lady Jessica was a Bene Gesserit-trained adept</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul Atreides" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">her son in the sisterhood's ways</data>
+    </edge>
+    <edge source="House Atreides" target="Castle Caladan" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the ancient pile of stone that had served the Atreides family as home for twenty-six generations</data>
+    </edge>
+    <edge source="House Atreides" target="farmlands" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the green farmlands of the Atreides family holding</data>
+    </edge>
+    <edge source="old crone" target="Lady Jessica" id="0">
+      <data key="d2">VISITED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">an old crone came to visit the mother of the boy, Paul</data>
+    </edge>
+    <edge source="Bene Gesserit" target="Wallach IX" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the transparent dome which the Bene Gesserit had built for this meeting</data>
+    </edge>
+    <edge source="Bene Gesserit" target="dome" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the transparent dome which the Bene Gesserit had built for this meeting</data>
+    </edge>
+    <edge source="Duke Leto" target="Great Houses of the Landsraad" id="0">
+      <data key="d2">POPULAR_AMONG</data>
+      <data key="d3">0.9</data>
+      <data key="d4">for the Duke Leto was popular among the Great Houses of the Landsraad</data>
+    </edge>
+    <edge source="Dune" target="Arrakis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Not Arrakis, notice, but Dune.</data>
+    </edge>
+    <edge source="Dune" target="spice, melange" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Dune is a one-crop planet because it is the sole and exclusive source of the spice, melange.</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Duke Leto" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Thufir Hawat, his father's Master of Assassins</data>
+    </edge>
+    <edge source="House Harkonnen" target="Atreides" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">their mortal enemies, the Harkonnens</data>
+    </edge>
+    <edge source="House Harkonnen" target="Arrakis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Harkonnens, had been on Arrakis eighty years</data>
+    </edge>
+    <edge source="House Harkonnen" target="Arrakis" id="1">
+      <data key="d2">LEAVES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="House Harkonnen" target="Combine Honnete Ober Advancer Mercantiles" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">under a CHOAM Company contract</data>
+    </edge>
+    <edge source="Atreides" target="Arrakis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete</data>
+    </edge>
+    <edge source="Atreides" target="House Harkonnen" id="0">
+      <data key="d2">REPLACES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="Combine Honnete Ober Advancer Mercantiles" target="Arrakis" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">under a CHOAM Company contract to mine the geriatric spice, melange</data>
+    </edge>
+    <edge source="Dr. Yueh" target="Paul" id="0">
+      <data key="d2">TEACHES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Dr. Yueh, his teacher, had hinted</data>
+    </edge>
+    <edge source="Fremen" target="Arrakis" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen</data>
+    </edge>
+    <edge source="Fremen" target="Dune" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">History is obsessed by Dune as desert, as birthplace of the Fremen.</data>
+    </edge>
+    <edge source="Fremen" target="semi-nomadic lives" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Fremen led semi-nomadic lives in stillsuits which recovered most of their body's moisture.</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Padishah Emperor" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">she's the Emperor's Truthsayer</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Bene Gesserit" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">a mission that required personal attention from a Bene Gesserit-with-theSight.</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Lady Jessica" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"The Lady Jessica was my serving wench, lad, for fourteen years at school."</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Wallach IX" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">their hostess here on Wallach IX</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="fools' fight" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"You wish to draw me into this fools' fight?" Scytale asked.</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="meeting" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Have you nothing to say for yourself, Scytale?" the Reverend Mother demanded.</data>
+    </edge>
+    <edge source="Fitzwilliam Darcy" target="Paul" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Remember that you're a duke's son," Jessica said.</data>
+    </edge>
+    <edge source="The old woman" target="Lady Jessica" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="The old woman" target="test" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">How could this be a test? he wondered.</data>
+    </edge>
+    <edge source="The old woman" target="Paul" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">"Old woman!" she snapped. "You've courage, and that can't be denied. Well, we shall see, sirra."</data>
+    </edge>
+    <edge source="The old woman" target="event with Paul and the box" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The old woman muttered. "Kull wahad! No woman child ever withstood that much."</data>
+    </edge>
+    <edge source="The old woman" target="pain by nerve induction" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Pain by nerve induction," she said.</data>
+    </edge>
+    <edge source="Paul's mother" target="Bene Gesserit" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">his mother had taught him out of the Bene Gesserit rite.</data>
+    </edge>
+    <edge source="Bronso of IX" target="Death Cell Interview" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Excerpts from the Death Cell Interview with Bronso of IX</data>
+    </edge>
+    <edge source="Duncan Idaho" target="Harkonnen war" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the death of Duncan Idaho, who sacrificed himself that Paul and the Lady Jessica could escape</data>
+    </edge>
+    <edge source="Duncan Idaho" target="Paul" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">Duncan Idaho, the Atreides lieutenant who perished saving the life of the young Paul.</data>
+    </edge>
+    <edge source="Priests" target="Bene Gesserit" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.8</data>
+      <data key="d4">You Priests do well to make common cause with the Bene Gesserit Sisterhood</data>
+    </edge>
+    <edge source="Alia" target="Lady Jessica" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">that same melange awakened the unborn Alia in the Lady Jessica's womb</data>
+    </edge>
+    <edge source="Chani" target="Paul Atreides" id="0">
+      <data key="d2">MATE_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Chani, his little Fremen darling -- she's his mate</data>
+    </edge>
+    <edge source="Chani" target="Paul Atreides" id="1">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.7</data>
+      <data key="d4">place the blame on Chani, the Fremen concubine.</data>
+    </edge>
+    <edge source="Irulan Corrino" target="mutual foe" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Princess Irulan, wife (but not mate, Scytale reminded himself) of their mutual foe</data>
+    </edge>
+    <edge source="Irulan Corrino" target="Bene Gesserit" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">betrayed the controls of her Bene Gesserit background</data>
+    </edge>
+    <edge source="Paul Muad'dib" target="Alia" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Such a rich store of myths enfolds Paul Muad'dib, the Mentat Emperor, and his sister, Alia</data>
+    </edge>
+    <edge source="Paul Muad'dib" target="Alia" id="1">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Such a rich store of myths enfolds Paul Muad'dib, the Mentat Emperor, and his sister, Alia</data>
+    </edge>
+    <edge source="Paul Muad'dib" target="prophecy" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Without melange, Paul-Muad'dib could not prophesy.</data>
+    </edge>
+    <edge source="Korba the Panegyrist" target="Qizarate cabal" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Qizarate cabal guided by Korba the Panegyrist.</data>
+    </edge>
+    <edge source="Korba the Panegyrist" target="Paul Atreides" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Korba's plan to make a martyr of Muad'dib</data>
+    </edge>
+    <edge source="Scytale" target="Tleilaxu" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Scytale, the Tleilaxu Face Dancer</data>
+    </edge>
+    <edge source="Scytale" target="meeting" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He had chosen a bland, round-faced appearance for this meeting</data>
+    </edge>
+    <edge source="Scytale" target="fools' fight" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"You wish to draw me into this fools' fight?" Scytale asked.</data>
+    </edge>
+    <edge source="Scytale" target="potential messiah" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"We're dealing with a potential messiah."</data>
+    </edge>
+    <edge source="Scytale" target="silence" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"I was enjoying the silence," Scytale said.</data>
+    </edge>
+    <edge source="Scytale" target="poison" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">"Poison!" He uttered the word with the atonals which said he alone understood its secret meaning.</data>
+    </edge>
+    <edge source="Edric" target="the Guild" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Edric, the Guild Steersman</data>
+    </edge>
+    <edge source="dome" target="hills" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">All around the dome lay hills mangy with melting snow</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Astounding" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I had sold five stories to John Campbell, editor of Astounding</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Nightfall" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the fifth story, "Nightfall," was about to appear</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Foundation" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">On August 11, 1941, therefore, I began the story of that interregnum and called it "Foundation."</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Fred Pohl" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">had I not had a conversation with Fred Pohl on November 2</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Campbell" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I got to Campbell's, and my enthusiasm must have been catching for Campbell blazed up as I had never seen him do.</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Doubleday (which had already published a science-fiction novel by me, and which had contracted for another)</data>
+    </edge>
+    <edge source="Isaac Asimov" target="The Foundation Trilogy" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Foundation series was nominated, and I felt that was going to have to be glory enough for me, since I was sure that Tolkien's "Lord of the Rings" would win. It didn't. The Foundation series won, and the Hugo I received for it has been sitting on my bookcase in the livingroom ever since.</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Columbia University" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I was 21 years old, a graduate student in chemistry at Columbia University</data>
+    </edge>
+    <edge source="Isaac Asimov" target="Boston University School of Medicine" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I was on the biochemistry faculty of Boston University School of Medicine</data>
+    </edge>
+    <edge source="Isaac Asimov" target="FOUNDATION trilogy" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">ISAAC ASIMOV brings to a close his thousand-year epic of the far future, the FOUNDATION trilogy.</data>
+    </edge>
+    <edge source="Galactic Empire" target="Foundation" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I began the story of that interregnum and called it "Foundation." In it, I described how the psychohistorian, Hari Seldon, established a pair of Foundations at opposite ends of the Universe under such circumstances as to make sure that the forces of history would bring about the second Empire after one thousand years instead of the thirty thousand that would be required otherwise.</data>
+    </edge>
+    <edge source="Foundation" target="Astounding" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Foundation" appeared in the May 1942 issue of Astounding</data>
+    </edge>
+    <edge source="Foundation" target="May 1942 issue of Astounding" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Foundation" appeared in the May 1942 issue of As tounding</data>
+    </edge>
+    <edge source="Foundation" target="Isaac Asimov" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I had spent eight years on the Foundation, written nine stories</data>
+    </edge>
+    <edge source="Foundation" target="Galaxy" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">It is as far from belief as the outer galaxies from here.</data>
+    </edge>
+    <edge source="Foundation" target="Galactic dominion" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">The Foundation itself told you they aimed at Galactic dominion?</data>
+    </edge>
+    <edge source="Foundation" target="ENTITY" id="0">
+      <data key="d2">LOCATION</data>
+      <data key="d3">1.0</data>
+      <data key="d4">The Foundation</data>
+    </edge>
+    <edge source="Foundation" target="ancient province of Anacreon" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The area of the Galaxy indicated falls within the ancient province of Anacreon</data>
+    </edge>
+    <edge source="Foundation" target="worlds" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">On the worlds that five years previously had known the Foundation</data>
+    </edge>
+    <edge source="Foundation" target="First Citizen" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He might have established his capital on the Foundation, the strongest of his now-conquered enemies</data>
+    </edge>
+    <edge source="Hari Seldon" target="Foundations" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I described how the psychohistorian, Hari Seldon, established a pair of Foundations at opposite ends of the Universe</data>
+    </edge>
+    <edge source="Hari Seldon" target="psychohistory" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He developed and brought to its highest pitch the science of psychohistory.</data>
+    </edge>
+    <edge source="Hari Seldon" target="First Galactic Empire" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Hari Seldon was the last great scientist of the First Empire.</data>
+    </edge>
+    <edge source="Hari Seldon" target="psycho-history" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It was he who brought the science of psycho-history to its full development.</data>
+    </edge>
+    <edge source="Hari Seldon" target="Empire in decay" id="0">
+      <data key="d2">FORESAW</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It was Seldon, then, who foresaw, against all common sense and popular belief, that the brilliant Empire which seemed so strong was in a state of irremediable decay and decline.</data>
+    </edge>
+    <edge source="Hari Seldon" target="First Foundation" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">All had been planned by Hari Seldon</data>
+    </edge>
+    <edge source="Bridle and Saddle" target="Astounding" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the succeeding story, "Bridle and Saddle," in the June 1942 issue.</data>
+    </edge>
+    <edge source="Bridle and Saddle" target="June 1942 issue" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Bridle and Saddle," in the June 1942 issue</data>
+    </edge>
+    <edge source="John W. Campbell" target="Astounding" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">John Campbell kept my nose to the grindstone and made sure he got additional Foundation stories</data>
+    </edge>
+    <edge source="The Big and the Little" target="August 1944 Astounding" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"The Big and the Little" was in the August 1944 Astounding</data>
+    </edge>
+    <edge source="The Wedge" target="October 1944 issue" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"The Wedge" in the October 1944 issue</data>
+    </edge>
+    <edge source="Dead Hand" target="April 1945 issue" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Dead Hand" in the April 1945 issue</data>
+    </edge>
+    <edge source="Mule" target="November and December 1945 issues" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"The Mule," my personal favorite among the Foundation stories, and the longest yet, for it was 50,000 words. It was printed as a two-part serial (the very first serial I was ever responsible for) in the November and December 1945 issues</data>
+    </edge>
+    <edge source="Mule" target="First Foundation" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Before him, the First Foundation fell and Seldon’s schemes lay partly in ruins.</data>
+    </edge>
+    <edge source="Mule" target="Search for the Second Foundation" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Mule must find it to make his conquest of the Galaxy complete.</data>
+    </edge>
+    <edge source="Mule" target="Union of Worlds" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">it was he who first presented history with a unified volume at space truly imperial in scope.</data>
+    </edge>
+    <edge source="Mule" target="Union" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Mule rose from nothing to vast dominion in five years</data>
+    </edge>
+    <edge source="Mule" target="Galactic Empire" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Mule and his Empire</data>
+    </edge>
+    <edge source="Mule" target="Foundation" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">When the Foundation fell to the Mule without a fight</data>
+    </edge>
+    <edge source="Mule" target="Foundation" id="1">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">He might have established his capital on the Foundation, the strongest of his now-conquered enemies, but it was far out on the very rim of the Galaxy.</data>
+    </edge>
+    <edge source="Mule" target="Captain Pritcher" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Pritcher fought the Mule.</data>
+    </edge>
+    <edge source="Mule" target="Captain Pritcher" id="1">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Mule was conscious of that strong unalterable surface layer of loyalty and love that colored every swirl and eddy of the emotionality of Han Pritcher</data>
+    </edge>
+    <edge source="Mule" target="Captain Pritcher" id="2">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Mule was merely “First Citizen.”</data>
+    </edge>
+    <edge source="Mule" target="Second Foundation" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">The Mule had discovered the whereabouts of the Second Foundation, and would attack</data>
+    </edge>
+    <edge source="Mule" target="city" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The man who had no name other than the Mule, and no title other than First Citizen looked out through the one-way transparency of the wall to the light and lofty city on the horizon.</data>
+    </edge>
+    <edge source="Mule" target="palace" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He was at the palace.</data>
+    </edge>
+    <edge source="Now You See It–" target="January 1948 issue" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"Now You See It–" which appeared in the January 1948 issue</data>
+    </edge>
+    <edge source="–And Now You Don't" target="November 1949, December 1949, and January 1950 issues of Astounding" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">"–And Now You Don't," and it appeared as a three-part serial in the November 1949, December 1949, and January 1950 issues of Astounding</data>
+    </edge>
+    <edge source="Boston University School of Medicine" target="Boston" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">I was on the biochemistry faculty of Boston University School of Medicine</data>
+    </edge>
+    <edge source="Doubleday" target="Foundation" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Doubleday could publish them instead</data>
+    </edge>
+    <edge source="Doubleday" target="Foundation" id="1">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the Foundation books became Doubleday property</data>
+    </edge>
+    <edge source="Doubleday" target="The Foundation Trilogy" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Doubleday also published an omnibus volume, The Foundation Trilogy</data>
+    </edge>
+    <edge source="Doubleday" target="The Foundation Trilogy" id="1">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">various editors at Doubleday over the years have pointed out that it might be wise to finish it.</data>
+    </edge>
+    <edge source="Gnome Press" target="Foundation" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">In 1951, the Gnome Press edition of Foundation was published</data>
+    </edge>
+    <edge source="Gnome Press" target="Foundation" id="1">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Any money that was involved was paid to Gnome Press</data>
+    </edge>
+    <edge source="Gnome Press" target="First Galactic Empire" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">In 1952, Foundation and Empire appeared</data>
+    </edge>
+    <edge source="Gnome Press" target="Second Foundation" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">in 1953, Second Foundation appeared</data>
+    </edge>
+    <edge source="First Galactic Empire" target="Galaxy" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The First Galactic Empire had endured for tens of thousands of years. It had included all the planets of the Galaxy in a centralized rule, sometimes tyrannical, sometimes benevolent, always orderly.</data>
+    </edge>
+    <edge source="Second Foundation" target="Isaac Asimov" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">SECOND FOUNDATION ISAAC ASIMOV</data>
+    </edge>
+    <edge source="Second Foundation" target="FOUNDATION trilogy" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the FOUNDATION trilogy. This magnificently conceived series, winner of a special Hugo Award as Best All Time Series in the realm of science- and fantasy-fiction, is the finest imaginative creation in this field.</data>
+    </edge>
+    <edge source="Ace Books" target="Foundation" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Ace Books did put out paperback editions of Foundation</data>
+    </edge>
+    <edge source="Ace Books" target="First Galactic Empire" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Ace Books did put out paperback editions of Foundation and of Foundation and Empire</data>
+    </edge>
+    <edge source="Timothy Seldes" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Timothy Seldes, who was then my editor at Doubleday</data>
+    </edge>
+    <edge source="Avon Books" target="Second Foundation" id="0">
+      <data key="d2">PUBLISHED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Avon Books, which had published a paperback version of Second Foundation</data>
+    </edge>
+    <edge source="The Foundation Trilogy" target="Science Fiction Book Club" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Foundation Trilogy, for its Science Fiction Book Club.</data>
+    </edge>
+    <edge source="The Foundation Trilogy" target="Hugo" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Foundation series was nominated, and I felt that was going to have to be glory enough for me, since I was sure that Tolkien's "Lord of the Rings" would win. It didn't. The Foundation series won, and the Hugo I received for it has been sitting on my bookcase in the livingroom ever since.</data>
+    </edge>
+    <edge source="The Foundation Trilogy" target="sentences" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I came across some sentences by science-fiction writer and critic, James Gunn, who, in connection with the Foundation series, said</data>
+    </edge>
+    <edge source="The Foundation Trilogy" target="Trilogy" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Action and romance have little to do with the success of the Trilogy – virtually all the action takes place offstage, and the romance is almost invisible – but the stories provide a detective-story fascination with the permutations and reversals of ideas.</data>
+    </edge>
+    <edge source="World Science Fiction Convention" target="Cleveland" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the World Science Fiction Convention for that year (to be held in Cleveland)</data>
+    </edge>
+    <edge source="Tolkien" target="Lord of the Rings" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Tolkien's "Lord of the Rings"</data>
+    </edge>
+    <edge source="Lester del Rey" target="Isaac" id="0">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.9</data>
+      <data key="d4">my good friend, the great science-fiction writer, Lester del Rey.</data>
+    </edge>
+    <edge source="Lester del Rey" target="Larry Ashmead" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.8</data>
+      <data key="d4">He even told Larry Ashmead, then my editor at Doubleday, that if I refused to write more Foundation stories, he, Lester, would be willing to take on the task.</data>
+    </edge>
+    <edge source="Isaac" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Larry Ashmead, then my editor at Doubleday</data>
+    </edge>
+    <edge source="Isaac" target="Lightning Rod" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I called it "Lightning Rod" and managed to write fourteen pages</data>
+    </edge>
+    <edge source="Isaac" target="The Foundation Trilogy" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The Foundation series had been written at a time when our knowledge of astronomy was primitive compared with what it is today.</data>
+    </edge>
+    <edge source="Isaac" target="Foundations at Bay" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I suggested Foundations at Bay, therefore, and that may be the title that will actually be used.</data>
+    </edge>
+    <edge source="Isaac" target="Hugh O'Neill" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">I brought the manuscript to Hugh O'Neill in batches, and the poor fellow went half-crazy since he insisted on reading it in this broken fashion.</data>
+    </edge>
+    <edge source="Cathleen Jordan" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Cathleen Jordan, then my editor at Doubleday</data>
+    </edge>
+    <edge source="Hugh O'Neill" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Hugh O'Neill, then my editor there</data>
+    </edge>
+    <edge source="Betty Prashker" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Betty Prashker wants to see you," and marched me into her office. She was then one of the senior editors</data>
+    </edge>
+    <edge source="Pat LoBrutto" target="Doubleday" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Pat LoBrutto, the science-fiction editor at Doubleday</data>
+    </edge>
+    <edge source="James Gunn" target="The Foundation Trilogy" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I came across some sentences by science-fiction writer and critic, James Gunn, who, in connection with the Foundation series, said</data>
+    </edge>
+    <edge source="James Gunn" target="sentences" id="0">
+      <data key="d2">CREATED</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I came across some sentences by science-fiction writer and critic, James Gunn</data>
+    </edge>
+    <edge source="psychohistory" target="Foundation" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It was that psychohistory which Seldon and the group he worked with applied in full force to the establishment of the Foundation.</data>
+    </edge>
+    <edge source="Bel Riose" target="Ducem Barr" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Bel Riose smiled at the old man. “I am Riose-”  “I recognize you.”</data>
+    </edge>
+    <edge source="Bel Riose" target="Galactic Empire" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I like to fight.  “That’s why they sent me here. I’m too troublesome at court.</data>
+    </edge>
+    <edge source="Bel Riose" target="Twentieth Fleet" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the idolized lion of the Twentieth Fleet</data>
+    </edge>
+    <edge source="Bel Riose" target="Foundation" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">he faced the Foundation squarely</data>
+    </edge>
+    <edge source="Bel Riose" target="Foundation" id="1">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Empire versus Foundation, that it?” “Right.”</data>
+    </edge>
+    <edge source="Bel Riose" target="Padishah Emperor" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Patrician, are you a loyal subject of the Emperor?</data>
+    </edge>
+    <edge source="Bel Riose" target="Fleet" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Commander Yume has reported that the Fleet is ready for an immediate attack in retaliation.</data>
+    </edge>
+    <edge source="Bel Riose" target="Cleon II" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">General Bel Riose, the Military Governor of Siwenna</data>
+    </edge>
+    <edge source="Bel Riose" target="Guards" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He began his career as a cadet in the Guards ten years back</data>
+    </edge>
+    <edge source="Bel Riose" target="affair off the Lemul Cluster" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He had part in that affair off the Lemul Cluster</data>
+    </edge>
+    <edge source="Bel Riose" target="his men" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">His men, I understand, are completely under his control</data>
+    </edge>
+    <edge source="Bel Riose" target="expedition in force" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He has spied out the land of these barbarians and advocates an expedition in force</data>
+    </edge>
+    <edge source="Bel Riose" target="forces of the Empire" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the report went back to Bel Riose at the General Headquarters he had established on the rocky barrenness of a wandering sunless planet.</data>
+    </edge>
+    <edge source="Bel Riose" target="war" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Empire versus Foundation, that it?” “Right.”</data>
+    </edge>
+    <edge source="Bel Riose" target="Wanda" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">his walk through the gardens of the obscure planet Wanda, now temporary Imperial headquarters</data>
+    </edge>
+    <edge source="Bel Riose" target="Siwennian" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.8</data>
+      <data key="d4">In the meanwhile, what of this other man you just mentioned, this Siwennian? You keep too many enemies in your good graces.</data>
+    </edge>
+    <edge source="Bel Riose" target="Siwennian" id="1">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.7</data>
+      <data key="d4">But he is a Siwennian and the son of a proscribed rebel.</data>
+    </edge>
+    <edge source="Bel Riose" target="Enclosure" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Interesting in that the Enclosure is complete today.</data>
+    </edge>
+    <edge source="Bel Riose" target="army" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">But Riose is not just a villain, doc. He’s the whole blamed army. It would fall apart without him.</data>
+    </edge>
+    <edge source="Ducem Barr" target="Imperial rule" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I have no cause to love Imperial rule.</data>
+    </edge>
+    <edge source="Ducem Barr" target="Onum Barr" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">But just the same I’d like to have you prove that you’re the son of Onum Barr of Siwenna - the sixth and youngest who escaped the massacre.</data>
+    </edge>
+    <edge source="Onum Barr" target="Ducem Barr" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">My father was a Patrician of the Empire and a Senator of Siwenna. His name was Onum Barr.</data>
+    </edge>
+    <edge source="ENCYCLOPEDIA GALACTICA" target="116th Edition" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">All quotations from the Encyclopedia Galactica here reproduced are taken from the 116th Edition</data>
+    </edge>
+    <edge source="ENCYCLOPEDIA GALACTICA" target="Encyclopedia Galactica Publishing Co." id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">All quotations from the Encyclopedia Galactica here reproduced are taken from the 116th Edition published in  1020 F.E. by the Encyclopedia Galactica Publishing Co., Terminus, with permission of the publishers.</data>
+    </edge>
+    <edge source="Sennett Forell" target="Hober Mallow" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">That Forell was a distant collateral relative of the late great Hober Mallow was recognized openly throughout the Foundation.</data>
+    </edge>
+    <edge source="Sennett Forell" target="Trade Fleet" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs.</data>
+    </edge>
+    <edge source="Sennett Forell" target="Trade Fleet" id="1">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.8</data>
+      <data key="d4">I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs.</data>
+    </edge>
+    <edge source="Sennett Forell" target="captured scout ship" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">I don’t suppose you forget that it was my own Trade Fleet that captured this scout ship of theirs.</data>
+    </edge>
+    <edge source="Sennett Forell" target="Foundation" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.8</data>
+      <data key="d4">That Forell was a distant collateral relative of the late great Hober Mallow was recognized openly throughout the Foundation.</data>
+    </edge>
+    <edge source="Hober Mallow" target="ENCYCLOPEDIA GALACTICA" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The epic days of Hardin and Mallow had gone and with them were gone a certain hard daring and resolution.... ENCYCLOPEDIA GALACTICA</data>
+    </edge>
+    <edge source="Salvor Hardin" target="ENCYCLOPEDIA GALACTICA" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The epic days of Hardin and Mallow had gone and with them were gone a certain hard daring and resolution.... ENCYCLOPEDIA GALACTICA</data>
+    </edge>
+    <edge source="Cleon II" target="Galactic Empire" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The last strong Emperor of the First Empire</data>
+    </edge>
+    <edge source="Cleon II" target="Bel Riose" id="0">
+      <data key="d2">LOVES</data>
+      <data key="d3">0.8</data>
+      <data key="d4">he is important for the political and artistic renaissance that took place during his long reign. He is best known to romance, however, for his connection with Bel Riose</data>
+    </edge>
+    <edge source="Cleon II" target="his great-grandfather" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">where his great-grandfather had been the pirate ruler of a dust-speck planet</data>
+    </edge>
+    <edge source="Cleon II" target="his father" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the efforts of his father had cleansed the realm of its leprous patches of rebellion</data>
+    </edge>
+    <edge source="Cleon II" target="his three sons" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">There were his three sons; three straight-backed youths full of promise and virtue.</data>
+    </edge>
+    <edge source="Brodrig" target="Cleon II" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Brodrig craved audience. The low-born, faithful Brodrig</data>
+    </edge>
+    <edge source="Brodrig" target="court" id="0">
+      <data key="d2">HATES</data>
+      <data key="d3">0.8</data>
+      <data key="d4">faithful because he was hated with a unanimous and cordial hatred that was the only point of agreement between the dozen cliques that divided his court</data>
+    </edge>
+    <edge source="Brodrig" target="Wanda" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">his walk through the gardens of the obscure planet Wanda, now temporary Imperial headquarters</data>
+    </edge>
+    <edge source="Brodrig" target="Enclosure" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Interesting in that the Enclosure is complete today.</data>
+    </edge>
+    <edge source="Brodrig" target="Riose" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Then when you, a Siwennian patrician and Peer of the Realm, tell this Cleon, this Emperor, that his favorite tame-parrot and his shiniest general are getting together to knock him over, and hand him the capsule as evidence, what will he think Brodrig’s ‘ultimate ends’ are?</data>
+    </edge>
+    <edge source="Brodrig" target="Galactic Empire" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">FROM: AMMEL BRODRIG, ENVOY EXTRAORDINARY OF HIS IMPERIAL MAJESTY, PRIVY SECRETARY OF THE COUNCIL, AND PEER OF THE REALM.</data>
+    </edge>
+    <edge source="Siwenna" target="Galactic Empire" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">From the radiating point of Siwenna, the forces of the Empire reached out cautiously into the black unknown of the Periphery.</data>
+    </edge>
+    <edge source="Lathan Devers" target="Foundation" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">“You are a trader of the Foundation?” “That’s right.</data>
+    </edge>
+    <edge source="Lathan Devers" target="Foundation" id="1">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.7</data>
+      <data key="d4">The Foundation itself retains less optimism. They offer me millions in order that I may not put this Seldon to the final test.</data>
+    </edge>
+    <edge source="Lathan Devers" target="war" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Empire versus Foundation, that it?” “Right.”</data>
+    </edge>
+    <edge source="Lathan Devers" target="Ducem Barr" id="0">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Ducem Barr got out of his chair. “Well, he gives us a fair return for the freezer. Let’s take a look at this new book.</data>
+    </edge>
+    <edge source="Sergeant Mori Luk" target="general" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He accepted orders instantly, drove the men under him unbendingly and adored his general unswervingly.</data>
+    </edge>
+    <edge source="Engineer Orre" target="cylinder of film" id="0">
+      <data key="d2">OWNS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The sergeant held out the tightly-wound cylinder of film and scratched his neck. “It belongs to Engineer Orre, but he’ll have to have it back.</data>
+    </edge>
+    <edge source="Lord Brodrig" target="general" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.8</data>
+      <data key="d4">And he hates the general, that’s what they say. They say he would like to kill the general, because the general is so great and wise.</data>
+    </edge>
+    <edge source="Lord Brodrig" target="general" id="1">
+      <data key="d2">HATES</data>
+      <data key="d3">0.8</data>
+      <data key="d4">And he hates the general, that’s what they say.</data>
+    </edge>
+    <edge source="Lord Brodrig" target="Padishah Emperor" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He is the Emperor’s adviser in all things, and the Emperor’s too in the worst things.</data>
+    </edge>
+    <edge source="Lord Brodrig" target="EVENT" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.7</data>
+      <data key="d4">Lord Brodrig is coming to see you. Tomorrow!</data>
+    </edge>
+    <edge source="Devers" target="Barr" id="0">
+      <data key="d2">KNOWS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Barr watched patiently from his seat on the low cot in the comer, He asked, “No more signs of them?” “The Empire boys? No.” The trader growled the words with evident impatience.</data>
+    </edge>
+    <edge source="Devers" target="Association of Independent Traders" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">“I’m calling the Association - or trying to.” “The Association? Who are they?” “Association of Independent Traders.</data>
+    </edge>
+    <edge source="Devers" target="Association of Independent Traders" id="1">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.8</data>
+      <data key="d4">I’ve got friends somewhere out there, dying; and a whole world out there, my home, dying also.</data>
+    </edge>
+    <edge source="Barr" target="sons" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Well, I have two sons and a nephew.</data>
+    </edge>
+    <edge source="Barr" target="nephew" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Well, I have two sons and a nephew.</data>
+    </edge>
+    <edge source="Barr" target="daughter" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">My daughter and my two grandchildren have, I hope, left the planet safety before this,</data>
+    </edge>
+    <edge source="Barr" target="grandchildren" id="0">
+      <data key="d2">FAMILY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">My daughter and my two grandchildren have, I hope, left the planet safety before this,</data>
+    </edge>
+    <edge source="Riose" target="Imperial Forces" id="0">
+      <data key="d2">LEADS</data>
+      <data key="d3">0.9</data>
+      <data key="d4">TO: BEL RIOSE, MILITARY GOVERNOR OF SIWENNA. GENERAL OF THE IMPERIAL FORCES, AND PEER OF THE REALM.</data>
+    </edge>
+    <edge source="Riose" target="Galactic Empire" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">TO: BEL RIOSE, MILITARY GOVERNOR OF SIWENNA. GENERAL OF THE IMPERIAL FORCES, AND PEER OF THE REALM.</data>
+    </edge>
+    <edge source="Loris" target="Four Kingdoms" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">Loris is close to the Foundation?” “Huh? Oh, you wouldn’t know. It’s one of the original Four Kingdoms.</data>
+    </edge>
+    <edge source="FOUNDATION trilogy" target="Second Foundation" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the FOUNDATION trilogy. This magnificently conceived series, winner of a special Hugo Award as Best All Time Series in the realm of science- and fantasy-fiction, is the finest imaginative creation in this field.</data>
+    </edge>
+    <edge source="First Foundation" target="outer periphery of the Galaxy" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It began as a small community of Encyclopedists lost in the emptiness of the outer periphery of the Galaxy.</data>
+    </edge>
+    <edge source="First Foundation" target="Hari Seldon" id="0">
+      <data key="d2">PLANNED_BY</data>
+      <data key="d3">0.9</data>
+      <data key="d4">All had been planned by Hari Seldon, long dead now.</data>
+    </edge>
+    <edge source="First Foundation" target="barbarized planets" id="0">
+      <data key="d2">TOOK_OVER</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The First Foundation, with its superior science, took over the barbarized planets that surrounded it.</data>
+    </edge>
+    <edge source="First Foundation" target="Warlords" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It faced the anarchic Warlords that broke away from the dying Empire and beat them.</data>
+    </edge>
+    <edge source="First Foundation" target="Galactic Empire" id="0">
+      <data key="d2">ENEMY_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">It faced the remnant of the Empire itself under its last strong Emperor and its last strong General and beat it.</data>
+    </edge>
+    <edge source="First Foundation" target="Search for the Second Foundation" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The faithful of what was left of the First Foundation must find it for quite another reason.</data>
+    </edge>
+    <edge source="Captain Pritcher" target="Mule" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">the most useful was Han Pritcher, now lieutenant general.</data>
+    </edge>
+    <edge source="Captain Pritcher" target="Democratic Opposition" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Han Pritcher had been a captain and a member of the underground Democratic Opposition.</data>
+    </edge>
+    <edge source="Captain Pritcher" target="Foundation" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">In the days of the Foundation, Han Pritcher had been a captain</data>
+    </edge>
+    <edge source="Captain Pritcher" target="Foundation" id="1">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Captain Pritcher of the one-time Foundation.</data>
+    </edge>
+    <edge source="Captain Pritcher" target="Conversion" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Until, that is, he was Converted.</data>
+    </edge>
+    <edge source="Captain Pritcher" target="PERSON" id="0">
+      <data key="d2">PERSON</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Captain Pritcher of the one-time Foundation</data>
+    </edge>
+    <edge source="Pritcher" target="Mule" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">The huge, smooth door swung massively open at the general’s approach, and he entered.</data>
+    </edge>
+    <edge source="Pritcher" target="Foundation" id="0">
+      <data key="d2">MEMBER_OF</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Captain Pritcher of the one-time Foundation</data>
+    </edge>
+    <edge source="Bail Channis" target="Mule" id="0">
+      <data key="d2">WORKS_FOR</data>
+      <data key="d3">0.9</data>
+      <data key="d4">He was intelligent and self-possessed--therefore successful with the Mule.</data>
+    </edge>
+    <edge source="Bail Channis" target="Mule" id="1">
+      <data key="d2">FRIENDS_WITH</data>
+      <data key="d3">0.7</data>
+      <data key="d4">He did not fear the mysterious Second Foundation. For that matter, he did not fear the Mule, and boasted of it.</data>
+    </edge>
+    <edge source="Bail Channis" target="Mule" id="2">
+      <data key="d2">PERSON</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Bail Channis was one of these.</data>
+    </edge>
+    <edge source="Bail Channis" target="audience" id="0">
+      <data key="d2">MENTIONED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">And now, for the first time, the Mule had summoned him to personal audience.</data>
+    </edge>
+    <edge source="Palace" target="city" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">It brooded strongly over the empty grounds, over the crowded city on the horizon.</data>
+    </edge>
+    <edge source="Kalgan" target="Union" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.8</data>
+      <data key="d4">the residence of the First Citizen of the Union, who ruled over an empire of his own.</data>
+    </edge>
+    <edge source="Kalgan" target="Galaxy" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Kalgan, more centrally located, with a long tradition as aristocracy’s playground</data>
+    </edge>
+    <edge source="Kalgan" target="LOCATION" id="0">
+      <data key="d2">LOCATION</data>
+      <data key="d3">0.9</data>
+      <data key="d4">Kalgan, more centrally located, with a long tradition as aristocracy’s playground</data>
+    </edge>
+    <edge source="Channis" target="Second Foundation" id="0">
+      <data key="d2">PARTICIPATES_IN</data>
+      <data key="d3">0.7</data>
+      <data key="d4">Channis was improvising words to the tune he was humming. Nonsense words with the recurrent refrain: “Second Foundation threatens the Nation and all of Creation.”</data>
+    </edge>
+    <edge source="First Citizen" target="Kalgan" id="0">
+      <data key="d2">LOCATED_IN</data>
+      <data key="d3">0.9</data>
+      <data key="d4">For five years he had remained silent and buried here on Kalgan</data>
+    </edge>
+  </graph>
+</graphml>

@@ -316,7 +316,7 @@ Shows how many connections each entity has (power-law distribution typical of so
 
 ### Prerequisites
 - Python 3.10+
-- Anthropic API key (Claude 3.5 Sonnet)
+- OpenAI API key (GPT-4) or Anthropic API key (Claude 3.5 Sonnet)
 
 ### Installation
 
@@ -326,9 +326,6 @@ git clone https://github.com/Sungchunn/Personality-Knowledge-Graph-Challenge.git
 cd Project
 
 # Create virtual environment and install dependencies
-make setup
-
-# Or manually:
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -336,11 +333,96 @@ pip install -r requirements.txt
 
 ### Set API Key
 
+Create a `.env` file in the Project directory:
+
 ```bash
-export ANTHROPIC_API_KEY="your-api-key-here"
+# For OpenAI (recommended)
+OPENAI_API_KEY=sk-your-key-here
+
+# Or for Anthropic
+ANTHROPIC_API_KEY=sk-ant-your-key-here
 ```
 
-### Run Pipeline
+---
+
+### 📚 Process Multiple Novels (Easy Method)
+
+We provide 7 pre-processed novels ready to analyze:
+
+#### Available Novels
+
+| Novel | Author | Genre | Short Name |
+|-------|--------|-------|------------|
+| **Dune** | Frank Herbert | Sci-Fi | `dune` |
+| **Do Androids Dream of Electric Sheep?** | Philip K. Dick | Dystopian | `bladerunner` |
+| **Foundation** | Isaac Asimov | Space Opera | `foundation` |
+| **Neuromancer** | William Gibson | Cyberpunk | `neuromancer` |
+| **Dune Messiah** | Frank Herbert | Sci-Fi Sequel | `dune2` |
+| **Foundation and Empire** | Isaac Asimov | Space Opera | `foundation2` |
+| **Second Foundation** | Isaac Asimov | Space Opera | `foundation3` |
+
+---
+
+#### Quick Demo (50 passages, ~5 min each, ~$0.50-1.50 each)
+
+```bash
+# Activate environment
+source .venv/bin/activate
+
+# Process individual novels
+./scripts/process_individual.sh bladerunner 50
+./scripts/process_individual.sh foundation 50
+./scripts/process_individual.sh neuromancer 50
+./scripts/process_individual.sh dune2 50
+./scripts/process_individual.sh foundation2 50
+./scripts/process_individual.sh foundation3 50
+```
+
+#### Full Novel Processing (all passages, ~15-30 min each, ~$3-8 each)
+
+```bash
+./scripts/process_individual.sh bladerunner all
+./scripts/process_individual.sh foundation all
+./scripts/process_individual.sh neuromancer all
+```
+
+#### Batch Processing (Process top 3 novels at once)
+
+```bash
+./scripts/process_all_novels.sh 50  # Dune, Blade Runner, Foundation
+```
+
+---
+
+### 📊 Analyze Results with Jupyter Notebook
+
+After processing, use the interactive notebook to explore results:
+
+```bash
+# Open notebook
+cd "/Users/chromatrical/CAREER/Side Projects/Intellumia shortlist"
+jupyter notebook demo.ipynb
+```
+
+**In the notebook** (Cell 2):
+```python
+NOVEL_SELECTION = "bladerunner"  # Change to any novel name
+```
+
+Then **Kernel → Restart & Run All**
+
+**What you'll see**:
+- ✅ Top 10 Big Five personality comparison (bar charts)
+- ✅ 5 individual network graphs (full-size visualizations)
+- ✅ Relation type distribution (top 15)
+- ✅ Confidence statistics (quality metrics)
+- ✅ Automated insights (AI-generated observations)
+
+---
+
+### 🔬 Advanced: Direct Python CLI
+
+For custom processing, use the Python CLI directly:
 
 ```bash
 # Process first 50 passages of Dune (5-10 minutes, ~$0.50)
@@ -350,11 +432,13 @@ python -m src.pipeline.cli \
   --max-passages 50 \
   all
 
-# Or process full novel (2-3 hours, ~$5)
+# Or process full novel (15-30 minutes, ~$3-8)
 python -m src.pipeline.cli \
   --input-file data/jsonl/dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl \
   all
 ```
+
+---
 
 ### View Results
 
@@ -475,6 +559,113 @@ See [SYNTHETIC_DATA_ANALYSIS.md](SYNTHETIC_DATA_ANALYSIS.md) for full justificat
 
 ---
 
+## 🧪 Working with Synthetic Data
+
+While the pipeline is designed for real literary text, you can also generate and process synthetic data for testing and benchmarking.
+
+### What is Synthetic Data?
+
+**Synthetic data** = artificially generated passages with known ground truth relationships and personality traits. Useful for:
+- ✅ Computing precision/recall metrics (known correct answers)
+- ✅ Testing edge cases without manual labeling
+- ✅ Development without expensive API calls on full novels
+- ❌ **Limitation**: Cannot test real-world challenges (pronouns, aliases, metaphors)
+
+### Generate Synthetic Data
+
+The pipeline includes a template-based synthetic data generator:
+
+```bash
+# Generate 100 synthetic passages
+python -m src.pipeline.generate_synthetic \
+  --num-passages 100 \
+  --output-dir data/synthetic/
+
+# This creates:
+# - synthetic_passages.jsonl (input passages)
+# - ground_truth.json (correct answers)
+# - synthetic_metadata.json (statistics)
+```
+
+**Output structure**:
+```json
+{
+  "passage_id": "synthetic_00001",
+  "text": "Paul Atreides was born on Caladan. Jessica is his mother...",
+  "ground_truth": {
+    "triples": [
+      {"subject": "Paul Atreides", "relation": "BORN_IN", "object": "Caladan"},
+      {"subject": "Paul Atreides", "relation": "FAMILY_OF", "object": "Jessica"}
+    ],
+    "personalities": [
+      {
+        "person_name": "Paul Atreides",
+        "traits": {"openness": 0.75, "conscientiousness": 0.65, ...}
+      }
+    ]
+  }
+}
+```
+
+### Process Synthetic Data
+
+```bash
+# Run pipeline on synthetic data
+python -m src.pipeline.cli \
+  --input-file data/synthetic/synthetic_passages.jsonl \
+  --output-root outputs/synthetic_run \
+  all
+
+# Compare against ground truth
+python -m src.pipeline.evaluate_synthetic \
+  --predictions outputs/synthetic_run/triples_canonical.jsonl \
+  --ground-truth data/synthetic/ground_truth.json
+
+# Output: precision, recall, F1 scores
+```
+
+### Synthetic Data Templates
+
+The generator uses predefined templates:
+
+```python
+TRIPLE_TEMPLATES = [
+    "{person} was born in {location}.",
+    "{person1} is the friend of {person2}.",
+    "{person} works for {organization}.",
+    "{person} leads {organization}.",
+    # ... 20+ templates
+]
+
+PERSONALITY_TEMPLATES = [
+    "{person} was always curious and open to new ideas.",  # High openness
+    "{person} was anxious and worried constantly.",        # High neuroticism
+    "{person} was organized and disciplined.",             # High conscientiousness
+    # ... 25+ templates per trait
+]
+```
+
+### Why We Use Real Data Primarily
+
+**Advantages of Real Data (Dune)**:
+1. Tests pronoun resolution ("he" → "Paul Atreides")
+2. Tests alias merging ("Duke Leto" = "Leto Atreides" = "the Duke")
+3. Tests metaphorical language ("Paul IS the desert")
+4. Authentic narrative complexity
+5. Prepares for production deployment
+
+**Advantages of Synthetic Data**:
+1. Known ground truth (precision/recall)
+2. Controlled complexity
+3. No copyright concerns
+4. Fast to generate
+
+**Our Approach**: Use real data as primary dataset, synthetic data for specific testing scenarios.
+
+See [SYNTHETIC_DATA_ANALYSIS.md](SYNTHETIC_DATA_ANALYSIS.md) for detailed comparison and methodology.
+
+---
+
 ## 📊 Key Design Decisions
 
 ### 1. Multi-Stage Pipeline vs. Single Prompt
@@ -515,13 +706,18 @@ See [DESIGN_REPORT.md](DESIGN_REPORT.md#22-data-source-real-vs-synthetic) for fu
 
 ## 📚 Documentation
 
-- **[DESIGN_REPORT.md](DESIGN_REPORT.md)**: Complete design justification addressing all challenge requirements (550+ lines)
-- **[RESEARCH_SESSION.md](RESEARCH_SESSION.md)**: LLM-assisted development log with research questions, design iterations, debugging (340+ lines)
-- **[SYNTHETIC_DATA_ANALYSIS.md](SYNTHETIC_DATA_ANALYSIS.md)**: Real vs. synthetic data trade-offs, template-based generation methodology (700+ lines)
-- **[SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md)**: Deliverables checklist for reviewers (450+ lines)
-- **[assessment_demo.ipynb](assessment_demo.ipynb)**: Interactive Jupyter notebook with math, visualizations, and executable code (37 cells)
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)**: Common issues and fixes (dark theme, duplicates, API limits)
-- **[FIX_SUMMARY.md](FIX_SUMMARY.md)**: Documentation of duplicate personality profile bug fix
+### Core Documentation
+- **[README.md](README.md)**: This file - project overview, quick start, results
+- **[demo.ipynb](../demo.ipynb)**: Interactive Jupyter notebook for multi-novel analysis (32 cells)
+
+### Detailed Guides (in `docs/`)
+- **[COMMANDS_REFERENCE.md](docs/COMMANDS_REFERENCE.md)**: Complete command reference with workflows
+- **[MULTI_NOVEL_GUIDE.md](docs/MULTI_NOVEL_GUIDE.md)**: Guide for processing multiple novels
+- **[NOTEBOOK_GUIDE.md](docs/NOTEBOOK_GUIDE.md)**: Jupyter notebook usage documentation
+- **[DESIGN_REPORT.md](docs/DESIGN_REPORT.md)**: Complete design justification (550+ lines)
+- **[SYNTHETIC_DATA_ANALYSIS.md](docs/SYNTHETIC_DATA_ANALYSIS.md)**: Real vs synthetic data analysis (700+ lines)
+- **[RESEARCH_SESSION.md](docs/RESEARCH_SESSION.md)**: LLM-assisted development log (340+ lines)
+- **[SUBMISSION_CHECKLIST.md](docs/SUBMISSION_CHECKLIST.md)**: Deliverables checklist (450+ lines)
 
 ---
 

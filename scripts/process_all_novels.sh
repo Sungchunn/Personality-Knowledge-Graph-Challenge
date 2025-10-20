@@ -10,12 +10,7 @@ cd "$PROJECT_ROOT"
 # Activate virtual environment
 source .venv/bin/activate
 
-# Check if ANTHROPIC_API_KEY is set
-if [ -z "$ANTHROPIC_API_KEY" ]; then
-    echo "Error: ANTHROPIC_API_KEY environment variable not set"
-    echo "Please run: export ANTHROPIC_API_KEY='your-api-key-here'"
-    exit 1
-fi
+# Note: API key should be in .env file (OPENAI_API_KEY or ANTHROPIC_API_KEY)
 
 # Get max passages parameter (default: 50 for demo, or "all" for full run)
 MAX_PASSAGES="${1:-50}"
@@ -27,16 +22,26 @@ echo "Max passages per novel: $MAX_PASSAGES"
 echo "Timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
 echo ""
 
-# Define novels to process
-declare -A NOVELS=(
-    ["dune"]="data/jsonl/dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"
-    ["bladerunner"]="data/jsonl/bladerunner-1-dick-philip-kindred-do-androids-dream-of-electric-sheep-libgen-li-2.jsonl"
-    ["foundation"]="data/jsonl/foundation-1-asimov-isaac-foundation-libgen-li.jsonl"
-)
+# Define novels to process (bash 3.x compatible)
+NOVEL_NAMES="dune bladerunner foundation"
+
+get_novel_path() {
+    case "$1" in
+        dune)
+            echo "data/jsonl/dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"
+            ;;
+        bladerunner)
+            echo "data/jsonl/bladerunner-1-dick-philip-kindred-do-androids-dream-of-electric-sheep-libgen-li-2.jsonl"
+            ;;
+        foundation)
+            echo "data/jsonl/foundation-1-asimov-isaac-foundation-libgen-li.jsonl"
+            ;;
+    esac
+}
 
 # Process each novel
-for novel_name in "${!NOVELS[@]}"; do
-    input_file="${NOVELS[$novel_name]}"
+for novel_name in $NOVEL_NAMES; do
+    input_file=$(get_novel_path "$novel_name")
     timestamp=$(date '+%Y%m%d_%H%M%S')
     output_dir="outputs/${novel_name}_run_${timestamp}"
 

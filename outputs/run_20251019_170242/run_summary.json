@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-19T10:02:57.860632+00:00",
+  "stages_completed": [
+    "extract"
+  ],
+  "total_duration_seconds": 14.673009872436523,
+  "artifacts": {
+    "triples_raw": "outputs/run_20251019_170242/triples_raw.jsonl"
+  },
+  "statistics": {}
+}

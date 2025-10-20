@@ -1,0 +1,7 @@
+{"timestamp": "2025-10-19T07:36:26.118042+00:00", "level": "INFO", "stage": "extract_triples", "message": "Starting stage: extract_triples"}
+{"timestamp": "2025-10-19T07:36:26.118145+00:00", "level": "INFO", "stage": "extract_triples", "message": "Discovering input JSONL files"}
+{"timestamp": "2025-10-19T07:36:26.118195+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing single file: dune-1-herbert-brian-herbert-frank-dune-libgen-li.jsonl"}
+{"timestamp": "2025-10-19T07:36:26.889549+00:00", "level": "INFO", "stage": "extract_triples", "message": "Processing book: dune-1-herbert-brian-herbert-frank-dune-libgen-li"}
+{"timestamp": "2025-10-19T07:36:46.141159+00:00", "level": "INFO", "stage": "extract_triples", "message": "Extracted 23 triples from 3 passages", "metadata": {"triple_count": 23, "passage_count": 3}}
+{"timestamp": "2025-10-19T07:36:46.143136+00:00", "level": "INFO", "stage": "extract_triples", "message": "Saved raw triples to outputs/run_20251019_143619/triples_raw.jsonl"}
+{"timestamp": "2025-10-19T07:36:46.143615+00:00", "level": "INFO", "stage": "extract_triples", "message": "Completed stage: extract_triples", "metadata": {"duration_seconds": 20.025663}}

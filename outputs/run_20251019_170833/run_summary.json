@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-10-19T18:04:47.165522+00:00",
+  "stages_completed": [
+    "build_graph",
+    "viz"
+  ],
+  "total_duration_seconds": 0.07201695442199707,
+  "artifacts": {
+    "graph": "outputs/run_20251019_170833/graph.graphml",
+    "graph_html": "outputs/run_20251019_170833/graph.html"
+  },
+  "statistics": {}
+}

@@ -1,0 +1,86 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 202,
+    "avg_confidence": 0.88,
+    "min_confidence": 0.7,
+    "max_confidence": 1.0,
+    "unique_relations": 29,
+    "relation_distribution": {
+      "MENTIONED_IN": 40,
+      "KNOWS": 23,
+      "PARTICIPATES_IN": 20,
+      "LOCATED_IN": 19,
+      "FAMILY_OF": 18,
+      "ENEMY_OF": 18,
+      "WORKS_FOR": 11,
+      "MEMBER_OF": 10,
+      "FRIENDS_WITH": 6,
+      "OWNS": 5
+    }
+  },
+  "personality_stats": {
+    "total_profiles": 4,
+    "avg_trait_scores": {
+      "openness": 0.7,
+      "conscientiousness": 0.7,
+      "extraversion": 0.0,
+      "agreeableness": 0.45,
+      "neuroticism": 0.6
+    }
+  },
+  "graph_stats": {
+    "num_nodes": 109,
+    "num_edges": 202,
+    "density": 0.0172,
+    "avg_degree": 3.71,
+    "max_degree": 58,
+    "most_connected_nodes": [
+      {
+        "node": "Paul Atreides",
+        "degree": 58
+      },
+      {
+        "node": "Baron Vladimir Harkonnen",
+        "degree": 25
+      },
+      {
+        "node": "Lady Jessica",
+        "degree": 23
+      },
+      {
+        "node": "Arrakis",
+        "degree": 18
+      },
+      {
+        "node": "Reverend Mother",
+        "degree": 16
+      },
+      {
+        "node": "Duke Leto",
+        "degree": 15
+      },
+      {
+        "node": "Thufir Hawat",
+        "degree": 14
+      },
+      {
+        "node": "Dr. Wellington Yueh",
+        "degree": 14
+      },
+      {
+        "node": "House of Atreides",
+        "degree": 12
+      },
+      {
+        "node": "Bene Gesserit",
+        "degree": 9
+      }
+    ],
+    "num_components": 3,
+    "largest_component_size": 104
+  }
+}

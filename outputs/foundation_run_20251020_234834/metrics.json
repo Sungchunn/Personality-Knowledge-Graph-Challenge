@@ -1,0 +1,118 @@
+{
+  "pipeline_config": {
+    "model_name": "gpt-4o-2024-08-06",
+    "confidence_threshold": 0.65
+  },
+  "triple_stats": {
+    "total_triples": 974,
+    "avg_confidence": 0.873,
+    "min_confidence": 0.7,
+    "max_confidence": 1.0,
+    "unique_relations": 67,
+    "relation_distribution": {
+      "PARTICIPATES_IN": 154,
+      "MENTIONED_IN": 149,
+      "LOCATED_IN": 116,
+      "WORKS_FOR": 90,
+      "KNOWS": 85,
+      "ENEMY_OF": 64,
+      "MEMBER_OF": 62,
+      "LEADS": 61,
+      "CREATED": 35,
+      "OWNS": 26
+    }
+  },
+  "evidence_quality": {
+    "evidence_coverage": 1.0,
+    "avg_evidence_length": 78.1,
+    "evidence_diversity": 0.918
+  },
+  "confidence_distribution": {
+    "confidence_bins": {
+      "0.0-0.5": 0,
+      "0.5-0.7": 0,
+      "0.7-0.85": 215,
+      "0.85-0.95": 753,
+      "0.95-1.0": 6
+    },
+    "confidence_std_dev": 0.056
+  },
+  "relation_diversity": {
+    "relation_entropy": 3.965,
+    "relation_entropy_normalized": 0.654,
+    "relation_gini_coefficient": 0.808
+  },
+  "personality_stats": {
+    "total_profiles": 12,
+    "avg_trait_scores": {
+      "openness": 0.492,
+      "conscientiousness": 0.662,
+      "extraversion": 0.471,
+      "agreeableness": 0.375,
+      "neuroticism": 0.575
+    }
+  },
+  "personality_quality": {
+    "avg_evidence_per_trait": 2.0,
+    "trait_completeness": 0.083,
+    "avg_confidence_std_within_profile": 0.047
+  },
+  "graph_stats": {
+    "num_nodes": 546,
+    "num_edges": 974,
+    "density": 0.0033,
+    "avg_degree": 3.57,
+    "max_degree": 107,
+    "most_connected_nodes": [
+      {
+        "node": "The Foundation",
+        "degree": 107
+      },
+      {
+        "node": "Mallow",
+        "degree": 83
+      },
+      {
+        "node": "Hardin",
+        "degree": 74
+      },
+      {
+        "node": "Anacreon",
+        "degree": 48
+      },
+      {
+        "node": "Hari Seldon",
+        "degree": 45
+      },
+      {
+        "node": "Foundation series",
+        "degree": 44
+      },
+      {
+        "node": "Terminus",
+        "degree": 37
+      },
+      {
+        "node": "Wienis",
+        "degree": 31
+      },
+      {
+        "node": "Gaal Dornick",
+        "degree": 30
+      },
+      {
+        "node": "Ponyets",
+        "degree": 30
+      }
+    ],
+    "num_components": 27,
+    "largest_component_size": 488
+  },
+  "graph_quality": {
+    "avg_clustering_coefficient": null,
+    "degree_assortativity": null,
+    "avg_shortest_path_length": 3.75,
+    "diameter": 9,
+    "density_interpretation": "very_sparse"
+  }
+}

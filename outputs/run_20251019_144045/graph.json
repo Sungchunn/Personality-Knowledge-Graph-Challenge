@@ -1,0 +1,2613 @@
+{
+  "nodes": [
+    {
+      "id": "Paul Atreides",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Paul Atreides",
+        "trait_openness": 0.8,
+        "trait_openness_conf": 0.9,
+        "trait_conscientiousness": 0.7,
+        "trait_conscientiousness_conf": 0.9,
+        "trait_agreeableness": 0.6,
+        "trait_agreeableness_conf": 0.7,
+        "trait_neuroticism": 0.6,
+        "trait_neuroticism_conf": 0.7
+      }
+    },
+    {
+      "id": "Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Arrakis"
+      }
+    },
+    {
+      "id": "Caladan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Caladan"
+      }
+    },
+    {
+      "id": "Lady Jessica",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Lady Jessica",
+        "trait_openness": 0.7,
+        "trait_openness_conf": 0.8,
+        "trait_conscientiousness": 0.6,
+        "trait_conscientiousness_conf": 0.7,
+        "trait_neuroticism": 0.6,
+        "trait_neuroticism_conf": 0.7
+      }
+    },
+    {
+      "id": "House of Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "House of Atreides"
+      }
+    },
+    {
+      "id": "Castle Caladan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Castle Caladan"
+      }
+    },
+    {
+      "id": "Bene Gesserit",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit"
+      }
+    },
+    {
+      "id": "Book 1 DUNE",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Book 1 DUNE"
+      }
+    },
+    {
+      "id": "Duke Leto",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Duke Leto"
+      }
+    },
+    {
+      "id": "Dune",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dune"
+      }
+    },
+    {
+      "id": "Thufir Hawat",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Thufir Hawat"
+      }
+    },
+    {
+      "id": "Harkonnens",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Harkonnens"
+      }
+    },
+    {
+      "id": "CHOAM Company",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "CHOAM Company"
+      }
+    },
+    {
+      "id": "Federated Great Houses of the Landsraad",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Federated Great Houses of the Landsraad"
+      }
+    },
+    {
+      "id": "dream",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dream"
+      }
+    },
+    {
+      "id": "Dr. Wellington Yueh",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dr. Wellington Yueh"
+      }
+    },
+    {
+      "id": "Fremen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fremen"
+      }
+    },
+    {
+      "id": "Reverend Mother",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Reverend Mother",
+        "trait_openness": 0.7,
+        "trait_openness_conf": 0.8,
+        "trait_conscientiousness": 0.8,
+        "trait_conscientiousness_conf": 0.9,
+        "trait_agreeableness": 0.3,
+        "trait_agreeableness_conf": 0.7
+      }
+    },
+    {
+      "id": "Emperor",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Emperor"
+      }
+    },
+    {
+      "id": "Paul's dreams",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul's dreams"
+      }
+    },
+    {
+      "id": "Reverend Mother Gaius Helen Mohiam",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Reverend Mother Gaius Helen Mohiam"
+      }
+    },
+    {
+      "id": "Padishah Emperor's Truthsayer",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Padishah Emperor's Truthsayer"
+      }
+    },
+    {
+      "id": "farmlands",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "farmlands"
+      }
+    },
+    {
+      "id": "old woman",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "old woman"
+      }
+    },
+    {
+      "id": "gom jabbar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "gom jabbar"
+      }
+    },
+    {
+      "id": "duke",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "duke"
+      }
+    },
+    {
+      "id": "test",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "test"
+      }
+    },
+    {
+      "id": "Litany against Fear",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Litany against Fear"
+      }
+    },
+    {
+      "id": "test with the gom jabbar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "test with the gom jabbar"
+      }
+    },
+    {
+      "id": "people",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "people"
+      }
+    },
+    {
+      "id": "Butlerian Jihad",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Butlerian Jihad"
+      }
+    },
+    {
+      "id": "Orange Catholic Bible",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Orange Catholic Bible"
+      }
+    },
+    {
+      "id": "Mentat",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Mentat"
+      }
+    },
+    {
+      "id": "schools",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "schools"
+      }
+    },
+    {
+      "id": "Spacing Guild",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Spacing Guild"
+      }
+    },
+    {
+      "id": "Politics",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Politics"
+      }
+    },
+    {
+      "id": "Truthsayer drug",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Truthsayer drug"
+      }
+    },
+    {
+      "id": "passage",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "passage"
+      }
+    },
+    {
+      "id": "Kwisatz Haderach",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Kwisatz Haderach"
+      }
+    },
+    {
+      "id": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Baron Vladimir Harkonnen"
+      }
+    },
+    {
+      "id": "Piter de Vries",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Piter de Vries"
+      }
+    },
+    {
+      "id": "Feyd-Rautha Harkonnen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Feyd-Rautha Harkonnen"
+      }
+    },
+    {
+      "id": "Leto Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Leto Atreides"
+      }
+    },
+    {
+      "id": "Empire",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Empire"
+      }
+    },
+    {
+      "id": "end of all the Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "end of all the Atreides"
+      }
+    },
+    {
+      "id": "Corps of Sardaukar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Corps of Sardaukar"
+      }
+    },
+    {
+      "id": "end to the Baron Vladimir Harkonnen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "end to the Baron Vladimir Harkonnen"
+      }
+    },
+    {
+      "id": "Giedi Prime",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Giedi Prime"
+      }
+    },
+    {
+      "id": "Arrakeen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Arrakeen"
+      }
+    },
+    {
+      "id": "Residency",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Residency"
+      }
+    },
+    {
+      "id": "Count Fenring",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Count Fenring"
+      }
+    },
+    {
+      "id": "Ambassador to the Smugglers",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Ambassador to the Smugglers"
+      }
+    },
+    {
+      "id": "Suk School",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Suk School"
+      }
+    },
+    {
+      "id": "Imperial Conditioning",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperial Conditioning"
+      }
+    },
+    {
+      "id": "House Harkonnen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "House Harkonnen"
+      }
+    },
+    {
+      "id": "Imperial House",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperial House"
+      }
+    },
+    {
+      "id": "Imperium",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperium"
+      }
+    },
+    {
+      "id": "Kynes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Kynes"
+      }
+    },
+    {
+      "id": "His Majesty",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "His Majesty"
+      }
+    },
+    {
+      "id": "subfief on Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "subfief on Arrakis"
+      }
+    },
+    {
+      "id": "dispensation of that fief",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dispensation of that fief"
+      }
+    },
+    {
+      "id": "St. Alia-of-the-Knife",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "St. Alia-of-the-Knife"
+      }
+    },
+    {
+      "id": "Muad'Dib, Family Commentaries",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Muad'Dib, Family Commentaries"
+      }
+    },
+    {
+      "id": "Princess Irulan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Princess Irulan"
+      }
+    },
+    {
+      "id": "Bene Gesserit school",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit school"
+      }
+    },
+    {
+      "id": "Wallach IX",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wallach IX"
+      }
+    },
+    {
+      "id": "son",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "son"
+      }
+    },
+    {
+      "id": "path of the flood.",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "path of the flood."
+      }
+    },
+    {
+      "id": "his friends",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his friends"
+      }
+    },
+    {
+      "id": "fifty-nine point six-five per cent of the CHOAM directorship's votes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "fifty-nine point six-five per cent of the CHOAM directorship's votes"
+      }
+    },
+    {
+      "id": "Imperial Household",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Imperial Household"
+      }
+    },
+    {
+      "id": "monopoly on interstellar transport",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "monopoly on interstellar transport"
+      }
+    },
+    {
+      "id": "his son",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his son"
+      }
+    },
+    {
+      "id": "her son",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "her son"
+      }
+    },
+    {
+      "id": "EVENT",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "EVENT"
+      }
+    },
+    {
+      "id": "Missionaria Protectiva",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Missionaria Protectiva"
+      }
+    },
+    {
+      "id": "poem",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "poem"
+      }
+    },
+    {
+      "id": "Gurney Halleck",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Gurney Halleck"
+      }
+    },
+    {
+      "id": "tone poems",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "tone poems"
+      }
+    },
+    {
+      "id": "his father",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his father"
+      }
+    },
+    {
+      "id": "Duncan Idaho",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Duncan Idaho"
+      }
+    },
+    {
+      "id": "A Child's History of Muad'Dib",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "A Child's History of Muad'Dib"
+      }
+    },
+    {
+      "id": "Proctor",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Proctor"
+      }
+    },
+    {
+      "id": "FAMILY",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "FAMILY"
+      }
+    },
+    {
+      "id": "Paul's father",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul's father"
+      }
+    },
+    {
+      "id": "wilderness",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "wilderness"
+      }
+    },
+    {
+      "id": "Mother",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Mother",
+        "trait_openness": 0.6,
+        "trait_openness_conf": 0.7,
+        "trait_conscientiousness": 0.7,
+        "trait_conscientiousness_conf": 0.7,
+        "trait_neuroticism": 0.6,
+        "trait_neuroticism_conf": 0.7
+      }
+    },
+    {
+      "id": "Duncan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Duncan"
+      }
+    },
+    {
+      "id": "second wave onto Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "second wave onto Arrakis"
+      }
+    },
+    {
+      "id": "council",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "council"
+      }
+    },
+    {
+      "id": "Halleck",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Halleck"
+      }
+    },
+    {
+      "id": "Beast Rabban",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Beast Rabban"
+      }
+    },
+    {
+      "id": "Harkonnen slave pit",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Harkonnen slave pit"
+      }
+    },
+    {
+      "id": "training fight",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "training fight"
+      }
+    },
+    {
+      "id": "younger sister",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "younger sister"
+      }
+    },
+    {
+      "id": "pansies",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "pansies"
+      }
+    },
+    {
+      "id": "Harkonnen troops",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Harkonnen troops"
+      }
+    },
+    {
+      "id": "Wellington Yueh",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wellington Yueh"
+      }
+    },
+    {
+      "id": "Wanna Marcus",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Wanna Marcus"
+      }
+    },
+    {
+      "id": "crossing to Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "crossing to Arrakis"
+      }
+    },
+    {
+      "id": "investigation",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "investigation"
+      }
+    },
+    {
+      "id": "Liet-Kynes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Liet-Kynes"
+      }
+    },
+    {
+      "id": "desert",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "desert"
+      }
+    },
+    {
+      "id": "poems",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "poems"
+      }
+    },
+    {
+      "id": "study about the sandworms",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "study about the sandworms"
+      }
+    },
+    {
+      "id": "filmbook",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "filmbook"
+      }
+    },
+    {
+      "id": "northern latitudes",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "northern latitudes"
+      }
+    },
+    {
+      "id": "conical projection chart",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "conical projection chart"
+      }
+    },
+    {
+      "id": "gift",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "gift"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Paul Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis, the planet known as Dune, is forever his place."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "you'll be following tomorrow. Next time we meet it'll be on the soil of your new world."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "he was born on Caladan and lived his first fifteen years there."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Caladan",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I talk to her and tell her about you, about seeing the Reverend Mother on Caladan."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "an old crone came to visit the mother of the boy, Paul."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "He stared at his mother as though she were a stranger."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "mother of the ducal heir"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "dream",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Paul fell asleep to dream of an Arrakeen cavern"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "dream",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Paul closed his eyes. \"I dreamed a cavern . . . and water . . . and a girl there -- very skinny with big eyes."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "It carried the red Atreides hawk crest above the breast pocket."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "duke",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "you dare suggest a duke's son is an animal?"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Your mother survived this test. Now it's your turn."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Litany against Fear",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "he recalled the response from the Litany against Fear as his mother had taught him"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "test with the gom jabbar",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He jerked his hand from the box, stared at it astonished."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "old woman",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.8,
+        "evidence": "He dropped the hand to his side, looked at the old woman."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Butlerian Jihad",
+      "attributes": {
+        "relation": "QUOTED",
+        "confidence": 0.9,
+        "evidence": "Paul quoted. \"Right out of the Butlerian Jihad"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Orange Catholic Bible",
+      "attributes": {
+        "relation": "QUOTED",
+        "confidence": 0.9,
+        "evidence": "Paul quoted. \"Right out of the Butlerian Jihad and the Orange Catholic Bible"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Orange Catholic Bible",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"It's a very old Orange Catholic Bible made for space travelers.\""
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Harkonnens",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "To attempt an understanding of Muad'Dib without understanding his mortal enemies, the Harkonnens"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Reverend Mother",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Wariness veiled his eyes when he glanced at the Reverend Mother, but this time he nodded to her, the nod one gives an equal."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "poem",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.8,
+        "evidence": "And I tell her the poem, but I have to explain some of the words -- like beach and surf and seaweed and seagulls."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "his father",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "You talk as though my father were dead."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "Hawat pulled up a chair across from Paul, sat down facing the door."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Thufir Hawat",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Hawat looked at the boy. \"I was thinking we'll all be out of here soon and likely never see the place again.\""
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "FAMILY",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.8,
+        "evidence": "\"Did my father send you up to test me?\""
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Mother",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "he'd already been warned -- by you, by Mother"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Duncan",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "How'd she figure your father attracted men like Duncan and Gurney?"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Gurney Halleck",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "How'd she figure your father attracted men like Duncan and Gurney?"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Gurney Halleck",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.9,
+        "evidence": "Of all his father's men, he liked Gurney Halleck best, knew the man's moods and deviltry, his humors, and thought of him more as a friend than as a hired sword."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Dr. Wellington Yueh",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "that's what Dr. Yueh calls the Mystery of Life."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Paul's father",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "I tell you only as your father's helper."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Halleck",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Paul stepped back, chagrined."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Halleck",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "Is this betrayal? Paul wondered. Surely not Gurney!"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "training fight",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Paul activated his shield, parried and countered."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "crossing to Arrakis",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "crossing to Arrakis"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "study about the sandworms",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "\"I'd like to study more about the sandworms.\""
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "conical projection chart",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Paul glanced down at a conical projection chart of the northern Arrakeen latitudes spread on the table."
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "Dune",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis -- Dune -- Desert Planet"
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "Empire",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "\"Arrakis! Truly unique. A superb setting for a unique Victory.\""
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "LOCATION",
+        "confidence": 0.9,
+        "evidence": "Is it really that terrible, this planet of Arrakis?"
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "It struck him as an odd place suddenly, a stranger-place with most of its hardware already gone off to Arrakis."
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "wilderness",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "the wilderness that is empty, the wasteland where nothing lives except the spice and the sandworms"
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "northern latitudes",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "\"It was taken in the northern latitudes.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "a Bene Gesserit Lady"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Damn that Jessica! the Reverend Mother thought. If only she'd borne us a girl as she was ordered to do!"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.8,
+        "evidence": "a duke's concubine"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "Jessica's hand went to Paul's shoulder, tightened there."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"Paul,\" Jessica said."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "TRAINED",
+        "confidence": 0.9,
+        "evidence": "\"You've been training him in the Way -- I've seen the signs of it.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Reverend Mother",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Reverend Mother",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "The Reverend Mother looked at Jessica."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "old woman",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "\"The Lady Jessica was my serving wench, lad, for fourteen years at school.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "old woman",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.9,
+        "evidence": "\"Jessica, have you ever stopped hating me?\" the old woman asked."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "old woman",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.9,
+        "evidence": "\"I both love and hate you,\" Jessica said."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Your mother survived this test."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "You were told to bear only daughters to the Atreides."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "son",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "the life of your son."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "her son",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"And your son will pay with you.\""
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "A Child's History of Muad'Dib",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the Lady Jessica, who guided her son in the Bene Gesserit Way,"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "they sent the old Proctor here -- to whip our dear Lady Jessica into line."
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Castle Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "the Atreides family as home for twenty-six generations"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "\"I indicate that House Atreides will go to Arrakis.\""
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Harkonnens",
+      "attributes": {
+        "relation": "REPLACES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "farmlands",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the green farmlands of the Atreides family holding"
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "Book 1 DUNE",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "This every sister of the Bene Gesserit knows."
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "people",
+      "attributes": {
+        "relation": "SIFT",
+        "confidence": 0.9,
+        "evidence": "\"We Bene Gesserit sift people to find the humans.\""
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "schools",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "\"Bene Gesserit schools?\" She nodded."
+      }
+    },
+    {
+      "source": "Bene Gesserit",
+      "target": "Politics",
+      "attributes": {
+        "relation": "PERFORMS",
+        "confidence": 0.9,
+        "evidence": "Bene Gesserit performs another function.\" \"Politics,\" he said."
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "Federated Great Houses of the Landsraad",
+      "attributes": {
+        "relation": "POPULAR_AMONG",
+        "confidence": 0.9,
+        "evidence": "for the Duke Leto was popular among the Great Houses of the Landsraad"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "He signs it: 'Duke Leto of Arrakis.'"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "\"our campaign against the House of Atreides.\""
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "the Duke and his family"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "Residency",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "the Duke and his family will occupy the Residency"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "Fremen",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.7,
+        "evidence": "The Duke Leto,\" Piter said, \"may attempt to flee to the new Fremen scum along the desert's edge."
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "his son",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "this chip here, this is the Duke Leto, and this one's his son"
+      }
+    },
+    {
+      "source": "Duke Leto",
+      "target": "A Child's History of Muad'Dib",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the Duke Leto, whose qualities as a father have long been overlooked."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Thufir Hawat, his father's Master of Assassins"
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Mentat",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"I've studied with Thufir Hawat.\""
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "There was Thufir Hawat, the old Mentat Master of Assassins, who struck fear even into the heart of the Padishah Emperor."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Hawat pulled up a chair across from Paul, sat down facing the door."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "noting that Hawat's men already had been over it, checking, making it safe for a duke's heir."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "A Child's History of Muad'Dib",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "was Thufir Hawat, the old Mentat Master of Assassins, who struck fear even into the heart of the Padishah Emperor."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Castle Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Thufir Hawat slipped into the training room of Castle Caladan, closed the door softly."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "Hawat pulled up a chair across from Paul, sat down facing the door."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Paul's father",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "\"Did my father send you up to test me?\" Hawat scowled -- the boy had such observing ways about him. He nodded."
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Hawat thought"
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Reverend Mother",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"Did you meet the Reverend Mother?\" \"That Truthsayer witch from the Imperium?\" Hawat's eyes quickened with interest. \"I met her.\""
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Hawat stood up. \"I leave today for Arrakis."
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "their mortal enemies, the Harkonnens"
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens, had been on Arrakis eighty years"
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LEAVES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "CHOAM Company",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.8,
+        "evidence": "under a CHOAM Company contract to mine the geriatric spice"
+      }
+    },
+    {
+      "source": "CHOAM Company",
+      "target": "Imperium",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "CHOAM was the key to wealth, each noble House dipping from the company's coffers whatever it could under the power of the directorships."
+      }
+    },
+    {
+      "source": "CHOAM Company",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The Imperium, the CHOAM Company, all the Great Houses, they are but bits of flotsam in the path of the flood."
+      }
+    },
+    {
+      "source": "CHOAM Company",
+      "target": "path of the flood.",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "path of the flood.\"   \"CHOAM,\" Jessica muttered."
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "TEACHES",
+        "confidence": 0.9,
+        "evidence": "Dr. Yueh, his teacher, had hinted"
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "Dr. Wellington Yueh, a name"
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Paul joined him at the table, buttoning his jacket."
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "end of all the Atreides",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Dr. Yueh will move against him soon, and that'll be the end of all the Atreides."
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "AGENT_OF",
+        "confidence": 0.9,
+        "evidence": "The obvious suspect is Dr. Yueh, who is indeed our agent."
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Suk School",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "our doctor is a Suk School graduate"
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Imperial Conditioning",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "our doctor is a Suk School graduate with Imperial Conditioning"
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "A Child's History of Muad'Dib",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Dr. Wellington Yueh, a name black in treachery but bright in knowledge;"
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "investigation",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "I must seek out the planetary ecologist when we arrive -- a Dr. Kynes -- and offer my help in the investigation."
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Orange Catholic Bible",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"It's a very old Orange Catholic Bible made for space travelers.\""
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "filmbook",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"I've a filmbook on a small specimen, only one hundred and ten meters long and twenty-two meters in diameter.\""
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "gift",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"Before I go, I've a gift for you, something I came across in packing.\""
+      }
+    },
+    {
+      "source": "Dr. Wellington Yueh",
+      "target": "Wanna Marcus",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.8,
+        "evidence": "my Wanna's favorite passage"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Have you ever seen the Fremen?"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "Harkonnens",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.9,
+        "evidence": "they hate Harkonnens with a bloody passion."
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "desert",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "The Fremen must be brave to live at the edge of that desert."
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "poems",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "They compose poems to their knives."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Emperor",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Now, she's the Emperor's Truthsayer."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Paul's dreams",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "\"I dreamed of her once,\" Paul said."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "The old voice carried a tone of cruel mimicry."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Butlerian Jihad",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Right out of the Butlerian Jihad and the Orange Catholic Bible,\" she said."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Orange Catholic Bible",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Right out of the Butlerian Jihad and the Orange Catholic Bible,\" she said."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The Reverend Mother returned her attention to Paul."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "The old woman stared at Paul, then: \"Young man, as a Proctor of the Bene Gesserit, I seek the Kwisatz Haderach, the male who truly can become one of us."
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "The Reverend Mother stared at him, wondering: Did I hear criticism in his voice?"
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Kwisatz Haderach",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Don't you want to hear what the Reverend Mother can tell you about the Kwisatz Haderach?"
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "the ordeal with the Reverend Mother"
+      }
+    },
+    {
+      "source": "Reverend Mother",
+      "target": "Imperium",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"That Truthsayer witch from the Imperium?\""
+      }
+    },
+    {
+      "source": "Emperor",
+      "target": "his friends",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.9,
+        "evidence": "The Emperor and his friends now command fifty-nine point six-five per cent of the CHOAM directorship's votes."
+      }
+    },
+    {
+      "source": "Emperor",
+      "target": "fifty-nine point six-five per cent of the CHOAM directorship's votes",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "The Emperor and his friends now command fifty-nine point six-five per cent of the CHOAM directorship's votes."
+      }
+    },
+    {
+      "source": "Emperor",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ORDERS",
+        "confidence": 0.9,
+        "evidence": "Because the Emperor ordered it."
+      }
+    },
+    {
+      "source": "Reverend Mother Gaius Helen Mohiam",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "a mission that required personal attention from a Bene Gesserit-with-theSight."
+      }
+    },
+    {
+      "source": "Reverend Mother Gaius Helen Mohiam",
+      "target": "Padishah Emperor's Truthsayer",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Even the Padishah Emperor's Truthsayer couldn't evade that responsibility"
+      }
+    },
+    {
+      "source": "Reverend Mother Gaius Helen Mohiam",
+      "target": "Bene Gesserit school",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Reverend Mother Gaius Helen Mohiam, Proctor Superior of the Bene Gesserit school"
+      }
+    },
+    {
+      "source": "old woman",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "Withdraw your hand and the gom jabbar takes you."
+      }
+    },
+    {
+      "source": "old woman",
+      "target": "test with the gom jabbar",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The old woman muttered. \"Kull wahad! No woman child ever withstood that much.\""
+      }
+    },
+    {
+      "source": "gom jabbar",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "\"The gom jabbar, the highhanded enemy. It's a needle with a drop of poison on its tip.\""
+      }
+    },
+    {
+      "source": "gom jabbar",
+      "target": "test with the gom jabbar",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "She leaned back, withdrawing the gom jabbar from the side of his neck."
+      }
+    },
+    {
+      "source": "Spacing Guild",
+      "target": "schools",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "the Bene Gesserit and the Spacing Guild. The Guild, so we think, emphasizes almost pure mathematics."
+      }
+    },
+    {
+      "source": "Spacing Guild",
+      "target": "monopoly on interstellar transport",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "the Guild with its damnable monopoly on interstellar transport."
+      }
+    },
+    {
+      "source": "Truthsayer drug",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Now, lad, do you know about the Truthsayer drug?"
+      }
+    },
+    {
+      "source": "Kwisatz Haderach",
+      "target": "passage",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "You say maybe I'm the . . . Kwisatz Haderach."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Piter de Vries",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "There it is, Piter -- the biggest mantrap in all history. And the Duke's headed into its jaws. Is it not a magnificent thing that I, the Baron Vladimir Harkonnen, do?"
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Piter de Vries",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.9,
+        "evidence": "I must do away with that one soon. He has almost outlived his usefulness."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Piter de Vries",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "My uncle cannot talk to his Mental without arguing."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Feyd-Rautha Harkonnen",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"Observe closely, Piter, and you, too, FeydRautha, my darling\""
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Feyd-Rautha Harkonnen",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"it is not necessary to confuse my nephew.\""
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Feyd-Rautha Harkonnen",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.8,
+        "evidence": "Send for food, my darling."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "\"the Padishah Emperor believes he's given the Duke your spice planet.\""
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "the Duke will know, too. He knows now."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.8,
+        "evidence": "Loveliest of all,\" Piter said, \"is that the Duke will know, too."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Leto Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "\"I have ofttimes met your treachery and this all men know.\""
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Emperor",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "Already you have the Emperor's eyes on you, Baron."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Corps of Sardaukar",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "You'd enjoy seeing the Corps of Sardaukar pillage through my cities and sack this castle."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "PROMISED",
+        "confidence": 0.9,
+        "evidence": "You promised me the Lady Jessica. You promised her to me."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "with that witch mother training him. Accursed woman!"
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "What of the Dukeling, the child Paul, my dear Piter?"
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Mentat",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.8,
+        "evidence": "\"This is a Mentat, Feyd. It has been trained and conditioned to perform certain duties.\""
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Thufir Hawat",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "Hawat's mind will be so filled with this prospect it'll impair his function as a Mentat."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "dispensation of that fief",
+      "attributes": {
+        "relation": "WILL_HAVE",
+        "confidence": 0.9,
+        "evidence": "Your uncle will have dispensation of that fief."
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "DESTROYED",
+        "confidence": 0.9,
+        "evidence": "the Baron has destroyed the Atreides"
+      }
+    },
+    {
+      "source": "Baron Vladimir Harkonnen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "The Baron moved out and away from the globe of Arrakis."
+      }
+    },
+    {
+      "source": "Piter de Vries",
+      "target": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "For a Mentat, you talk too much, Piter,\" the Baron said."
+      }
+    },
+    {
+      "source": "Piter de Vries",
+      "target": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "I know as a Mentat when you will send the executioner."
+      }
+    },
+    {
+      "source": "Piter de Vries",
+      "target": "Arrakeen",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.7,
+        "evidence": "He might've come directly from the Arrakeen labor pool."
+      }
+    },
+    {
+      "source": "Feyd-Rautha Harkonnen",
+      "target": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "\"Yes, Uncle.\""
+      }
+    },
+    {
+      "source": "Corps of Sardaukar",
+      "target": "Emperor",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "the Emperor will send a legion or two of his Sardaukar"
+      }
+    },
+    {
+      "source": "Corps of Sardaukar",
+      "target": "end to the Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "that'll be an end to the Baron Vladimir Harkonnen."
+      }
+    },
+    {
+      "source": "Giedi Prime",
+      "target": "Baron Vladimir Harkonnen",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.8,
+        "evidence": "Sardaukar down here onto Giedi Prime"
+      }
+    },
+    {
+      "source": "Arrakeen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "\"The Guild will deposit them at the city of Arrakeen rather than at our city of Carthag.\""
+      }
+    },
+    {
+      "source": "Count Fenring",
+      "target": "Residency",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "lately the home of Count and Lady Fenring"
+      }
+    },
+    {
+      "source": "Count Fenring",
+      "target": "Ambassador to the Smugglers",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "He calls Count Fenring Ambassador to the Smugglers"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "Imperial House",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.8,
+        "evidence": "since House Harkonnen is being used to do the Imperial dirty work"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "CHOAM Company",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "we'll have an irrevocable directorship in the CHOAM Company"
+      }
+    },
+    {
+      "source": "House Harkonnen",
+      "target": "subfief on Arrakis",
+      "attributes": {
+        "relation": "WILL_HAVE",
+        "confidence": 0.9,
+        "evidence": "House Harkonnen will have a subfief on Arrakis within a Standard year."
+      }
+    },
+    {
+      "source": "Kynes",
+      "target": "His Majesty",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "that path is blocked by one of His Majesty's agents -- the planetary ecologist. You may remember him -- Kynes."
+      }
+    },
+    {
+      "source": "St. Alia-of-the-Knife",
+      "target": "Muad'Dib, Family Commentaries",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "-from \"Muad'Dib, Family Commentaries\" by the Princess Irulan"
+      }
+    },
+    {
+      "source": "Princess Irulan",
+      "target": "Muad'Dib, Family Commentaries",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "-from \"Muad'Dib, Family Commentaries\" by the Princess Irulan"
+      }
+    },
+    {
+      "source": "Bene Gesserit school",
+      "target": "Wallach IX",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Bene Gesserit school on Wallach IX"
+      }
+    },
+    {
+      "source": "Imperial Household",
+      "target": "Federated Great Houses of the Landsraad",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.8,
+        "evidence": "We've a three-point civilization: the Imperial Household balanced against the Federated Great Houses of the Landsraad"
+      }
+    },
+    {
+      "source": "Missionaria Protectiva",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "ORGANIZATION",
+        "confidence": 0.9,
+        "evidence": "The Missionaria Protectiva has been in there and softened it up somewhat."
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "tone poems",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "It's just one of Gurney Halleck's tone poems for sad times."
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "Muad'Dib did have wonderful companion-teachers. There was Gurney Halleck, the troubadour-warrior."
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.8,
+        "evidence": "\"are you the new weapons master?\""
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Of all his father's men, he liked Gurney Halleck best, knew the man's moods and deviltry, his humors, and thought of him more as a friend than as a hired sword."
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "council",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.7,
+        "evidence": "it was decided in council that you being such a poor fighter we'd best teach you the music trade"
+      }
+    },
+    {
+      "source": "Gurney Halleck",
+      "target": "Duke Leto",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "As to your father -the Duke'd punish me only if I failed to make a first-class fighting man out of you."
+      }
+    },
+    {
+      "source": "Duncan Idaho",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FRIENDS_WITH",
+        "confidence": 0.8,
+        "evidence": "There were Duncan Idaho, the Swordmaster of the Ginaz;"
+      }
+    },
+    {
+      "source": "Duncan Idaho",
+      "target": "A Child's History of Muad'Dib",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "There were Duncan Idaho, the Swordmaster of the Ginaz;"
+      }
+    },
+    {
+      "source": "Duncan Idaho",
+      "target": "second wave onto Arrakis",
+      "attributes": {
+        "relation": "LEADS",
+        "confidence": 0.9,
+        "evidence": "Duncan's gone to lead the second wave onto Arrakis"
+      }
+    },
+    {
+      "source": "Proctor",
+      "target": "EVENT",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.8,
+        "evidence": "they sent the old Proctor here -- to whip our dear Lady Jessica into line."
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "Halleck watched the action, turned at the last minute to let the blunted blade pass his chest."
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.7,
+        "evidence": "This in the hand of an enemy can let out your life's blood!"
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "Beast Rabban",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime"
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "Harkonnen slave pit",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime"
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "Giedi Prime",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "how it had been put there by Beast Rabban in a Harkonnen slave pit on Giedi Prime"
+      }
+    },
+    {
+      "source": "Halleck",
+      "target": "younger sister",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "For some reason, he recalled his younger sister, her elfin face so clear in his mind."
+      }
+    },
+    {
+      "source": "younger sister",
+      "target": "pansies",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.7,
+        "evidence": "She had loved pansies . . . or was it daisies?"
+      }
+    },
+    {
+      "source": "Harkonnen troops",
+      "target": "younger sister",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "But she was dead now -- in a pleasure house for Harkonnen troops."
+      }
+    },
+    {
+      "source": "Wellington Yueh",
+      "target": "Suk School",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 1.0,
+        "evidence": "medical doctor of the Suk School"
+      }
+    },
+    {
+      "source": "Wellington Yueh",
+      "target": "Wanna Marcus",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 1.0,
+        "evidence": "md: Wanna Marcus, B.G."
+      }
+    },
+    {
+      "source": "Wellington Yueh",
+      "target": "Leto Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "betrayer of Duke Leto Atreides"
+      }
+    },
+    {
+      "source": "Liet-Kynes",
+      "target": "investigation",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "I must seek out the planetary ecologist when we arrive -- a Dr. Kynes -- and offer my help in the investigation."
+      }
+    }
+  ]
+}

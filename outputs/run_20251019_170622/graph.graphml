@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="evidence" attr.type="string" />
+  <key id="d11" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d10" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d9" for="node" attr.name="trait_neuroticism_conf" attr.type="double" />
+  <key id="d8" for="node" attr.name="trait_neuroticism" attr.type="double" />
+  <key id="d7" for="node" attr.name="trait_agreeableness_conf" attr.type="double" />
+  <key id="d6" for="node" attr.name="trait_agreeableness" attr.type="double" />
+  <key id="d5" for="node" attr.name="trait_conscientiousness_conf" attr.type="double" />
+  <key id="d4" for="node" attr.name="trait_conscientiousness" attr.type="double" />
+  <key id="d3" for="node" attr.name="trait_openness_conf" attr.type="double" />
+  <key id="d2" for="node" attr.name="trait_openness" attr.type="double" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Muad'Dib">
+      <data key="d0">unknown</data>
+      <data key="d1">Muad'Dib</data>
+    </node>
+    <node id="Arrakis">
+      <data key="d0">unknown</data>
+      <data key="d1">Arrakis</data>
+    </node>
+    <node id="Caladan">
+      <data key="d0">unknown</data>
+      <data key="d1">Caladan</data>
+    </node>
+    <node id="Paul Atreides">
+      <data key="d0">person</data>
+      <data key="d1">Paul Atreides</data>
+      <data key="d2">0.8</data>
+      <data key="d3">0.9</data>
+      <data key="d4">0.7</data>
+      <data key="d5">0.8</data>
+      <data key="d6">0.6</data>
+      <data key="d7">0.7</data>
+    </node>
+    <node id="Lady Jessica">
+      <data key="d0">person</data>
+      <data key="d1">Lady Jessica</data>
+      <data key="d2">0.7</data>
+      <data key="d3">0.8</data>
+      <data key="d4">0.6</data>
+      <data key="d5">0.7</data>
+      <data key="d8">0.6</data>
+      <data key="d9">0.7</data>
+    </node>
+    <node id="Bene Gesserit">
+      <data key="d0">unknown</data>
+      <data key="d1">Bene Gesserit</data>
+    </node>
+    <node id="House of Atreides">
+      <data key="d0">person</data>
+      <data key="d1">House of Atreides</data>
+      <data key="d2">0.7</data>
+      <data key="d3">0.9</data>
+      <data key="d4">0.6</data>
+      <data key="d5">0.7</data>
+      <data key="d6">0.6</data>
+      <data key="d7">0.7</data>
+    </node>
+    <node id="Leto Atreides">
+      <data key="d0">unknown</data>
+      <data key="d1">Leto Atreides</data>
+    </node>
+    <node id="Dune">
+      <data key="d0">unknown</data>
+      <data key="d1">Dune</data>
+    </node>
+    <node id="Thufir Hawat">
+      <data key="d0">unknown</data>
+      <data key="d1">Thufir Hawat</data>
+    </node>
+    <node id="Harkonnens">
+      <data key="d0">person</data>
+      <data key="d1">Harkonnens</data>
+      <data key="d2">0.6</data>
+      <data key="d3">0.8</data>
+      <data key="d4">0.5</data>
+      <data key="d5">0.7</data>
+      <data key="d8">0.5</data>
+      <data key="d9">0.7</data>
+    </node>
+    <node id="CHOAM">
+      <data key="d0">unknown</data>
+      <data key="d1">CHOAM</data>
+    </node>
+    <node id="Great Houses of the Landsraad">
+      <data key="d0">unknown</data>
+      <data key="d1">Great Houses of the Landsraad</data>
+    </node>
+    <node id="dream">
+      <data key="d0">unknown</data>
+      <data key="d1">dream</data>
+    </node>
+    <node id="Dr. Yueh">
+      <data key="d0">unknown</data>
+      <data key="d1">Dr. Yueh</data>
+    </node>
+    <node id="Fremen">
+      <data key="d0">unknown</data>
+      <data key="d1">Fremen</data>
+    </node>
+    <node id="his mother">
+      <data key="d0">unknown</data>
+      <data key="d1">his mother</data>
+    </node>
+    <node id="Gaius Helen Mohiam">
+      <data key="d0">unknown</data>
+      <data key="d1">Gaius Helen Mohiam</data>
+    </node>
+    <node id="Shaddam IV">
+      <data key="d0">unknown</data>
+      <data key="d1">Shaddam IV</data>
+    </node>
+    <node id="Paul's dream">
+      <data key="d0">unknown</data>
+      <data key="d1">Paul's dream</data>
+    </node>
+    <node id="gom jabbar">
+      <data key="d0">unknown</data>
+      <data key="d1">gom jabbar</data>
+    </node>
+    <node id="Spacing Guild">
+      <data key="d0">unknown</data>
+      <data key="d1">Spacing Guild</data>
+    </node>
+    <node id="farmlands">
+      <data key="d0">unknown</data>
+      <data key="d1">farmlands</data>
+    </node>
+    <node id="Organization">
+      <data key="d0">unknown</data>
+      <data key="d1">Organization</data>
+    </node>
+    <node id="The Lady Jessica was my serving wench, lad, for fourteen years at school.">
+      <data key="d0">unknown</data>
+      <data key="d1">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </node>
+    <node id="duke">
+      <data key="d0">unknown</data>
+      <data key="d1">duke</data>
+    </node>
+    <node id="test">
+      <data key="d0">unknown</data>
+      <data key="d1">test</data>
+    </node>
+    <node id="old woman">
+      <data key="d0">unknown</data>
+      <data key="d1">old woman</data>
+    </node>
+    <node id="event with the old woman and the box">
+      <data key="d0">unknown</data>
+      <data key="d1">event with the old woman and the box</data>
+    </node>
+    <node id="event with Paul and the box">
+      <data key="d0">unknown</data>
+      <data key="d1">event with Paul and the box</data>
+    </node>
+    <node id="pain by nerve induction">
+      <data key="d0">unknown</data>
+      <data key="d1">pain by nerve induction</data>
+    </node>
+    <edge source="Muad'Dib" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Arrakis, the planet known as Dune, is forever his place.</data>
+    </edge>
+    <edge source="Muad'Dib" target="Caladan" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">he was born on Caladan and lived his first fifteen years there.</data>
+    </edge>
+    <edge source="Arrakis" target="Dune" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Arrakis -- Dune -- Desert Planet</data>
+    </edge>
+    <edge source="Paul Atreides" target="Lady Jessica" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">an old crone came to visit the mother of the boy, Paul.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Leto Atreides" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">mother of the ducal heir</data>
+    </edge>
+    <edge source="Paul Atreides" target="dream" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Paul fell asleep to dream of an Arrakeen cavern</data>
+    </edge>
+    <edge source="Paul Atreides" target="his mother" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The hall door opened and his mother peered in</data>
+    </edge>
+    <edge source="Paul Atreides" target="House of Atreides" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">It carried the red Atreides hawk crest above the breast pocket.</data>
+    </edge>
+    <edge source="Paul Atreides" target="gom jabbar" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">I hold at your neck the gom jabbar</data>
+    </edge>
+    <edge source="Paul Atreides" target="duke" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">you dare suggest a duke's son is an animal?</data>
+    </edge>
+    <edge source="Paul Atreides" target="test" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Your mother survived this test. Now it's your turn.</data>
+    </edge>
+    <edge source="Paul Atreides" target="Bene Gesserit" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.7</data>
+      <data key="d12">as his mother had taught him out of the Bene Gesserit rite.</data>
+    </edge>
+    <edge source="Paul Atreides" target="event with the old woman and the box" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">He jerked his hand from the box, stared at it astonished.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Bene Gesserit" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">This every sister of the Bene Gesserit knows.</data>
+    </edge>
+    <edge source="Lady Jessica" target="Leto Atreides" id="0">
+      <data key="d10">LOVES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">a duke's concubine</data>
+    </edge>
+    <edge source="Lady Jessica" target="Paul Atreides" id="0">
+      <data key="d10">FAMILY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">mother and son approach</data>
+    </edge>
+    <edge source="Lady Jessica" target="Spacing Guild" id="0">
+      <data key="d10">HATES</data>
+      <data key="d11">0.7</data>
+      <data key="d12">association with that abominable Spacing Guild and its secretive ways</data>
+    </edge>
+    <edge source="Lady Jessica" target="Gaius Helen Mohiam" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="Lady Jessica" target="The Lady Jessica was my serving wench, lad, for fourteen years at school." id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="Lady Jessica" target="test" id="0">
+      <data key="d10">PARTICIPATES_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Your mother survived this test.</data>
+    </edge>
+    <edge source="House of Atreides" target="Caladan" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations</data>
+    </edge>
+    <edge source="House of Atreides" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete</data>
+    </edge>
+    <edge source="House of Atreides" target="Harkonnens" id="0">
+      <data key="d10">REPLACES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="House of Atreides" target="farmlands" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the green farmlands of the Atreides family holding</data>
+    </edge>
+    <edge source="Leto Atreides" target="Great Houses of the Landsraad" id="0">
+      <data key="d10">POPULAR_AMONG</data>
+      <data key="d11">0.9</data>
+      <data key="d12">for the Duke Leto was popular among the Great Houses of the Landsraad</data>
+    </edge>
+    <edge source="Thufir Hawat" target="Leto Atreides" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Thufir Hawat, his father's Master of Assassins</data>
+    </edge>
+    <edge source="Harkonnens" target="House of Atreides" id="0">
+      <data key="d10">ENEMY_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">their mortal enemies, the Harkonnens</data>
+    </edge>
+    <edge source="Harkonnens" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens, had been on Arrakis eighty years</data>
+    </edge>
+    <edge source="Harkonnens" target="Arrakis" id="1">
+      <data key="d10">LEAVES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the Harkonnens were leaving to be replaced by the House of Atreides</data>
+    </edge>
+    <edge source="CHOAM" target="Arrakis" id="0">
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">under a CHOAM Company contract to mine the geriatric spice</data>
+    </edge>
+    <edge source="Dr. Yueh" target="Paul Atreides" id="0">
+      <data key="d10">TEACHES</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Dr. Yueh, his teacher, had hinted</data>
+    </edge>
+    <edge source="Fremen" target="Arrakis" id="0">
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen</data>
+    </edge>
+    <edge source="his mother" target="Bene Gesserit" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">she had trained him in the Bene Gesserit Way</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Shaddam IV" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Now, she's the Emperor's Truthsayer.</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Paul's dream" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"I dreamed of her once," Paul said.</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="gom jabbar" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.8</data>
+      <data key="d12">Reverend Mother is waiting in my morning room</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Bene Gesserit" id="0">
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">a mission that required personal attention from a Bene Gesserit-with-theSight</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Lady Jessica" id="0">
+      <data key="d10">KNOWS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"He's a cautious one, Jessica."</data>
+    </edge>
+    <edge source="Gaius Helen Mohiam" target="Organization" id="0">
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.7</data>
+      <data key="d12">The Lady Jessica was my serving wench, lad, for fourteen years at school.</data>
+    </edge>
+    <edge source="old woman" target="gom jabbar" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">Withdraw the hand and the gom jabbar takes you.</data>
+    </edge>
+    <edge source="old woman" target="event with Paul and the box" id="0">
+      <data key="d10">MENTIONED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">The old woman muttered. "Kull wahad! No woman child ever withstood that much.</data>
+    </edge>
+    <edge source="old woman" target="pain by nerve induction" id="0">
+      <data key="d10">CREATED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">"Pain by nerve induction," she said.</data>
+    </edge>
+  </graph>
+</graphml>

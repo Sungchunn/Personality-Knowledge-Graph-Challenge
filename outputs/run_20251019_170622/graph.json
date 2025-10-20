@@ -1,0 +1,625 @@
+{
+  "nodes": [
+    {
+      "id": "Muad'Dib",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Muad'Dib"
+      }
+    },
+    {
+      "id": "Arrakis",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Arrakis"
+      }
+    },
+    {
+      "id": "Caladan",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Caladan"
+      }
+    },
+    {
+      "id": "Paul Atreides",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Paul Atreides",
+        "trait_openness": 0.8,
+        "trait_openness_conf": 0.9,
+        "trait_conscientiousness": 0.7,
+        "trait_conscientiousness_conf": 0.8,
+        "trait_agreeableness": 0.6,
+        "trait_agreeableness_conf": 0.7
+      }
+    },
+    {
+      "id": "Lady Jessica",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Lady Jessica",
+        "trait_openness": 0.7,
+        "trait_openness_conf": 0.8,
+        "trait_conscientiousness": 0.6,
+        "trait_conscientiousness_conf": 0.7,
+        "trait_neuroticism": 0.6,
+        "trait_neuroticism_conf": 0.7
+      }
+    },
+    {
+      "id": "Bene Gesserit",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Bene Gesserit"
+      }
+    },
+    {
+      "id": "House of Atreides",
+      "attributes": {
+        "entity_type": "person",
+        "label": "House of Atreides",
+        "trait_openness": 0.7,
+        "trait_openness_conf": 0.9,
+        "trait_conscientiousness": 0.6,
+        "trait_conscientiousness_conf": 0.7,
+        "trait_agreeableness": 0.6,
+        "trait_agreeableness_conf": 0.7
+      }
+    },
+    {
+      "id": "Leto Atreides",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Leto Atreides"
+      }
+    },
+    {
+      "id": "Dune",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dune"
+      }
+    },
+    {
+      "id": "Thufir Hawat",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Thufir Hawat"
+      }
+    },
+    {
+      "id": "Harkonnens",
+      "attributes": {
+        "entity_type": "person",
+        "label": "Harkonnens",
+        "trait_openness": 0.6,
+        "trait_openness_conf": 0.8,
+        "trait_conscientiousness": 0.5,
+        "trait_conscientiousness_conf": 0.7,
+        "trait_neuroticism": 0.5,
+        "trait_neuroticism_conf": 0.7
+      }
+    },
+    {
+      "id": "CHOAM",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "CHOAM"
+      }
+    },
+    {
+      "id": "Great Houses of the Landsraad",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Great Houses of the Landsraad"
+      }
+    },
+    {
+      "id": "dream",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "dream"
+      }
+    },
+    {
+      "id": "Dr. Yueh",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Dr. Yueh"
+      }
+    },
+    {
+      "id": "Fremen",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Fremen"
+      }
+    },
+    {
+      "id": "his mother",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "his mother"
+      }
+    },
+    {
+      "id": "Gaius Helen Mohiam",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Gaius Helen Mohiam"
+      }
+    },
+    {
+      "id": "Shaddam IV",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Shaddam IV"
+      }
+    },
+    {
+      "id": "Paul's dream",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Paul's dream"
+      }
+    },
+    {
+      "id": "gom jabbar",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "gom jabbar"
+      }
+    },
+    {
+      "id": "Spacing Guild",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Spacing Guild"
+      }
+    },
+    {
+      "id": "farmlands",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "farmlands"
+      }
+    },
+    {
+      "id": "Organization",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "Organization"
+      }
+    },
+    {
+      "id": "The Lady Jessica was my serving wench, lad, for fourteen years at school.",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "id": "duke",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "duke"
+      }
+    },
+    {
+      "id": "test",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "test"
+      }
+    },
+    {
+      "id": "old woman",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "old woman"
+      }
+    },
+    {
+      "id": "event with the old woman and the box",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "event with the old woman and the box"
+      }
+    },
+    {
+      "id": "event with Paul and the box",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "event with Paul and the box"
+      }
+    },
+    {
+      "id": "pain by nerve induction",
+      "attributes": {
+        "entity_type": "unknown",
+        "label": "pain by nerve induction"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Muad'Dib",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis, the planet known as Dune, is forever his place."
+      }
+    },
+    {
+      "source": "Muad'Dib",
+      "target": "Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "he was born on Caladan and lived his first fifteen years there."
+      }
+    },
+    {
+      "source": "Arrakis",
+      "target": "Dune",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Arrakis -- Dune -- Desert Planet"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "an old crone came to visit the mother of the boy, Paul."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Leto Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "mother of the ducal heir"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "dream",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Paul fell asleep to dream of an Arrakeen cavern"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "his mother",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "The hall door opened and his mother peered in"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "It carried the red Atreides hawk crest above the breast pocket."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "gom jabbar",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "I hold at your neck the gom jabbar"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "duke",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "you dare suggest a duke's son is an animal?"
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Your mother survived this test. Now it's your turn."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.7,
+        "evidence": "as his mother had taught him out of the Bene Gesserit rite."
+      }
+    },
+    {
+      "source": "Paul Atreides",
+      "target": "event with the old woman and the box",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "He jerked his hand from the box, stared at it astonished."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "This every sister of the Bene Gesserit knows."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Leto Atreides",
+      "attributes": {
+        "relation": "LOVES",
+        "confidence": 0.9,
+        "evidence": "a duke's concubine"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "FAMILY_OF",
+        "confidence": 0.9,
+        "evidence": "mother and son approach"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Spacing Guild",
+      "attributes": {
+        "relation": "HATES",
+        "confidence": 0.7,
+        "evidence": "association with that abominable Spacing Guild and its secretive ways"
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "Gaius Helen Mohiam",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "The Lady Jessica was my serving wench, lad, for fourteen years at school.",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "Lady Jessica",
+      "target": "test",
+      "attributes": {
+        "relation": "PARTICIPATES_IN",
+        "confidence": 0.9,
+        "evidence": "Your mother survived this test."
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Caladan",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "Now the Harkonnens were leaving to be replaced by the House of Atreides in fief-complete"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "Harkonnens",
+      "attributes": {
+        "relation": "REPLACES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "House of Atreides",
+      "target": "farmlands",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "the green farmlands of the Atreides family holding"
+      }
+    },
+    {
+      "source": "Leto Atreides",
+      "target": "Great Houses of the Landsraad",
+      "attributes": {
+        "relation": "POPULAR_AMONG",
+        "confidence": 0.9,
+        "evidence": "for the Duke Leto was popular among the Great Houses of the Landsraad"
+      }
+    },
+    {
+      "source": "Thufir Hawat",
+      "target": "Leto Atreides",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Thufir Hawat, his father's Master of Assassins"
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "House of Atreides",
+      "attributes": {
+        "relation": "ENEMY_OF",
+        "confidence": 0.9,
+        "evidence": "their mortal enemies, the Harkonnens"
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens, had been on Arrakis eighty years"
+      }
+    },
+    {
+      "source": "Harkonnens",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LEAVES",
+        "confidence": 0.9,
+        "evidence": "the Harkonnens were leaving to be replaced by the House of Atreides"
+      }
+    },
+    {
+      "source": "CHOAM",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "OWNS",
+        "confidence": 0.9,
+        "evidence": "under a CHOAM Company contract to mine the geriatric spice"
+      }
+    },
+    {
+      "source": "Dr. Yueh",
+      "target": "Paul Atreides",
+      "attributes": {
+        "relation": "TEACHES",
+        "confidence": 0.9,
+        "evidence": "Dr. Yueh, his teacher, had hinted"
+      }
+    },
+    {
+      "source": "Fremen",
+      "target": "Arrakis",
+      "attributes": {
+        "relation": "LOCATED_IN",
+        "confidence": 0.9,
+        "evidence": "the planet sheltered people who lived at the desert edge without caid or bashar to command them: will-o'-the-sand people called Fremen"
+      }
+    },
+    {
+      "source": "his mother",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "she had trained him in the Bene Gesserit Way"
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Shaddam IV",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.9,
+        "evidence": "Now, she's the Emperor's Truthsayer."
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Paul's dream",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "\"I dreamed of her once,\" Paul said."
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "gom jabbar",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.8,
+        "evidence": "Reverend Mother is waiting in my morning room"
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Bene Gesserit",
+      "attributes": {
+        "relation": "MEMBER_OF",
+        "confidence": 0.9,
+        "evidence": "a mission that required personal attention from a Bene Gesserit-with-theSight"
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Lady Jessica",
+      "attributes": {
+        "relation": "KNOWS",
+        "confidence": 0.9,
+        "evidence": "\"He's a cautious one, Jessica.\""
+      }
+    },
+    {
+      "source": "Gaius Helen Mohiam",
+      "target": "Organization",
+      "attributes": {
+        "relation": "WORKS_FOR",
+        "confidence": 0.7,
+        "evidence": "The Lady Jessica was my serving wench, lad, for fourteen years at school."
+      }
+    },
+    {
+      "source": "old woman",
+      "target": "gom jabbar",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "Withdraw the hand and the gom jabbar takes you."
+      }
+    },
+    {
+      "source": "old woman",
+      "target": "event with Paul and the box",
+      "attributes": {
+        "relation": "MENTIONED_IN",
+        "confidence": 0.9,
+        "evidence": "The old woman muttered. \"Kull wahad! No woman child ever withstood that much."
+      }
+    },
+    {
+      "source": "old woman",
+      "target": "pain by nerve induction",
+      "attributes": {
+        "relation": "CREATED",
+        "confidence": 0.9,
+        "evidence": "\"Pain by nerve induction,\" she said."
+      }
+    }
+  ]
+}
