@@ -258,7 +258,7 @@ The system uses a **7-stage multi-prompt architecture** rather than a single end
 
 This violin plot shows the distribution of personality trait scores across all 12 characters in the Dune knowledge graph:
 
-![Big Five Distribution](docs/images/big_five_distribution.png)
+![Big Five Distribution](assets/Big%20Five%20Distribution.png)
 
 **Key Insights**:
 - **Conscientiousness** has highest median (0.70) - survival requires discipline on Arrakis
@@ -271,7 +271,7 @@ This violin plot shows the distribution of personality trait scores across all 1
 
 **Most Important Visualization**: Shows all entities directly connected to Paul Atreides, the protagonist.
 
-![Paul Ego Network](docs/images/paul_ego_network.png)
+![Paul Ego Network](assets/Paul%20Atreides%20Network.png)
 
 **Network Statistics**:
 - **Nodes**: 47 (Paul + 46 connected entities)
@@ -295,7 +295,7 @@ This visualization reveals Paul's role as the **narrative hub** connecting major
 
 Shows how many connections each entity has (power-law distribution typical of social networks):
 
-![Degree Distribution](docs/images/degree_distribution.png)
+![Degree Distribution](assets/degrees.png)
 
 **Analysis**:
 - **Top 5 Most Connected**:
@@ -308,38 +308,7 @@ Shows how many connections each entity has (power-law distribution typical of so
 - **Long Tail**: 80% of entities have ≤5 connections (minor characters)
 - **Power Law**: Few highly connected hubs, many peripheral nodes
 
----
-
-### 4. Relation Type Distribution
-
-Bar chart showing the 15 most common relationship types:
-
-![Relation Distribution](docs/images/relation_distribution.png)
-
-**Top Relations**:
-1. **MENTIONED_IN** (348): References to places, events, prophecies
-2. **KNOWS** (142): Social connections
-3. **LOCATED_IN** (89): Spatial relationships
-4. **FAMILY_OF** (67): Kinship ties
-5. **WORKS_FOR** (45): Organizational hierarchy
-
-**Insight**: High MENTIONED_IN count reflects Dune's rich world-building (frequent references to history, prophecy, and politics).
-
----
-
-### 5. Confidence Score Distribution
-
-Histogram + box plot showing LLM confidence in extracted triples:
-
-![Confidence Distribution](docs/images/confidence_distribution.png)
-
-**Statistics**:
-- **Mean**: 0.87 (high confidence)
-- **Median**: 0.90
-- **Std Dev**: 0.059 (tight calibration)
-- **95% of triples** have confidence ≥ 0.75
-
-**Quality Insight**: Tight distribution around 0.90 indicates the LLM has well-calibrated uncertainty estimates.
+**★ Insight**: The degree distribution reveals Dune's narrative structure—a few central characters (Paul, Jessica, Baron) drive the plot, while most entities appear in supporting roles. This power-law pattern is typical of real-world social networks, validating the extraction quality.
 
 ---
 
