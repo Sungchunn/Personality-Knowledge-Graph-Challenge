@@ -118,6 +118,7 @@ def create_pyvis_graph(G: nx.MultiDiGraph, config: PipelineConfig) -> Network:
 
         # Calculate average confidence for opacity
         avg_confidence = 0.8  # Default
+        has_personality_data = False
         if entity_type == "person":
             traits = ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"]
             confidences = []
@@ -125,6 +126,7 @@ def create_pyvis_graph(G: nx.MultiDiGraph, config: PipelineConfig) -> Network:
                 conf_key = f"trait_{trait}_conf"
                 if conf_key in attrs:
                     confidences.append(float(attrs[conf_key]))
+                    has_personality_data = True
             if confidences:
                 avg_confidence = sum(confidences) / len(confidences)
 
@@ -174,6 +176,15 @@ def create_pyvis_graph(G: nx.MultiDiGraph, config: PipelineConfig) -> Network:
                     </div>
                     """
                 title += "</div>"
+            else:
+                # Show message when personality data is not available
+                title += """
+                <div style='margin-top: 12px; padding-top: 12px; border-top: 1px solid #3c4043;'>
+                    <div style='font-size: 12px; color: #9aa0a6; font-style: italic;'>
+                        Personality traits not yet inferred
+                    </div>
+                </div>
+                """
 
         # Add degree info
         degree = degrees.get(node, 0)
@@ -313,6 +324,16 @@ def run_viz(config: PipelineConfig, logger: PipelineLogger) -> Path:
         # Save base HTML
         html_path = config.output_root / "graph.html"
         net.save_graph(str(html_path))
+
+        # Check if we have personality data
+        has_personality = any(
+            f"trait_{trait}" in G.nodes[node]
+            for node in G.nodes()
+            for trait in ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"]
+        )
+
+        mode_text = "Character-Centric Analysis" if has_personality else "Knowledge Graph Only (Personality Data Pending)"
+        description_text = "Interactive visualization of character relationships and Big Five personality traits" if has_personality else "Interactive visualization of character relationships (Run 'personality' stage to add trait analysis)"
 
         # Enhance HTML with custom header, legend, and styling
         with open(html_path, 'r', encoding='utf-8') as f:
@@ -459,7 +480,7 @@ def run_viz(config: PipelineConfig, logger: PipelineLogger) -> Path:
 
 <div id="header">
     <h1>🌌 Dune Personality Knowledge Graph</h1>
-    <p>Interactive visualization of character relationships and Big Five personality traits</p>
+    <p>""" + description_text + """</p>
     <div id="stats">
         <div class="stat-item">
             <span>Nodes:</span>
@@ -471,7 +492,7 @@ def run_viz(config: PipelineConfig, logger: PipelineLogger) -> Path:
         </div>
         <div class="stat-item">
             <span>Mode:</span>
-            <span class="stat-value">Character-Centric Analysis</span>
+            <span class="stat-value">""" + mode_text + """</span>
         </div>
     </div>
 </div>

@@ -1,0 +1,1923 @@
+{
+  "characters": {
+    "Princess Elena": {
+      "personality": {
+        "openness": 0.85,
+        "conscientiousness": 0.7,
+        "extraversion": 0.6,
+        "agreeableness": 0.75,
+        "neuroticism": 0.4
+      },
+      "traits": [
+        "curious",
+        "imaginative",
+        "diplomatic",
+        "compassionate"
+      ],
+      "role": "royal",
+      "gender": "female"
+    },
+    "Sir Marcus": {
+      "personality": {
+        "openness": 0.45,
+        "conscientiousness": 0.9,
+        "extraversion": 0.55,
+        "agreeableness": 0.6,
+        "neuroticism": 0.3
+      },
+      "traits": [
+        "disciplined",
+        "loyal",
+        "dutiful",
+        "brave"
+      ],
+      "role": "knight",
+      "gender": "male"
+    },
+    "Wizard Aldric": {
+      "personality": {
+        "openness": 0.95,
+        "conscientiousness": 0.65,
+        "extraversion": 0.3,
+        "agreeableness": 0.5,
+        "neuroticism": 0.55
+      },
+      "traits": [
+        "wise",
+        "eccentric",
+        "reclusive",
+        "brilliant"
+      ],
+      "role": "mage",
+      "gender": "male"
+    },
+    "General Thorne": {
+      "personality": {
+        "openness": 0.4,
+        "conscientiousness": 0.85,
+        "extraversion": 0.75,
+        "agreeableness": 0.35,
+        "neuroticism": 0.25
+      },
+      "traits": [
+        "strategic",
+        "commanding",
+        "ruthless",
+        "ambitious"
+      ],
+      "role": "military",
+      "gender": "male"
+    },
+    "Lady Aria": {
+      "personality": {
+        "openness": 0.7,
+        "conscientiousness": 0.55,
+        "extraversion": 0.8,
+        "agreeableness": 0.45,
+        "neuroticism": 0.6
+      },
+      "traits": [
+        "charismatic",
+        "manipulative",
+        "charming",
+        "cunning"
+      ],
+      "role": "noble",
+      "gender": "female"
+    }
+  },
+  "relationships": [
+    [
+      "Princess Elena",
+      "FAMILY_OF",
+      "King Aldwin"
+    ],
+    [
+      "Princess Elena",
+      "KNOWS",
+      "Sir Marcus"
+    ],
+    [
+      "Princess Elena",
+      "KNOWS",
+      "Wizard Aldric"
+    ],
+    [
+      "Sir Marcus",
+      "SERVES",
+      "Princess Elena"
+    ],
+    [
+      "Sir Marcus",
+      "ENEMY_OF",
+      "General Thorne"
+    ],
+    [
+      "Wizard Aldric",
+      "MENTORS",
+      "Princess Elena"
+    ],
+    [
+      "Wizard Aldric",
+      "LIVES_IN",
+      "Tower of Mysteries"
+    ],
+    [
+      "General Thorne",
+      "LEADS",
+      "Shadow Army"
+    ],
+    [
+      "General Thorne",
+      "ENEMY_OF",
+      "Kingdom of Light"
+    ],
+    [
+      "Lady Aria",
+      "ALLIED_WITH",
+      "General Thorne"
+    ],
+    [
+      "Lady Aria",
+      "KNOWS",
+      "Princess Elena"
+    ],
+    [
+      "Sir Marcus",
+      "LOCATED_IN",
+      "Castle Brightstone"
+    ]
+  ],
+  "passages": [
+    {
+      "passage_id": "synthetic_000",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "LEADS",
+          "object": "Shadow Army",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_001",
+      "triples": [],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_002",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_003",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_004",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_005",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_006",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_007",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_008",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "FAMILY_OF",
+          "object": "King Aldwin",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_009",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "FAMILY_OF",
+          "object": "King Aldwin",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_010",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_011",
+      "triples": [
+        {
+          "subject": "General Thorne",
+          "relation": "LEADS",
+          "object": "Shadow Army",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_012",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_013",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_014",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_015",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_016",
+      "triples": [
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_017",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "FAMILY_OF",
+          "object": "King Aldwin",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_018",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "FAMILY_OF",
+          "object": "King Aldwin",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_019",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "LIVES_IN",
+          "object": "Tower of Mysteries",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_020",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_021",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "LIVES_IN",
+          "object": "Tower of Mysteries",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_022",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_023",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "FAMILY_OF",
+          "object": "King Aldwin",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_024",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_025",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_026",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_027",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_028",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_029",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_030",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_031",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_032",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_033",
+      "triples": [
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_034",
+      "triples": [
+        {
+          "subject": "Wizard Aldric",
+          "relation": "LIVES_IN",
+          "object": "Tower of Mysteries",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_035",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "LIVES_IN",
+          "object": "Tower of Mysteries",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_036",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_037",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_038",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_039",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Wizard Aldric",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_040",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_041",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_042",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_043",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_044",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Wizard Aldric",
+          "relation": "MENTORS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Wizard Aldric": {
+          "openness": 0.95,
+          "conscientiousness": 0.65,
+          "extraversion": 0.3,
+          "agreeableness": 0.5,
+          "neuroticism": 0.55
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_045",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "LOCATED_IN",
+          "object": "Castle Brightstone",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_046",
+      "triples": [
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Lady Aria",
+          "relation": "ALLIED_WITH",
+          "object": "General Thorne",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_047",
+      "triples": [
+        {
+          "subject": "Lady Aria",
+          "relation": "KNOWS",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "SERVES",
+          "object": "Princess Elena",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Lady Aria": {
+          "openness": 0.7,
+          "conscientiousness": 0.55,
+          "extraversion": 0.8,
+          "agreeableness": 0.45,
+          "neuroticism": 0.6
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_048",
+      "triples": [],
+      "personalities": {
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        },
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        }
+      }
+    },
+    {
+      "passage_id": "synthetic_049",
+      "triples": [
+        {
+          "subject": "Princess Elena",
+          "relation": "KNOWS",
+          "object": "Sir Marcus",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "LEADS",
+          "object": "Shadow Army",
+          "confidence": 1.0
+        },
+        {
+          "subject": "Sir Marcus",
+          "relation": "ENEMY_OF",
+          "object": "General Thorne",
+          "confidence": 1.0
+        },
+        {
+          "subject": "General Thorne",
+          "relation": "ENEMY_OF",
+          "object": "Kingdom of Light",
+          "confidence": 1.0
+        }
+      ],
+      "personalities": {
+        "Sir Marcus": {
+          "openness": 0.45,
+          "conscientiousness": 0.9,
+          "extraversion": 0.55,
+          "agreeableness": 0.6,
+          "neuroticism": 0.3
+        },
+        "General Thorne": {
+          "openness": 0.4,
+          "conscientiousness": 0.85,
+          "extraversion": 0.75,
+          "agreeableness": 0.35,
+          "neuroticism": 0.25
+        },
+        "Princess Elena": {
+          "openness": 0.85,
+          "conscientiousness": 0.7,
+          "extraversion": 0.6,
+          "agreeableness": 0.75,
+          "neuroticism": 0.4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "num_passages": 50,
+  "num_characters": 5,
+  "num_ground_truth_relations": 12,
+  "generation_method": "template_based",
+  "purpose": "Demonstration of synthetic data generation approach"
+}
